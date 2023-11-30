@@ -1,0 +1,25 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.10.1",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "rss": "^1.2.2",
+    "rss-parser": "^3.13.0",
+    "rxjs": "^7.8.1",
+    "xml2js": "^0.6.2",
+    "xmlbuilder": "^15.1.1"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35"
+  }
+}
