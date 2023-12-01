@@ -149,12 +149,10 @@ async function updateFeed(articles: Article[]) {
       $: {
         version: '2.0',
       },
-      channel: [
-        {
-          ...feed,
-          item: allItems,
-        },
-      ],
+      channel: {
+        ...feed,
+        item: [...allItems],
+      },
     },
   };
 

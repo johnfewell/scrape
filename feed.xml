@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rss version="2.0">
   <channel>
-    <image>
-      <link>https://rodydavis.github.io/podcast-player/</link>
-      <url>https://rodydavis.github.io/podcast-player/img/icon.jpg</url>
-      <title>Creative Engineering</title>
-    </image>
-    <creator>Rody Davis, Norbert Kozsir</creator>
-    <title>Creative Engineering</title>
-    <description>Exploring Flutter, VR, AR, Cross-Platform Projects</description>
-    <author>Rody Davis, Norbert Kozsir</author>
-    <pubDate>Mon, 13 Apr 2020 13:00:00 PDT</pubDate>
-    <link>https://rodydavis.github.io/podcast-player/feed.xml</link>
+    <title>Pirate Radio</title>
+    <link>https://www.apple.com/itunes/podcasts/</link>
     <language>en-us</language>
-    <copyright>Rody Davis Productions 2020</copyright>
-    <itunes/>
+    <copyright>© 2023 John Appleseed</copyright>
+    <itunes:author>Your friend</itunes:author>
+    <description> Love the New Yorker? Try this!
+    </description>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>Your friend</itunes:name>
+      <itunes:email>foo@example.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://applehosted.podcasts.apple.com/hiking_treks/artwork.png" />
+    <itunes:category text="Sports">
+      <itunes:category text="Wilderness"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
     <item>
       <creator>By David Sedaris</creator>
       <title>The Violence of the Rams</title>
@@ -22,7 +25,6 @@
       <pubDate>Thu, 30 Nov 2023 18:02:02 GMT</pubDate>
       <author>By David Sedaris</author>
       <isoDate>2023-11-30T18:02:02.000Z</isoDate>
-      <itunes/>
     </item>
     <item>
       <creator>By Eren Orbey</creator>
@@ -31,27 +33,92 @@
       <pubDate>Thu, 30 Nov 2023 18:02:02 GMT</pubDate>
       <author>By Eren Orbey</author>
       <isoDate>2023-11-30T18:02:02.000Z</isoDate>
-      <itunes/>
     </item>
     <item>
+      <creator>By David Sedaris</creator>
       <title>The Violence of the Rams</title>
-      <description>I know you can’t hold animals to human standards. That said, rams are assholes.</description>
-      <enclosure>
-        <url>https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3</url>
-        <type>audio/mpeg</type>
-      </enclosure>
-      <author>By David Sedaris</author>
       <pubDate>Sat, Jan 1, 231127, 12:00:00 AM GMT-5</pubDate>
+      <author>By David Sedaris</author>
+      <enclosure/>
+      <isoDate>+231127-01-01T05:00:00.000Z</isoDate>
     </item>
     <item>
+      <creator>By Eren Orbey</creator>
       <title>Piecing Together My Father’s Murder</title>
-      <description>I was too young to remember what happened to my dad, and no one explained it to me. So I tried to assemble the story myself.</description>
+      <pubDate>Sat, Jan 1, 231127, 12:00:00 AM GMT-5</pubDate>
+      <author>By Eren Orbey</author>
+      <enclosure/>
+      <isoDate>+231127-01-01T05:00:00.000Z</isoDate>
+    </item>
+    <item>
+      <creator>By Adam Gopnik</creator>
+      <title>Eclipsed in his Era, Bayard Rustin Gets to Shine in Ours</title>
+      <pubDate>Wed, Jan 1, 231113, 12:00:00 AM GMT-5</pubDate>
+      <author>By Adam Gopnik</author>
+      <enclosure/>
+      <content>The civil-rights mastermind was sidelined by his own movement. Now he’s back in the spotlight. What can we learn from his strategies of resistance?</content>
+      <contentSnippet>The civil-rights mastermind was sidelined by his own movement. Now he’s back in the spotlight. What can we learn from his strategies of resistance?</contentSnippet>
+      <isoDate>+231113-01-01T05:00:00.000Z</isoDate>
+    </item>
+    <item>
+      <creator>By Rivka Galchen</creator>
+      <title>Reinventing the Dinosaur</title>
+      <pubDate>Wed, Jan 1, 231113, 12:00:00 AM GMT-5</pubDate>
+      <author>By Rivka Galchen</author>
+      <enclosure/>
+      <content>“Life on Our Planet,” a new Netflix nature documentary, renews our fascination with our most feared and loved precursors.</content>
+      <contentSnippet>“Life on Our Planet,” a new Netflix nature documentary, renews our fascination with our most feared and loved precursors.</contentSnippet>
+      <isoDate>+231113-01-01T05:00:00.000Z</isoDate>
+    </item>
+    <item>
+      <creator>By Michael Schulman</creator>
+      <title>Ridley Scott’s “Napoleon” Complex</title>
+      <pubDate>Wed, Jan 1, 231113, 12:00:00 AM GMT-5</pubDate>
+      <author>By Michael Schulman</author>
+      <enclosure/>
+      <content>Does the director of “Alien,” “Blade Runner,” and “Gladiator” see himself in the hero of his epic new film?</content>
+      <contentSnippet>Does the director of “Alien,” “Blade Runner,” and “Gladiator” see himself in the hero of his epic new film?</contentSnippet>
+      <isoDate>+231113-01-01T05:00:00.000Z</isoDate>
+    </item>
+    <item>
+      <creator>By Ed Caesar</creator>
+      <title>The Kingpin Who Kidnapped Migrants for Ransom</title>
+      <pubDate>Wed, Jan 1, 231113, 12:00:00 AM GMT-5</pubDate>
+      <author>By Ed Caesar</author>
+      <enclosure/>
+      <content>An Eritrean trafficker promised to help Africans desperate to reach Europe—then brutalized them inside a Libyan compound while extorting their families back home. With his fortune, he partied in Dubai.</content>
+      <contentSnippet>An Eritrean trafficker promised to help Africans desperate to reach Europe—then brutalized them inside a Libyan compound while extorting their families back home. With his fortune, he partied in Dubai.</contentSnippet>
+      <isoDate>+231113-01-01T05:00:00.000Z</isoDate>
+    </item>
+    <item>
+      <title>Why Maui Burned</title>
+      <description>Lahaina’s wildfire was the deadliest in the U.S. in more than a century. Now the community is grappling with the botched response as it tries to rebuild.</description>
       <enclosure>
-        <url>https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3</url>
+        <url>https://downloads.newyorker.com/mp3/231106fa_fact_kormann_apple.mp3</url>
         <type>audio/mpeg</type>
       </enclosure>
-      <author>By Eren Orbey</author>
-      <pubDate>Sat, Jan 1, 231127, 12:00:00 AM GMT-5</pubDate>
+      <author>By Carolyn Kormann</author>
+      <pubDate>Mon, Jan 1, 231106, 12:00:00 AM GMT-5</pubDate>
+    </item>
+    <item>
+      <title>In the Cities of Killing</title>
+      <description>The Hamas massacre, the assaults on Gaza, and what comes after.</description>
+      <enclosure>
+        <url>https://downloads.newyorker.com/mp3/231106fa_fact_remnick_apple.mp3</url>
+        <type>audio/mpeg</type>
+      </enclosure>
+      <author>By David Remnick</author>
+      <pubDate>Mon, Jan 1, 231106, 12:00:00 AM GMT-5</pubDate>
+    </item>
+    <item>
+      <title>Will the U.A.W. Strike Turn the Rust Belt Green?</title>
+      <description>A historic walkout against the Big Three automakers could shape the trajectory of one of America’s most politically salient regions.</description>
+      <enclosure>
+        <url>https://downloads.newyorker.com/mp3/231106fa_fact_kaufman_apple.mp3</url>
+        <type>audio/mpeg</type>
+      </enclosure>
+      <author>By Dan Kaufman</author>
+      <pubDate>Mon, Jan 1, 231106, 12:00:00 AM GMT-5</pubDate>
     </item>
   </channel>
 </rss>

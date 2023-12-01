@@ -180,9 +180,7 @@ function updateFeed(articles) {
                             $: {
                                 version: '2.0',
                             },
-                            channel: [
-                                __assign(__assign({}, feed), { item: allItems }),
-                            ],
+                            channel: __assign(__assign({}, feed), { item: __spreadArray([], allItems, true) }),
                         },
                     };
                     builder = new xml2js.Builder({ headless: false });
