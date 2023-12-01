@@ -49,7 +49,7 @@ http$
         // Construct the audioUrl
         const audioUrl = `https://downloads.newyorker.com/mp3/${date}fa_fact_${lastName}_apple.mp3`;
         // Format the date
-        const pubDate = new Date(date);
+        const pubDate = new Date(dateArg);
         const options: Intl.DateTimeFormatOptions = {
           weekday: 'short',
           year: 'numeric',

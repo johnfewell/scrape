@@ -34,91 +34,26 @@
       <author>By Eren Orbey</author>
       <isoDate>2023-11-30T18:02:02.000Z</isoDate>
     </item>
+
     <item>
-      <creator>By David Sedaris</creator>
-      <title>The Violence of the Rams</title>
-      <pubDate>Sat, Jan 1, 231127, 12:00:00 AM GMT-5</pubDate>
-      <author>By David Sedaris</author>
-      <enclosure/>
-      <isoDate>+231127-01-01T05:00:00.000Z</isoDate>
-    </item>
-    <item>
-      <creator>By Eren Orbey</creator>
-      <title>Piecing Together My Father’s Murder</title>
-      <pubDate>Sat, Jan 1, 231127, 12:00:00 AM GMT-5</pubDate>
-      <author>By Eren Orbey</author>
-      <enclosure/>
-      <isoDate>+231127-01-01T05:00:00.000Z</isoDate>
-    </item>
-    <item>
-      <creator>By Adam Gopnik</creator>
-      <title>Eclipsed in his Era, Bayard Rustin Gets to Shine in Ours</title>
-      <pubDate>Wed, Jan 1, 231113, 12:00:00 AM GMT-5</pubDate>
-      <author>By Adam Gopnik</author>
-      <enclosure/>
-      <content>The civil-rights mastermind was sidelined by his own movement. Now he’s back in the spotlight. What can we learn from his strategies of resistance?</content>
-      <contentSnippet>The civil-rights mastermind was sidelined by his own movement. Now he’s back in the spotlight. What can we learn from his strategies of resistance?</contentSnippet>
-      <isoDate>+231113-01-01T05:00:00.000Z</isoDate>
-    </item>
-    <item>
-      <creator>By Rivka Galchen</creator>
-      <title>Reinventing the Dinosaur</title>
-      <pubDate>Wed, Jan 1, 231113, 12:00:00 AM GMT-5</pubDate>
-      <author>By Rivka Galchen</author>
-      <enclosure/>
-      <content>“Life on Our Planet,” a new Netflix nature documentary, renews our fascination with our most feared and loved precursors.</content>
-      <contentSnippet>“Life on Our Planet,” a new Netflix nature documentary, renews our fascination with our most feared and loved precursors.</contentSnippet>
-      <isoDate>+231113-01-01T05:00:00.000Z</isoDate>
-    </item>
-    <item>
-      <creator>By Michael Schulman</creator>
-      <title>Ridley Scott’s “Napoleon” Complex</title>
-      <pubDate>Wed, Jan 1, 231113, 12:00:00 AM GMT-5</pubDate>
-      <author>By Michael Schulman</author>
-      <enclosure/>
-      <content>Does the director of “Alien,” “Blade Runner,” and “Gladiator” see himself in the hero of his epic new film?</content>
-      <contentSnippet>Does the director of “Alien,” “Blade Runner,” and “Gladiator” see himself in the hero of his epic new film?</contentSnippet>
-      <isoDate>+231113-01-01T05:00:00.000Z</isoDate>
-    </item>
-    <item>
-      <creator>By Ed Caesar</creator>
-      <title>The Kingpin Who Kidnapped Migrants for Ransom</title>
-      <pubDate>Wed, Jan 1, 231113, 12:00:00 AM GMT-5</pubDate>
-      <author>By Ed Caesar</author>
-      <enclosure/>
-      <content>An Eritrean trafficker promised to help Africans desperate to reach Europe—then brutalized them inside a Libyan compound while extorting their families back home. With his fortune, he partied in Dubai.</content>
-      <contentSnippet>An Eritrean trafficker promised to help Africans desperate to reach Europe—then brutalized them inside a Libyan compound while extorting their families back home. With his fortune, he partied in Dubai.</contentSnippet>
-      <isoDate>+231113-01-01T05:00:00.000Z</isoDate>
-    </item>
-    <item>
-      <title>Why Maui Burned</title>
-      <description>Lahaina’s wildfire was the deadliest in the U.S. in more than a century. Now the community is grappling with the botched response as it tries to rebuild.</description>
+      <title>Jim Jordan’s Conspiratorial Quest for Power</title>
+      <description>How the Ohio Republican built an insurgent bid for Speaker on the lies of Donald Trump.</description>
       <enclosure>
-        <url>https://downloads.newyorker.com/mp3/231106fa_fact_kormann_apple.mp3</url>
+        <url>https://downloads.newyorker.com/mp3/231030fa_fact_blitzer_apple.mp3</url>
         <type>audio/mpeg</type>
       </enclosure>
-      <author>By Carolyn Kormann</author>
-      <pubDate>Mon, Jan 1, 231106, 12:00:00 AM GMT-5</pubDate>
+      <author>By Jonathan Blitzer</author>
+      <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
     </item>
     <item>
-      <title>In the Cities of Killing</title>
-      <description>The Hamas massacre, the assaults on Gaza, and what comes after.</description>
+      <title>China’s Age of Malaise</title>
+      <description>Party officials are vanishing, young workers are “lying flat,” and entrepreneurs are fleeing the country. What does China’s inner turmoil mean for the world?</description>
       <enclosure>
-        <url>https://downloads.newyorker.com/mp3/231106fa_fact_remnick_apple.mp3</url>
+        <url>https://downloads.newyorker.com/mp3/231030fa_fact_osnos_apple.mp3</url>
         <type>audio/mpeg</type>
       </enclosure>
-      <author>By David Remnick</author>
-      <pubDate>Mon, Jan 1, 231106, 12:00:00 AM GMT-5</pubDate>
-    </item>
-    <item>
-      <title>Will the U.A.W. Strike Turn the Rust Belt Green?</title>
-      <description>A historic walkout against the Big Three automakers could shape the trajectory of one of America’s most politically salient regions.</description>
-      <enclosure>
-        <url>https://downloads.newyorker.com/mp3/231106fa_fact_kaufman_apple.mp3</url>
-        <type>audio/mpeg</type>
-      </enclosure>
-      <author>By Dan Kaufman</author>
-      <pubDate>Mon, Jan 1, 231106, 12:00:00 AM GMT-5</pubDate>
+      <author>By Evan Osnos</author>
+      <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
     </item>
   </channel>
 </rss>

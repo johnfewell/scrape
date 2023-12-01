@@ -92,7 +92,7 @@ http$
         // Construct the audioUrl
         var audioUrl = "https://downloads.newyorker.com/mp3/".concat(date, "fa_fact_").concat(lastName, "_apple.mp3");
         // Format the date
-        var pubDate = new Date(date);
+        var pubDate = new Date(dateArg);
         var options = {
             weekday: 'short',
             year: 'numeric',
