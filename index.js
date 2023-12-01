@@ -46,9 +46,18 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var axios_1 = require("axios");
-var cheerio = require("cheerio");
+var cheerio = require('cheerio');
 var rxjs_1 = require("rxjs");
 var operators_1 = require("rxjs/operators");
 var dateArg = process.argv[2];
@@ -72,22 +81,37 @@ http$
     // For each article
     $('ul[class^="River__list"] > li').each(function (index, element) {
         // Scrape the title, description, and byline
-        var title = $(element).find("h4").text();
-        var description = $(element).find("h5").text();
+        var title = $(element).find('h4').text();
+        var description = $(element).find('h5').text();
         var byline = $(element).find('p[class^="Byline__by"]').text();
         // Extract the date from the url and rearrange parts
-        var dateParts = url.split("/").slice(-3);
+        var dateParts = url.split('/').slice(-3);
         var date = dateParts[0].slice(-2) + dateParts[1] + dateParts[2];
         // Extract the last name from the byline
-        var lastName = byline.split(" ").pop().toLowerCase();
+        var lastName = byline.split(' ').pop().toLowerCase();
         // Construct the audioUrl
         var audioUrl = "https://downloads.newyorker.com/mp3/".concat(date, "fa_fact_").concat(lastName, "_apple.mp3");
         // Format the date
         var pubDate = new Date(date);
-        var options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', timeZoneName: 'short' };
+        var options = {
+            weekday: 'short',
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            timeZoneName: 'short',
+        };
         var formattedDate = pubDate.toLocaleDateString('en-US', options);
         // Add the article to the list
-        articles.push({ title: title, description: description, byline: byline, audioUrl: audioUrl, pubDate: formattedDate });
+        articles.push({
+            title: title,
+            description: description,
+            byline: byline,
+            audioUrl: audioUrl,
+            pubDate: formattedDate,
+        });
     });
     return articles;
 }), (0, operators_1.switchMap)(function (articles) {
@@ -99,7 +123,7 @@ http$
                 .get(article.audioUrl)
                 .then(function (response) {
                 // If the response contains the error message, the link is not working
-                if (response.data.includes("This XML file does not appear to have any style information associated with it.")) {
+                if (response.data.includes('This XML file does not appear to have any style information associated with it.')) {
                     article.audioWorking = false;
                 }
                 else {
@@ -124,7 +148,7 @@ http$
 }, function (error) { return console.error(error); });
 function updateFeed(articles) {
     return __awaiter(this, void 0, void 0, function () {
-        var parser, feed, data, err_1, builder, xml;
+        var parser, feed, data, err_1, newItems, allItems, newFeed, builder, xml;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
@@ -139,28 +163,38 @@ function updateFeed(articles) {
                     return [3 /*break*/, 4];
                 case 3:
                     err_1 = _a.sent();
-                    console.error("Error reading the file:", err_1);
+                    console.error('Error reading the file:', err_1);
                     return [2 /*return*/];
                 case 4:
-                    // Add new items
-                    articles.forEach(function (article) {
-                        feed.items.push({
-                            title: article.title,
-                            description: article.description,
-                            enclosure: { url: article.audioUrl, type: 'audio/mpeg' },
-                            author: article.byline,
-                            pubDate: article.pubDate,
-                        });
-                    });
-                    builder = new xml2js.Builder({ rootName: 'rss', headless: true });
-                    xml = builder.buildObject(__assign(__assign({}, feed), { channel: { item: feed.items } }));
+                    newItems = articles.map(function (article) { return ({
+                        title: article.title,
+                        description: article.description,
+                        enclosure: { url: article.audioUrl, type: 'audio/mpeg' },
+                        author: article.byline,
+                        pubDate: article.pubDate,
+                    }); });
+                    console.log('feed', feed);
+                    allItems = __spreadArray(__spreadArray([], feed.items, true), newItems, true);
+                    newFeed = {
+                        rss: {
+                            $: {
+                                version: '2.0',
+                            },
+                            channel: [
+                                __assign(__assign({}, feed), { item: allItems }),
+                            ],
+                        },
+                    };
+                    builder = new xml2js.Builder({ headless: false });
+                    xml = builder.buildObject(newFeed);
+                    console.log('new feed', xml);
                     // Write the updated XML back to the file
-                    fs.writeFile("feed.xml", xml, function (err) {
+                    fs.writeFile('feed.xml', xml, function (err) {
                         if (err) {
-                            console.error("Error writing to file:", err);
+                            console.error('Error writing to file:', err);
                         }
                         else {
-                            console.log("Successfully wrote to file");
+                            console.log('Successfully wrote to file');
                         }
                     });
                     return [2 /*return*/];

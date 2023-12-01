@@ -1,13 +1,11 @@
-import axios from "axios";
-const cheerio = require("cheerio");
-import { forkJoin, from } from "rxjs";
-import { filter, map, switchMap, toArray } from "rxjs/operators";
+import axios from 'axios';
+const cheerio = require('cheerio');
+import { forkJoin, from } from 'rxjs';
+import { filter, map, switchMap, toArray } from 'rxjs/operators';
 const dateArg = process.argv[2];
-import * as RSS from 'rss';
 import * as fs from 'fs';
 import * as RSSParser from 'rss-parser';
 import * as xml2js from 'xml2js';
-import * as xmlbuilder from 'xmlbuilder';
 
 type Article = {
   title: string;
@@ -37,26 +35,41 @@ http$
       // For each article
       $('ul[class^="River__list"] > li').each((index, element) => {
         // Scrape the title, description, and byline
-        const title = $(element).find("h4").text();
-        const description = $(element).find("h5").text();
+        const title = $(element).find('h4').text();
+        const description = $(element).find('h5').text();
         const byline = $(element).find('p[class^="Byline__by"]').text();
 
         // Extract the date from the url and rearrange parts
-        const dateParts = url.split("/").slice(-3);
+        const dateParts = url.split('/').slice(-3);
         const date = dateParts[0].slice(-2) + dateParts[1] + dateParts[2];
 
         // Extract the last name from the byline
-        const lastName = byline.split(" ").pop().toLowerCase();
+        const lastName = byline.split(' ').pop().toLowerCase();
 
         // Construct the audioUrl
         const audioUrl = `https://downloads.newyorker.com/mp3/${date}fa_fact_${lastName}_apple.mp3`;
-       // Format the date
-       const pubDate = new Date(date);
-       const options: Intl.DateTimeFormatOptions = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', timeZoneName: 'short' };
+        // Format the date
+        const pubDate = new Date(date);
+        const options: Intl.DateTimeFormatOptions = {
+          weekday: 'short',
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit',
+          timeZoneName: 'short',
+        };
 
-       const formattedDate = pubDate.toLocaleDateString('en-US', options);
+        const formattedDate = pubDate.toLocaleDateString('en-US', options);
         // Add the article to the list
-        articles.push({ title, description, byline, audioUrl, pubDate: formattedDate });
+        articles.push({
+          title,
+          description,
+          byline,
+          audioUrl,
+          pubDate: formattedDate,
+        });
       });
       return articles;
     }),
@@ -71,7 +84,7 @@ http$
               // If the response contains the error message, the link is not working
               if (
                 response.data.includes(
-                  "This XML file does not appear to have any style information associated with it."
+                  'This XML file does not appear to have any style information associated with it.'
                 )
               ) {
                 article.audioWorking = false;
@@ -103,43 +116,59 @@ http$
     (error) => console.error(error)
   );
 
-  async function updateFeed(articles: Article[]) {
-    const parser = new RSSParser();
-    let feed;
-  
-    // Read the existing feed
-    try {
-      const data = fs.readFileSync('feed.xml', 'utf8');
-      feed = await parser.parseString(data);
-    } catch (err) {
-      console.error("Error reading the file:", err);
-      return;
-    }
-  
-    // Add new items
-    articles.forEach((article) => {
-      feed.items.push({
-        title: article.title,
-        description: article.description,
-        enclosure: { url: article.audioUrl, type: 'audio/mpeg' },
-        author: article.byline,
-        pubDate: article.pubDate,
-      });
-    });
-  
-    // Convert the feed object back to RSS
-    const builder = new xml2js.Builder({ rootName: 'rss', headless: true });
-    const xml = builder.buildObject({
-      ...feed,
-      channel: { item: feed.items },
-    });
-  
-    // Write the updated XML back to the file
-    fs.writeFile("feed.xml", xml, (err) => {
-      if (err) {
-        console.error("Error writing to file:", err);
-      } else {
-        console.log("Successfully wrote to file");
-      }
-    });
+async function updateFeed(articles: Article[]) {
+  const parser = new RSSParser();
+  let feed;
+
+  // Read the existing feed
+  try {
+    const data = fs.readFileSync('feed.xml', 'utf8');
+    feed = await parser.parseString(data);
+  } catch (err) {
+    console.error('Error reading the file:', err);
+    return;
   }
+
+  // Create new items
+  const newItems = articles.map((article) => ({
+    title: article.title,
+    description: article.description,
+    enclosure: { url: article.audioUrl, type: 'audio/mpeg' },
+    author: article.byline,
+    pubDate: article.pubDate,
+  }));
+
+  console.log('feed', feed);
+
+  // Merge old and new items
+  const allItems = [...feed.items, ...newItems];
+
+  // Create new feed object
+  const newFeed = {
+    rss: {
+      $: {
+        version: '2.0',
+      },
+      channel: [
+        {
+          ...feed,
+          item: allItems,
+        },
+      ],
+    },
+  };
+
+  // Convert the feed object back to RSS
+  const builder = new xml2js.Builder({ headless: false });
+  const xml = builder.buildObject(newFeed);
+  console.log('new feed', xml);
+
+  // Write the updated XML back to the file
+  fs.writeFile('feed.xml', xml, (err) => {
+    if (err) {
+      console.error('Error writing to file:', err);
+    } else {
+      console.log('Successfully wrote to file');
+    }
+  });
+}
