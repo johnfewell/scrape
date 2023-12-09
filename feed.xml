@@ -25,25 +25,24 @@
     <item>
       <title>The Violence of the Rams</title>
       <itunes:summary>I know you cant hold animals to human standards. That said, rams are assholes.</itunes:summary>
-      <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3" type="audio/mpeg"/>
-      <itunes:subtitle>Dept. of Science</itunes:subtitle>
-      <itunes:image href="" />
-      <guid></guid>
-      <itunes:duration>39:19</itunes:duration>
-      <itunes:author>By David Sedaris</itunes:author>
-      <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
-    </item>
-    <item>
-      <title>Piecing Together My Fathers Murder</title>
-      <itunes:summary>I was too young to remember what happened to my dad, and no one explained it to me. So I tried to assemble the story myself.</itunes:summary>
-      <itunes:subtitle>Dept. of Science</itunes:subtitle>
-      <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3" type="audio/mpeg"/>
-      <itunes:author>By Eren Orbey</itunes:author>
-      <itunes:image href="" />
-      <guid></guid>
-
-      <itunes:duration>39:19</itunes:duration>
-      <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
-    </item>
-  </channel>
-</rss>
+      <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3" type="audio/mpeg/" legnth="123454">
+        <itunes:subtitle>Dept. of Science</itunes:subtitle>
+        <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.png" />
+        <guid></guid>
+        <itunes:duration>39:19</itunes:duration>
+        <itunes:author>By David Sedaris</itunes:author>
+        <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
+      </item>
+      <item>
+        <title>Piecing Together My Fathers Murder</title>
+        <itunes:summary>I was too young to remember what happened to my dad, and no one explained it to me. So I tried to assemble the story myself.</itunes:summary>
+        <itunes:subtitle>Dept. of Science</itunes:subtitle>
+        <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3" type="audio/mpeg"/ legnth="123454">
+          <itunes:author>By Eren Orbey</itunes:author>
+          <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.png" />
+          <guid></guid>
+          <itunes:duration>39:19</itunes:duration>
+          <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+      </channel>
+    </rss>
