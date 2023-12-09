@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.099</ctSecsToRead>
+            <ctSecsToRead>0.077</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -90,10 +90,10 @@
             <itunes:summary>Offsetting has been hailed as a fix for runaway emissions and climate change&amp;#x2014;but the market&amp;#x2019;s largest firm sold millions of credits for carbon reductions that weren&amp;#x2019;t real.</itunes:summary>
             <enclosure url="https://downloads.newyorker.com/mp3/231023fa_fact_blake_apple.mp3" type="audio/mpeg" length="4309.704"/>
             <itunes:author>By Heidi Blake</itunes:author>
-            <itunes:duration>4309.704</itunes:duration>
+            <itunes:duration/>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702155601343</guid>
-            <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate/>
         </item>
     </channel>
 </rss>
