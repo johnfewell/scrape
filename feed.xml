@@ -1,80 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<rss version="2.0"
-    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-    xmlns:content="http://purl.org/rss/1.0/modules/content/">
-    <channel>
-        <title>Pirate Radio</title>
-        <description>Love the New Yorker? Try this!</description>
-        <link>https://www.apple.com/itunes/podcasts/</link>
-        <language>en-us</language>
-        <copyright>© 2023 John Appleseed</copyright>
-        <image>
-            <url>https://johnfewell.github.io/scrape/pirate-radio-hi.jpg</url>
-        </image>
-        <reader>
-            <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.142</ctSecsToRead>
-        </reader>
-        <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
-        <itunes:subtitle>For fun</itunes:subtitle>
-        <itunes:author>Smol bean</itunes:author>
-        <itunes:summary>This 4 friends</itunes:summary>
-        <itunes:owner>
-            <itunes:name>smallest</itunes:name>
-            <itunes:email>facts@f4te.com</itunes:email>
-        </itunes:owner>
-        <itunes:category text="Kids &amp;amp; Family"/>
-        <itunes:explicit>false</itunes:explicit>
-        <item>
-            <title>The Violence of the Rams</title>
-            <itunes:summary>I know you cant hold animals to human standards. That said, rams are assholes.</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3" type="audio/mpeg" length="123454"/>
-            <itunes:author>By David Sedaris</itunes:author>
-            <itunes:duration/>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>9082734982734982375</guid>
-            <pubDate/>
-        </item>
-        <item>
-            <title>Piecing Together My Fathers Murder</title>
-            <itunes:summary>I was too young to remember what happened to my dad, and no one explained it to me. So I tried to assemble the story myself.</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3" type="audio/mpeg" length="123454"/>
-            <itunes:author>By Eren Orbey</itunes:author>
-            <itunes:duration/>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>9082734982734982374</guid>
-            <pubDate/>
-        </item>
-        <item>
-            <title>The Makeup Artist Behind Bradley Cooper&amp;#x2019;s Prosthetic Nose</title>
-            <itunes:summary>In the age of C.G.I., the work of effects artists like Kazu Hiro remains meticulously tactile. &amp;#x201C;I was sort of his canvas&amp;#x201D; for &amp;#x201C;Maestro,&amp;#x201D; Cooper said.</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_hsu_apple.mp3" type="audio/mpeg" length="2342.28"/>
-            <itunes:author>By Hua Hsu</itunes:author>
-            <itunes:duration>2342.28</itunes:duration>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>1702146502160</guid>
-            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
-        </item>
-        <item>
-            <title>How Jensen Huang&amp;#x2019;s Nvidia Is Powering the A.I. Revolution</title>
-            <itunes:summary>The company&amp;#x2019;s C.E.O. bet it all on a new kind of chip. Now that Nvidia is one of the biggest companies in the world, what will he do next?</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_witt_apple.mp3" type="audio/mpeg" length="2605.632"/>
-            <itunes:author>By Stephen Witt</itunes:author>
-            <itunes:duration>2605.632</itunes:duration>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>1702146502334</guid>
-            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
-        </item>
-        <item>
-            <title>What Happens to a School Shooter&amp;#x2019;s Sister?</title>
-            <itunes:summary>Twenty-five years ago, Kristin Kinkel&amp;#x2019;s brother, Kip, killed their parents and opened fire at their high school. Today, she is close with Kip&amp;#x2014;and still reckoning with his crimes.</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_gonnerman_apple.mp3" type="audio/mpeg" length="112.56"/>
-            <itunes:author>By Jennifer Gonnerman</itunes:author>
-            <itunes:duration>112.56</itunes:duration>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>1702146496709</guid>
-            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
-`  
-        </item>
-    </channel>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+ <channel>
+  <title>Pirate Radio</title>
+  <description>Love the New Yorker? Try this!</description>
+  <link>https://www.apple.com/itunes/podcasts/</link>
+  <language>en-us</language>
+  <copyright>© 2023 John Appleseed</copyright>
+  <image>
+   <url>https://johnfewell.github.io/scrape/pirate-radio-hi.jpg</url>
+  </image>
+  <reader>
+   <app>reallysimple v0.4.26 (darwin)</app>
+   <ctSecsToRead>0.184</ctSecsToRead>
+  </reader>
+  <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
+  <itunes:subtitle>For fun</itunes:subtitle>
+  <itunes:author>Smol bean</itunes:author>
+  <itunes:summary>This 4 friends</itunes:summary>
+  <itunes:owner>
+   <itunes:name>smallest</itunes:name>
+   <itunes:email>facts@f4te.com</itunes:email>
+  </itunes:owner>
+  <itunes:category text="Kids &amp;amp; Family"/>
+  <itunes:explicit>false</itunes:explicit>
+  <item>
+   <title>The Violence of the Rams</title>
+   <itunes:summary>I know you cant hold animals to human standards. That said, rams are assholes.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3" type="audio/mpeg" length="123454"/>
+   <itunes:author>By David Sedaris</itunes:author>
+   <itunes:duration/>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>9082734982734982375</guid>
+   <pubDate/>
+  </item>
+  <item>
+   <title>Piecing Together My Fathers Murder</title>
+   <itunes:summary>I was too young to remember what happened to my dad, and no one explained it to me. So I tried to assemble the story myself.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3" type="audio/mpeg" length="123454"/>
+   <itunes:author>By Eren Orbey</itunes:author>
+   <itunes:duration/>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>9082734982734982374</guid>
+   <pubDate/>
+  </item>
+  <item>
+   <title>The Makeup Artist Behind Bradley Cooper&amp;#x2019;s Prosthetic Nose</title>
+   <itunes:summary>In the age of C.G.I., the work of effects artists like Kazu Hiro remains meticulously tactile. &amp;#x201C;I was sort of his canvas&amp;#x201D; for &amp;#x201C;Maestro,&amp;#x201D; Cooper said.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_hsu_apple.mp3" type="audio/mpeg" length="2342.28"/>
+   <itunes:author>By Hua Hsu</itunes:author>
+   <itunes:duration/>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702146502160</guid>
+   <pubDate/>
+  </item>
+  <item>
+   <title>How Jensen Huang&amp;#x2019;s Nvidia Is Powering the A.I. Revolution</title>
+   <itunes:summary>The company&amp;#x2019;s C.E.O. bet it all on a new kind of chip. Now that Nvidia is one of the biggest companies in the world, what will he do next?</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_witt_apple.mp3" type="audio/mpeg" length="2605.632"/>
+   <itunes:author>By Stephen Witt</itunes:author>
+   <itunes:duration/>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702146502334</guid>
+   <pubDate/>
+  </item>
+  <item>
+   <title>What Happens to a School Shooter&amp;#x2019;s Sister?</title>
+   <itunes:summary>Twenty-five years ago, Kristin Kinkel&amp;#x2019;s brother, Kip, killed their parents and opened fire at their high school. Today, she is close with Kip&amp;#x2014;and still reckoning with his crimes.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_gonnerman_apple.mp3" type="audio/mpeg" length="112.56"/>
+   <itunes:author>By Jennifer Gonnerman</itunes:author>
+   <itunes:duration/>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702146496709</guid>
+   <pubDate/>
+  </item>
+  <item>
+   <title>How to Build a Better Motivational Speaker</title>
+   <itunes:summary>The upstart motivator Jesse Itzler wants to reform his profession&amp;#x2014;while also rising to the top.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231211fa_fact_friend_apple.mp3" type="audio/mpeg" length="3368.328"/>
+   <itunes:author>By Tad Friend</itunes:author>
+   <itunes:duration>3368.328</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702155200935</guid>
+   <pubDate>Sat, Jan 1, 231211, 12:00:00 AM GMT-5</pubDate>
+  </item>
+ </channel>
 </rss>
