@@ -40,6 +40,17 @@ const url = dateArg
 // Create an Observable from the axios promise
 const http$ = from(axios.get(url));
 
+function getNextMonday() {
+  const now = new Date();
+  const nextMonday = new Date(now);
+  nextMonday.setDate(now.getDate() + ((1 + 7 - now.getDay()) % 7));
+
+  const year = nextMonday.getFullYear().toString().slice(-2); // get last two digits of year
+  const month = (nextMonday.getMonth() + 1).toString().padStart(2, '0'); // get month and pad with 0 if needed
+  const date = nextMonday.getDate().toString().padStart(2, '0'); // get date and pad with 0 if needed
+
+  return year + month + date;
+}
 http$
   .pipe(
     // Extract the HTML string from the axios response
@@ -54,20 +65,25 @@ http$
       $('ul[class^="River__list"] > li').each((index, element) => {
         // Scrape the title, description, and byline
         const title = $(element).find('h4').text();
+
         const description = $(element).find('h5').text();
         const byline = $(element).find('p[class^="Byline__by"]').text();
-
-        // Extract the date from the url and rearrange parts
-        const dateParts = url.split('/').slice(-3);
-        const date = dateParts[0].slice(-2) + dateParts[1] + dateParts[2];
+        let date = '';
+        if (!dateArg) {
+          date = getNextMonday();
+        } else {
+          // Extract the date from the dateArg and rearrange parts
+          const dateParts = dateArg.split('/');
+          date = dateParts[0].slice(-2) + dateParts[1] + dateParts[2];
+        }
 
         // Extract the last name from the byline
         const lastName = byline.split(' ').pop().toLowerCase();
-
+        console.log('date', date);
         // Construct the audioUrl
         const audioUrl = `https://downloads.newyorker.com/mp3/${date}fa_fact_${lastName}_apple.mp3`;
         // Format the date
-        const pubDate = new Date(dateArg);
+        const pubDate = new Date(dateArg ? dateArg : getNextMonday());
         const options: Intl.DateTimeFormatOptions = {
           weekday: 'short',
           year: 'numeric',
@@ -144,7 +160,6 @@ async function readFeed() {
         console.log(err.message);
         reject(err);
       } else {
-        console.log(JSON.stringify(theFeed, undefined, 4));
         resolve(theFeed);
       }
     });
@@ -154,8 +169,8 @@ async function readFeed() {
 async function updateFeed(feed, articles: Article[]) {
   const oldItems = feed?.items.map((article: OldArticle) => {
     return {
-      title: he.encode(article.title),
-      'itunes:summary': he.encode(article.description),
+      title: article.title,
+      'itunes:summary': article.description,
       enclosure: {
         $: {
           url: article.enclosure.url,
@@ -201,12 +216,10 @@ async function updateFeed(feed, articles: Article[]) {
     })
   );
 
-  console.log('feed', feed);
+  console.log('newItems', newItems);
 
   // Merge old and new items
   const allItems = [...oldItems, ...newItems];
-
-  console.log('items', allItems);
 
   const itunesFeedItems = {
     'itunes:image': {
@@ -256,7 +269,6 @@ async function updateFeed(feed, articles: Article[]) {
     },
   });
   const xml = builder.buildObject(newFeed);
-  console.log('new feed', xml);
 
   // Write the updated XML back to the file
   fs.writeFile('feed.xml', xml, (err) => {

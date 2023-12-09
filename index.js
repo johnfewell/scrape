@@ -72,6 +72,15 @@ var url = dateArg
     : 'https://www.newyorker.com/magazine/';
 // Create an Observable from the axios promise
 var http$ = (0, rxjs_1.from)(axios_1.default.get(url));
+function getNextMonday() {
+    var now = new Date();
+    var nextMonday = new Date(now);
+    nextMonday.setDate(now.getDate() + ((1 + 7 - now.getDay()) % 7));
+    var year = nextMonday.getFullYear().toString().slice(-2); // get last two digits of year
+    var month = (nextMonday.getMonth() + 1).toString().padStart(2, '0'); // get month and pad with 0 if needed
+    var date = nextMonday.getDate().toString().padStart(2, '0'); // get date and pad with 0 if needed
+    return year + month + date;
+}
 http$
     .pipe(
 // Extract the HTML string from the axios response
@@ -88,15 +97,22 @@ http$
         var title = $(element).find('h4').text();
         var description = $(element).find('h5').text();
         var byline = $(element).find('p[class^="Byline__by"]').text();
-        // Extract the date from the url and rearrange parts
-        var dateParts = url.split('/').slice(-3);
-        var date = dateParts[0].slice(-2) + dateParts[1] + dateParts[2];
+        var date = '';
+        if (!dateArg) {
+            date = getNextMonday();
+        }
+        else {
+            // Extract the date from the dateArg and rearrange parts
+            var dateParts = dateArg.split('/');
+            date = dateParts[0].slice(-2) + dateParts[1] + dateParts[2];
+        }
         // Extract the last name from the byline
         var lastName = byline.split(' ').pop().toLowerCase();
+        console.log('date', date);
         // Construct the audioUrl
         var audioUrl = "https://downloads.newyorker.com/mp3/".concat(date, "fa_fact_").concat(lastName, "_apple.mp3");
         // Format the date
-        var pubDate = new Date(dateArg);
+        var pubDate = new Date(dateArg ? dateArg : getNextMonday());
         var options = {
             weekday: 'short',
             year: 'numeric',
@@ -171,7 +187,6 @@ function readFeed() {
                             reject(err);
                         }
                         else {
-                            console.log(JSON.stringify(theFeed, undefined, 4));
                             resolve(theFeed);
                         }
                     });
@@ -188,8 +203,8 @@ function updateFeed(feed, articles) {
                 case 0:
                     oldItems = feed === null || feed === void 0 ? void 0 : feed.items.map(function (article) {
                         return {
-                            title: he.encode(article.title),
-                            'itunes:summary': he.encode(article.description),
+                            title: article.title,
+                            'itunes:summary': article.description,
                             enclosure: {
                                 $: {
                                     url: article.enclosure.url,
@@ -244,9 +259,8 @@ function updateFeed(feed, articles) {
                         }); }))];
                 case 1:
                     newItems = _a.sent();
-                    console.log('feed', feed);
+                    console.log('newItems', newItems);
                     allItems = __spreadArray(__spreadArray([], oldItems, true), newItems, true);
-                    console.log('items', allItems);
                     itunesFeedItems = {
                         'itunes:image': {
                             $: {
@@ -287,7 +301,6 @@ function updateFeed(feed, articles) {
                         },
                     });
                     xml = builder.buildObject(newFeed);
-                    console.log('new feed', xml);
                     // Write the updated XML back to the file
                     fs.writeFile('feed.xml', xml, function (err) {
                         if (err) {
