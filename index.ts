@@ -6,6 +6,8 @@ const dateArg = process.argv[2];
 import * as fs from 'fs';
 import * as RSSParser from 'rss-parser';
 import * as xml2js from 'xml2js';
+import * as convert from 'xml-js';
+const reallysimple = require('reallysimple');
 
 type Article = {
   title: string;
@@ -110,54 +112,93 @@ http$
     toArray()
   )
   .subscribe(
-    (data) => {
-      updateFeed(data);
+    async (articles) => {
+      const currentFeed = await readFeed();
+      updateFeed(currentFeed, articles);
     },
     (error) => console.error(error)
   );
 
-async function updateFeed(articles: Article[]) {
-  const parser = new RSSParser();
-  let feed;
+async function readFeed() {
+  const urlFeed = 'https://johnfewell.github.io/scrape/feed.xml';
 
-  // Read the existing feed
-  try {
-    const data = fs.readFileSync('feed.xml', 'utf8');
-    feed = await parser.parseString(data);
-  } catch (err) {
-    console.error('Error reading the file:', err);
-    return;
-  }
+  return new Promise((resolve, reject) => {
+    reallysimple.readFeed(urlFeed, function (err, theFeed) {
+      if (err) {
+        console.log(err.message);
+        reject(err);
+      } else {
+        console.log(JSON.stringify(theFeed, undefined, 4));
+        resolve(theFeed);
+      }
+    });
+  });
+}
 
+async function updateFeed(feed, articles: Article[]) {
   // Create new items
   const newItems = articles.map((article) => ({
-    title: article.title,
-    description: article.description,
-    enclosure: { url: article.audioUrl, type: 'audio/mpeg' },
-    author: article.byline,
+    title: article.title.replace(/'/g, '&apos;'),
+    'itunes:summary': article.description,
+    enclosure: {
+      $: {
+        url: article.audioUrl,
+        type: 'audio/mpeg',
+      },
+    },
+    'itunes:author': article.byline,
     pubDate: article.pubDate,
   }));
 
   console.log('feed', feed);
 
   // Merge old and new items
-  const allItems = [...feed.items, ...newItems];
+  const allItems = [...feed?.items, ...newItems];
 
+  console.log('items', allItems);
+
+  const itunesFeedItems = {
+    'itunes:image': {
+      $: {
+        href: 'https://johnfewell.github.io/scrape/pirate-radio.png',
+      },
+    },
+    'itunes:subtitle': 'For fun',
+    'itunes:author': 'Smol bean',
+    'itunes:summary': 'This 4 friends',
+    'itunes:owner': {
+      'itunes:name': 'smallest',
+      'itunes:email': 'facts@f4te.com',
+    },
+    'itunes:explicit': 'false',
+  };
+
+  delete feed.items;
   // Create new feed object
   const newFeed = {
     rss: {
       $: {
         version: '2.0',
+        'xmlns:itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+        'xmlns:content': 'http://purl.org/rss/1.0/modules/content/',
       },
       channel: {
         ...feed,
+        ...itunesFeedItems,
         item: [...allItems],
       },
     },
   };
 
   // Convert the feed object back to RSS
-  const builder = new xml2js.Builder({ headless: false });
+  const builder = new xml2js.Builder({
+    headless: false,
+    renderOpts: {
+      pretty: true,
+      indent: ' ',
+      newline: '\n',
+    },
+  });
   const xml = builder.buildObject(newFeed);
   console.log('new feed', xml);
 

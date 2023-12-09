@@ -62,8 +62,8 @@ var rxjs_1 = require("rxjs");
 var operators_1 = require("rxjs/operators");
 var dateArg = process.argv[2];
 var fs = require("fs");
-var RSSParser = require("rss-parser");
 var xml2js = require("xml2js");
+var reallysimple = require('reallysimple');
 // Define the URL you want to scrape
 var url = "https://www.newyorker.com/magazine/".concat(dateArg);
 // Create an Observable from the axios promise
@@ -143,60 +143,97 @@ http$
 }), 
 // Flatten the Observable
 (0, operators_1.switchMap)(function (articles) { return articles; }), (0, operators_1.filter)(function (article) { var _a; return (_a = article.audioWorking) !== null && _a !== void 0 ? _a : false; }), (0, operators_1.toArray)())
-    .subscribe(function (data) {
-    updateFeed(data);
-}, function (error) { return console.error(error); });
-function updateFeed(articles) {
+    .subscribe(function (articles) { return __awaiter(void 0, void 0, void 0, function () {
+    var currentFeed;
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0: return [4 /*yield*/, readFeed()];
+            case 1:
+                currentFeed = _a.sent();
+                updateFeed(currentFeed, articles);
+                return [2 /*return*/];
+        }
+    });
+}); }, function (error) { return console.error(error); });
+function readFeed() {
     return __awaiter(this, void 0, void 0, function () {
-        var parser, feed, data, err_1, newItems, allItems, newFeed, builder, xml;
+        var urlFeed;
         return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0:
-                    parser = new RSSParser();
-                    _a.label = 1;
-                case 1:
-                    _a.trys.push([1, 3, , 4]);
-                    data = fs.readFileSync('feed.xml', 'utf8');
-                    return [4 /*yield*/, parser.parseString(data)];
-                case 2:
-                    feed = _a.sent();
-                    return [3 /*break*/, 4];
-                case 3:
-                    err_1 = _a.sent();
-                    console.error('Error reading the file:', err_1);
-                    return [2 /*return*/];
-                case 4:
-                    newItems = articles.map(function (article) { return ({
-                        title: article.title,
-                        description: article.description,
-                        enclosure: { url: article.audioUrl, type: 'audio/mpeg' },
-                        author: article.byline,
-                        pubDate: article.pubDate,
-                    }); });
-                    console.log('feed', feed);
-                    allItems = __spreadArray(__spreadArray([], feed.items, true), newItems, true);
-                    newFeed = {
-                        rss: {
-                            $: {
-                                version: '2.0',
-                            },
-                            channel: __assign(__assign({}, feed), { item: __spreadArray([], allItems, true) }),
-                        },
-                    };
-                    builder = new xml2js.Builder({ headless: false });
-                    xml = builder.buildObject(newFeed);
-                    console.log('new feed', xml);
-                    // Write the updated XML back to the file
-                    fs.writeFile('feed.xml', xml, function (err) {
+            urlFeed = 'https://johnfewell.github.io/scrape/feed.xml';
+            return [2 /*return*/, new Promise(function (resolve, reject) {
+                    reallysimple.readFeed(urlFeed, function (err, theFeed) {
                         if (err) {
-                            console.error('Error writing to file:', err);
+                            console.log(err.message);
+                            reject(err);
                         }
                         else {
-                            console.log('Successfully wrote to file');
+                            console.log(JSON.stringify(theFeed, undefined, 4));
+                            resolve(theFeed);
                         }
                     });
-                    return [2 /*return*/];
-            }
+                })];
+        });
+    });
+}
+function updateFeed(feed, articles) {
+    return __awaiter(this, void 0, void 0, function () {
+        var newItems, allItems, itunesFeedItems, newFeed, builder, xml;
+        return __generator(this, function (_a) {
+            newItems = articles.map(function (article) { return ({
+                title: article.title.replace(/'/g, '&apos;'),
+                'itunes:summary': article.description,
+                enclosure: {
+                    $: {
+                        url: article.audioUrl,
+                        type: 'audio/mpeg',
+                    },
+                },
+                'itunes:author': article.byline,
+                pubDate: article.pubDate,
+            }); });
+            console.log('feed', feed);
+            allItems = __spreadArray(__spreadArray([], feed.items, true), newItems, true);
+            console.log('items', allItems);
+            itunesFeedItems = {
+                'itunes:subtitle': 'For fun',
+                'itunes:author': 'Smol bean',
+                'itunes:summary': 'This 4 friends',
+                'itunes:owner': {
+                    'itunes:name': 'smallest',
+                    'itunes:email': 'facts@f4te.com',
+                },
+                'itunes:image': 'http://4.bp.blogspot.com/-7GQg04_a12w/UN6LQyu6lKI/AAAAAAAABXI/gCfp1_79Ujs/s1600/hipstertillyNYC.jpg',
+                'itunes:category': 'Software How-To',
+            };
+            delete feed.items;
+            newFeed = {
+                rss: {
+                    $: {
+                        version: '2.0',
+                    },
+                    channel: __assign(__assign(__assign({}, feed), itunesFeedItems), { item: __spreadArray([], allItems, true) }),
+                },
+            };
+            builder = new xml2js.Builder({
+                headless: false,
+                renderOpts: {
+                    pretty: true,
+                    indent: ' ',
+                    newline: '\n',
+                },
+            });
+            xml = builder.buildObject(newFeed);
+            console.log('new feed', xml);
+            // Write the updated XML back to the file
+            fs.writeFile('feed.xml', xml, function (err) {
+                if (err) {
+                    console.error('Error writing to file:', err);
+                }
+                else {
+                    console.log('Successfully wrote to file');
+                }
+            });
+            return [2 /*return*/];
         });
     });
 }

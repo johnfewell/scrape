@@ -1,40 +1,500 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
-        <title>Hiking Treks</title>
-        <link>https://www.apple.com/itunes/podcasts/</link>
-        <language>en-us</language>
-        <copyright>© 2019 John Appleseed</copyright>
-        <itunes:author>The Sunset Explorers</itunes:author>
-        <description> Love to get outdoors and discover nature's treasures? Hiking Treks is the show for you. We review hikes and excursions, review outdoor gear and interview a variety of naturalists and adventurers. Look for new episodes each week.
-        </description>
-        <itunes:type>serial</itunes:type>
+        <title>Nyer</title>
+        <link>f4te.com</link>
+        <language>en</language>
+        <copyright>none</copyright>
+        <itunes:subtitle>For fun</itunes:subtitle>
+        <itunes:author>Smol bean</itunes:author>
+        <itunes:summary>This 4 friends</itunes:summary>
         <itunes:owner>
-            <itunes:name>Sunset Explorers</itunes:name>
-            <itunes:email>mountainscape@icloud.com</itunes:email>
+            <itunes:name>smallest</itunes:name>
+            <itunes:email>facts@f4te.com</itunes:email>
         </itunes:owner>
-        <itunes:image href="https://applehosted.podcasts.apple.com/hiking_treks/artwork.png" />
-        <itunes:category text="Sports">
-            <itunes:category text="Wilderness"/>
-        </itunes:category>
-        <itunes:explicit>false</itunes:explicit>
+        <itunes:image href="http://4.bp.blogspot.com/-7GQg04_a12w/UN6LQyu6lKI/AAAAAAAABXI/gCfp1_79Ujs/s1600/hipstertillyNYC.jpg" />
+        <itunes:category text="Software How-To"/>
         <item>
-            <itunes:episodeType>trailer</itunes:episodeType>
-            <itunes:title>Hiking Treks Trailer</itunes:title>
-            <description>
-                <content:encoded>
-                    <![CDATA[The Sunset Explorers share tips, techniques and recommendations for great hikes and adventures around the United States. Listen on
-<a
-href="https://www.apple.com/itunes/podcasts/">Apple Podcasts</a>.]]>
-                </content:encoded>
-            </description>
-            <enclosure length="498537" type="audio/mpeg" url="http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3" />
-            <guid>aae20190418</guid>
-            <pubDate>Tue, 8 Jan 2019 01:15:00 GMT</pubDate>
-            <itunes:duration>1079</itunes:duration>
-            <itunes:explicit>false</itunes:explicit>
+            <title>A World Without Pain</title>
+            <itunes:author>Ariel Levy</itunes:author>
+            <itunes:subtitle>Dept. of Science</itunes:subtitle>
+            <itunes:summary>Does hurting make us human?</itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-world-without-pain-8a8e9040-2d8f-4d56-9271-63feee4c1d49.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 06 2020 18:07:53 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>39:19</itunes:duration>
         </item>
+        <item>
+            <title>The Equality Conundrum</title>
+            <itunes:author>Joshua Rothman</itunes:author>
+            <itunes:subtitle>Annals of Inquiry</itunes:subtitle>
+            <itunes:summary>We all agree that inequality is bad. But what kind of equality is good?</itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-same-difference-56472dea-dae9-439f-ad9e-c9971928773f.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 06 2020 18:07:53 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>31:55</itunes:duration>
+        </item>
+        <item>
+            <title>The Future of America’s Contest with China</title>
+            <itunes:author>Evan Osnos</itunes:author>
+            <itunes:subtitle>A Reporter at Large</itunes:subtitle>
+            <itunes:summary>Washington is in an intensifying standoff with Beijing. Which one will fundamentally shape the twenty-first century?</itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-fight-fight-talk-talk-6095532c-8209-49b4-84c2-c51e9f64c04b.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 06 2020 18:07:53 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>1:21:07</itunes:duration>
+        </item>
+        <item>
+            <title>Tabula Rasa</title>
+            <itunes:author>john McPhee</itunes:author>
+            <itunes:subtitle>Personal History</itunes:subtitle>
+            <itunes:summary>The writer Javier Cercas helped launch Spain’s historical-memory movement. In his new book, he asks whether score-settling and sanctimony have come to distort the nation’s past and poison its future.</itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-tabula-rasa-96b14376-bf3f-4691-872f-05680306a4de.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 06 2020 18:07:53 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>51:16</itunes:duration>
+        </item>
+        <item>
+            <title>Why a Champion of Reparative Justice Turned on the Cause</title>
+            <itunes:author>Giles Harvey</itunes:author>
+            <itunes:subtitle>A Critic at Large</itunes:subtitle>
+            <itunes:summary>The writer Javier Cercas helped launch Spain’s historical-memory movement. In his new book, he asks whether score-settling and sanctimony have come to distort the nation’s past and poison its future.</itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-dont-look-back-0cc37aa8-3c48-4d42-bb51-d09d0005cecf.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 06 2020 18:07:53 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>25:51</itunes:duration>
+        </item>
+        <item>
+            <title>A Translation Crisis at the Border</title>
+            <itunes:author> Rachel Nolan</itunes:author>
+            <itunes:subtitle>Annals of Immigration</itunes:subtitle>
+            <itunes:summary>For migrants who speak Mayan languages, a grassroots group of interpreters is often their only hope for receiving asylum.</itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-language-barrier-af132298-d895-48c7-a41f-abcf33deec8c.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Dec 30 2019 18:07:53 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>37:56</itunes:duration>
+        </item>
+        <item>
+            <title>The Strangeness of Grief</title>
+            <itunes:author>V. S. Naipaul</itunes:author>
+            <itunes:subtitle>Personal History</itunes:subtitle>
+            <itunes:summary>A writer reckons with the different forms of loss.</itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-grief-naipaul-5a445202-c728-404e-a77c-a51e64851341.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Dec 30 2019 18:07:53 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>37:56</itunes:duration>
+        </item>
+        <item>
+            <title>The Ultra-Wealthy Who Argue That They Should Be Paying Higher Taxes</title>
+            <itunes:author>Sheelah Kolhatkar</itunes:author>
+            <itunes:subtitle>A Reporter at Large</itunes:subtitle>
+            <itunes:summary>In an age of historic disparity, Abigail Disney and the Patriotic Millionaires take on income inequality</itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-embarrassment-of-riches-490053e3-8ef6-4d1e-82bd-c75030c307d6.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Dec 30 2019 18:07:53 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>53:04</itunes:duration>
+        </item>
+        <item>
+            <title>Pete Buttigieg’s High Hopes</title>
+            <itunes:author>Benjamin Wallace-Wells</itunes:author>
+            <itunes:subtitle>The Political Scene</itunes:subtitle>
+            <itunes:summary>The Presidential candidate wants to win over disaffected Republicans. But can he unite Democrats?</itunes:summary>
+            <itunes:image href="https://media.newyorker.com/photos/5df29b55840a84000828b8e6/4:3/w_728,c_limit/191223_r35631.jpg" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-high-hopes-15c5db78-edc3-4d7d-9c7d-faacc226619a.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Dec 23 2019 01:00:51 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration></itunes:duration>
+        </item>
+        <item>
+            <title>How Hallmark Took Over Cable Television</title>
+            <itunes:author>Sarah Larson</itunes:author>
+            <itunes:subtitle>Annals of Media</itunes:subtitle>
+            <itunes:summary>By “leaning into Christmas”—and claiming to avoid politics—the greeting-card company has come to dominate screens across America.</itunes:summary>
+            <itunes:image href="https://media.newyorker.com/photos/5df17d60b84cd40008dece2d/master/w_649,c_limit/191223_r35626.jpg" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-leaning-into-christmas-5f790589-b135-4d06-8ac0-3fad07672ed4.m4a" length="500000" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Sun Dec 16 2019 16:37:13 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>35:31</itunes:duration>
+        </item>
+        <item>
+            <title>The Ukrainian Prosecutor Behind Trump’s Impeachment</title>
+            <itunes:author>Adam Entous</itunes:author>
+            <itunes:subtitle>A Reporter at Large</itunes:subtitle>
+            <itunes:summary>How the efforts of Yuriy Lutsenko and Rudy Giuliani to smear Joe Biden led to a Presidential crisis.</itunes:summary>
+            <itunes:image href="https://media.newyorker.com/photos/5df2f6c7b5f23400080c071f/4:3/w_728,c_limit/191223_r35629.jpg" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-man-in-middle-e1f42aae-b781-4ea5-9df8-63b33387a398.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Sun Dec 22 2019 16:37:13 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration></itunes:duration>
+        </item>
+        <item>
+            <title>Hong Kong’s Protest Movement and the Fight for the City’s Soul</title>
+            <itunes:author>Jiayang Fan</itunes:author>
+            <itunes:subtitle>A Reporter at Large</itunes:subtitle>
+            <itunes:summary>The Presidential candidate wants to win over disaffected Republicans. But can he unite Democrats?</itunes:summary>
+            <itunes:image href="https://media.newyorker.com/photos/5df29b55840a84000828b8e6/4:3/w_728,c_limit/191223_r35631.jpg" />
+            <enclosure url="https://media.newyorker.com/photos/5deafa3e28b016000869a618/4:3/w_728,c_limit/191216_r35594.jpg" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Dec 09 2019 01:00:51 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration></itunes:duration>
+        </item>
+        <item>
+            <title>The Safdie Brothers’ Full-Immersion Filmmaking</title>
+            <itunes:author>Kelefa Sanneh</itunes:author>
+            <itunes:subtitle>Onward and Upward with the Arts</itunes:subtitle>
+            <itunes:summary>After a decade of acclaimed do-it-yourself productions, two directors make their big move.</itunes:summary>
+            <itunes:image href="https://media.newyorker.com/photos/5dead0bc2ec4110008021b36/master/w_727,c_limit/191216_r35593.jpg" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-outside-shot-b5e39a7b-23c7-4443-96b9-6743c329f72c.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Dec 09 2019 01:00:51 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration></itunes:duration>
+        </item>
+        <item>
+            <title>The Kremlin’s Creative Director</title>
+            <itunes:author>Joshua Yaffa</itunes:author>
+            <itunes:subtitle>Letter from Moscow</itunes:subtitle>
+            <itunes:summary>How the television producer Konstantin Ernst went from discerning auteur to Putin’s unofficial minister of propaganda.</itunes:summary>
+            <itunes:image href="https://media.newyorker.com/photos/5de99667116c9d0009ec1f30/master/w_727,c_limit/191216_r35591_rd.jpg" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-channelling-putin-90f89ed1-c75e-4955-b3f5-f4ff877c500f.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Dec 09 2019 01:00:51 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration></itunes:duration>
+        </item>
+        <item>
+            <title>How William Gibson Keeps His Science Fiction Real</title>
+            <itunes:author>Joshua Rothman</itunes:author>
+            <itunes:subtitle>Profiles</itunes:subtitle>
+            <itunes:summary>Midway through his career, the inventor of “cyberspace” turned his attention to a strange new world: the present.</itunes:summary>
+            <itunes:image href="https://media.newyorker.com/photos/5deab4da20699d000876e587/4:3/w_728,c_limit/191216_r35595.jpg" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-mirror-world-f2f4dd49-5523-4071-9f70-e4a17fc49778.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Dec 09 2019 01:00:51 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration></itunes:duration>
+        </item>
+
+
+
+
+        <item>
+            <title>Pinegrove Stages a Complicated Comeback</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-exit-music-dd8410e0-dfb7-482e-9455-5c472ed992a9.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 13 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>18:46</itunes:duration>
+        </item>
+
+        <item>
+            <title>The Past and the Future of the Earth’s Oldest Trees</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-bristlecones-speak-6148c648-b2ed-4b5a-9c6c-94f586603f24.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 13 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>36:13</itunes:duration>
+        </item>
+
+        <item>
+            <title>How Far Can Abused Women Go to Protect Themselves?</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-violent-defense-48a0e860-7d3b-43a5-9ee1-d2795ade81c0.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 13 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>41:01</itunes:duration>
+        </item>
+
+        <item>
+            <title>William Barr, Trump’s Sword and Shield</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-exit-music-dd8410e0-dfb7-482e-9455-5c472ed992a9.m4a" length="" type="audio/mpeg"/>
+            <guid></guid>
+            <pubDate>Mon Jan 13 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>1:08:01</itunes:duration>
+        </item>
+
+        <item>
+            <title>The Subversive Joy of Cold-Water Swimming</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-going-for-cold-a9040aaf-6452-4108-8541-d634ef27d935.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 13 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>42:56</itunes:duration>
+        </item>
+
+        <item>
+            <title>Is Venture Capital Worth the Risk?</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-big-spenders-7b4132d4-6b6e-4fd6-a71b-4769e1f3493b.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 20 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>33:16</itunes:duration>
+        </item>
+
+        <item>
+            <title>The Fight to Save an Innocent Refugee from Almost Certain Death</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-indefensible-taub-402cce6a-7d37-4157-87bb-0cc662c68ccc.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 20 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>44:44</itunes:duration>
+        </item>
+
+        <item>
+            <title>N. K. Jemisin’s Dream Worlds</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-dream-worlds-8af04cef-f4bd-474c-b2ec-d202332c3ed6.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 20 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>44:02</itunes:duration>
+        </item>
+
+        <item>
+            <title>The Fight to Preserve African-American History</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-rescue-work-93dfd601-7277-49b2-8a38-db34e308dcff.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 27 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>36:21</itunes:duration>
+        </item>
+
+        <item>
+            <title>The Last Time Democracy Almost Died</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-in-every-dark-hour-2bebf7e0-19de-4734-95f3-02c951ddcd66.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 27 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>32:39</itunes:duration>
+        </item>
+
+        <item>
+            <title>James Corden’s Do-Over</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-mr-happiness-bc31fafa-91e9-4ab4-b62e-f3e822c84612.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 27 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>42:38</itunes:duration>
+        </item>
+
+        <item>
+            <title>The Woman Shaking Up the Diamond Industry</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-the-rock-caesar-6d745673-843e-4212-a679-aa17ff28895e.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 27 20 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>1:03:08</itunes:duration>
+        </item>
+
+        <item>
+            <title>Qassem Suleimani and How Nations Decide to Kill</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-last-man-standing-aef04bfc-05aa-4ce9-b1a2-2d28ac4703b5.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Feb 03 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>57:56</itunes:duration>
+        </item>
+
+        <item>
+            <title>Vivian Gornick Is Rereading Everyone, Including Herself</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-look-again-fcc74ffd-f157-4d78-b216-6311961b2526.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Feb 03 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>29:56</itunes:duration>
+        </item>
+
+        <item>
+            <title>The Wrong Way to Fight the Opioid Crisis</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-deadly-mistake-7287714d-da38-400b-ac09-c6b38c00feb7.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Feb 03 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>1:06:12</itunes:duration>
+        </item>
+
+        <item>
+            <title>Can We Have Prosperity Without Growth?</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-steady-state-4cacf05a-3c3e-4a4b-b7a1-5efac55a7ce8.m4a" length="" type="audio/mpeg"/>
+            <guid></guid>
+            <pubDate>Mon Feb 03 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>21:28</itunes:duration>
+        </item>
+
+        <item>
+            <title>Yuval Noah Harari’s History of Everyone, Ever</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-really-big-picture-e79bc9aa-cf76-4be5-9ca7-11634c6a57c3.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Feb 10 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>1:06:46</itunes:duration>
+        </item>
+
+        <item>
+            <title>Can Slavery Reënactments Set Us Free?</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-fugitive-cure-7d588049-ba9f-41a7-a439-1f38ba2ceee9.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Feb 10 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>45:21</itunes:duration>
+        </item>
+
+        <item>
+            <title>Was Jeanne Calment the Oldest Person Who Ever Lived—or a Fraud?</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-living-proof-c5eb0944-1816-4640-9e5f-96f8f6a8ff8a.m4a" length="" type="audio/mpeg"/>
+            <guid></guid>
+            <pubDate>Mon Feb 10 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>1:07:17</itunes:duration>
+        </item>
+
+        <item>
+            <title>Can Farming Make Space for Nature?</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-betting-the-farm-6b2dec74-6d5d-4c5e-91d3-f88478b5b58f.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Feb 10 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>36:51</itunes:duration>
+        </item>
+
+        <item>
+            <title>The Surprise and Wonder of Early Animation</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-draw-stars-bceedf22-93de-49d7-9963-e032406f0a4c.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Dec 23 2019 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>11:08</itunes:duration>
+        </item>
+
+        <item>
+            <title>The Asian-American Canon Breakers</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-exclude-me-in-23f44861-26b1-4eea-bac2-6849576d03ff.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Dec 30 2019 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>24:11</itunes:duration>
+        </item>
+
+        <item>
+            <title>Why a Champion of Reparative Justice Turned on the Cause</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-dont-look-back-0cc37aa8-3c48-4d42-bb51-d09d0005cecf.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 06 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>25:51</itunes:duration>
+        </item>
+
+        <item>
+            <title>The Changing Meaning of Affirmative Action</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-integration-by-parts-8d2a6ba4-9143-4948-a7ae-0564e3eea63d.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Jan 13 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>32:59</itunes:duration>
+        </item>
+
+        <item>
+            <title>The Terror and the Fascination of Pompeii</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-day-earth-exploded-d64965b9-7508-42df-b32a-2ed63d2eec42.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Feb 10 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>20:24</itunes:duration>
+        </item>
+
+        <item>
+            <title>Did Lincoln Really Matter?</title>
+            <itunes:author></itunes:author>
+            <itunes:subtitle></itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="" />
+            <enclosure url="http://s3.amazonaws.com/audm-prod/singlefile-uncivil-wars-c1d7149f-a037-4166-92af-f6f1352bf836.m4a" length="" type="audio/x-m4a"/>
+            <guid></guid>
+            <pubDate>Mon Feb 03 2020 11:56:47 GMT-0500 (Eastern Standard Time)</pubDate>
+            <itunes:duration>23:16</itunes:duration>
+        </item>
+
+
     </channel>
-</rss
+</rss>
