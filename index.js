@@ -72,14 +72,20 @@ var url = dateArg
     : 'https://www.newyorker.com/magazine/';
 // Create an Observable from the axios promise
 var http$ = (0, rxjs_1.from)(axios_1.default.get(url));
-function getNextMonday() {
+function getNextMonday(parsed) {
+    if (parsed === void 0) { parsed = true; }
     var now = new Date();
     var nextMonday = new Date(now);
     nextMonday.setDate(now.getDate() + ((1 + 7 - now.getDay()) % 7));
-    var year = nextMonday.getFullYear().toString().slice(-2); // get last two digits of year
-    var month = (nextMonday.getMonth() + 1).toString().padStart(2, '0'); // get month and pad with 0 if needed
-    var date = nextMonday.getDate().toString().padStart(2, '0'); // get date and pad with 0 if needed
-    return year + month + date;
+    if (parsed) {
+        var year = nextMonday.getFullYear().toString().slice(-2); // get last two digits of year
+        var month = (nextMonday.getMonth() + 1).toString().padStart(2, '0'); // get month and pad with 0 if needed
+        var date = nextMonday.getDate().toString().padStart(2, '0'); // get date and pad with 0 if needed
+        return year + month + date;
+    }
+    else {
+        return nextMonday;
+    }
 }
 http$
     .pipe(
@@ -112,7 +118,9 @@ http$
         // Construct the audioUrl
         var audioUrl = "https://downloads.newyorker.com/mp3/".concat(date, "fa_fact_").concat(lastName, "_apple.mp3");
         // Format the date
-        var pubDate = new Date(dateArg ? dateArg : getNextMonday());
+        var pubDate = dateArg
+            ? new Date(dateArg)
+            : getNextMonday(false);
         var options = {
             weekday: 'short',
             year: 'numeric',

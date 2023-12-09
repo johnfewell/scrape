@@ -40,17 +40,21 @@ const url = dateArg
 // Create an Observable from the axios promise
 const http$ = from(axios.get(url));
 
-function getNextMonday() {
+function getNextMonday(parsed = true) {
   const now = new Date();
   const nextMonday = new Date(now);
   nextMonday.setDate(now.getDate() + ((1 + 7 - now.getDay()) % 7));
+  if (parsed) {
+    const year = nextMonday.getFullYear().toString().slice(-2); // get last two digits of year
+    const month = (nextMonday.getMonth() + 1).toString().padStart(2, '0'); // get month and pad with 0 if needed
+    const date = nextMonday.getDate().toString().padStart(2, '0'); // get date and pad with 0 if needed
 
-  const year = nextMonday.getFullYear().toString().slice(-2); // get last two digits of year
-  const month = (nextMonday.getMonth() + 1).toString().padStart(2, '0'); // get month and pad with 0 if needed
-  const date = nextMonday.getDate().toString().padStart(2, '0'); // get date and pad with 0 if needed
-
-  return year + month + date;
+    return year + month + date;
+  } else {
+    return nextMonday;
+  }
 }
+
 http$
   .pipe(
     // Extract the HTML string from the axios response
@@ -70,7 +74,7 @@ http$
         const byline = $(element).find('p[class^="Byline__by"]').text();
         let date = '';
         if (!dateArg) {
-          date = getNextMonday();
+          date = getNextMonday() as string;
         } else {
           // Extract the date from the dateArg and rearrange parts
           const dateParts = dateArg.split('/');
@@ -83,7 +87,9 @@ http$
         // Construct the audioUrl
         const audioUrl = `https://downloads.newyorker.com/mp3/${date}fa_fact_${lastName}_apple.mp3`;
         // Format the date
-        const pubDate = new Date(dateArg ? dateArg : getNextMonday());
+        const pubDate = dateArg
+          ? new Date(dateArg)
+          : (getNextMonday(false) as Date);
         const options: Intl.DateTimeFormatOptions = {
           weekday: 'short',
           year: 'numeric',
