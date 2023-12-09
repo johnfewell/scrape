@@ -64,6 +64,8 @@ var dateArg = process.argv[2];
 var fs = require("fs");
 var xml2js = require("xml2js");
 var reallysimple = require('reallysimple');
+var mm = require("music-metadata-browser");
+var he = require('he');
 // Define the URL you want to scrape
 var url = "https://www.newyorker.com/magazine/".concat(dateArg);
 // Create an Observable from the axios promise
@@ -177,63 +179,124 @@ function readFeed() {
 }
 function updateFeed(feed, articles) {
     return __awaiter(this, void 0, void 0, function () {
-        var newItems, allItems, itunesFeedItems, newFeed, builder, xml;
+        var oldItems, newItems, allItems, itunesFeedItems, newFeed, builder, xml;
+        var _this = this;
         return __generator(this, function (_a) {
-            newItems = articles.map(function (article) { return ({
-                title: article.title.replace(/'/g, '&apos;'),
-                'itunes:summary': article.description,
-                enclosure: {
-                    $: {
-                        url: article.audioUrl,
-                        type: 'audio/mpeg',
-                    },
-                },
-                'itunes:author': article.byline,
-                pubDate: article.pubDate,
-            }); });
-            console.log('feed', feed);
-            allItems = __spreadArray(__spreadArray([], feed.items, true), newItems, true);
-            console.log('items', allItems);
-            itunesFeedItems = {
-                'itunes:subtitle': 'For fun',
-                'itunes:author': 'Smol bean',
-                'itunes:summary': 'This 4 friends',
-                'itunes:owner': {
-                    'itunes:name': 'smallest',
-                    'itunes:email': 'facts@f4te.com',
-                },
-                'itunes:image': 'http://4.bp.blogspot.com/-7GQg04_a12w/UN6LQyu6lKI/AAAAAAAABXI/gCfp1_79Ujs/s1600/hipstertillyNYC.jpg',
-                'itunes:category': 'Software How-To',
-            };
-            delete feed.items;
-            newFeed = {
-                rss: {
-                    $: {
-                        version: '2.0',
-                    },
-                    channel: __assign(__assign(__assign({}, feed), itunesFeedItems), { item: __spreadArray([], allItems, true) }),
-                },
-            };
-            builder = new xml2js.Builder({
-                headless: false,
-                renderOpts: {
-                    pretty: true,
-                    indent: ' ',
-                    newline: '\n',
-                },
-            });
-            xml = builder.buildObject(newFeed);
-            console.log('new feed', xml);
-            // Write the updated XML back to the file
-            fs.writeFile('feed.xml', xml, function (err) {
-                if (err) {
-                    console.error('Error writing to file:', err);
-                }
-                else {
-                    console.log('Successfully wrote to file');
-                }
-            });
-            return [2 /*return*/];
+            switch (_a.label) {
+                case 0:
+                    oldItems = feed === null || feed === void 0 ? void 0 : feed.items.map(function (article) {
+                        return {
+                            title: he.encode(article.title),
+                            'itunes:summary': he.encode(article.description),
+                            enclosure: {
+                                $: {
+                                    url: article.enclosure.url,
+                                    type: 'audio/mpeg',
+                                    length: article.enclosure.length,
+                                },
+                            },
+                            'itunes:author': article.author,
+                            'itunes:duration': article.length,
+                            'itunes:subtitle': 'foo',
+                            guid: article.guid,
+                            pubDate: article.pubDate,
+                        };
+                    });
+                    return [4 /*yield*/, Promise.all(articles.map(function (article) { return __awaiter(_this, void 0, void 0, function () {
+                            var duration, metadata, err_1;
+                            return __generator(this, function (_a) {
+                                switch (_a.label) {
+                                    case 0:
+                                        duration = 0;
+                                        _a.label = 1;
+                                    case 1:
+                                        _a.trys.push([1, 3, , 4]);
+                                        return [4 /*yield*/, mm.fetchFromUrl(article.audioUrl)];
+                                    case 2:
+                                        metadata = _a.sent();
+                                        duration = metadata.format.duration || 123454;
+                                        console.warn({ duration: duration });
+                                        return [3 /*break*/, 4];
+                                    case 3:
+                                        err_1 = _a.sent();
+                                        console.error(err_1);
+                                        return [3 /*break*/, 4];
+                                    case 4: return [2 /*return*/, {
+                                            title: he.encode(article.title),
+                                            'itunes:summary': he.encode(article.description),
+                                            enclosure: {
+                                                $: {
+                                                    url: article.audioUrl,
+                                                    type: 'audio/mpeg',
+                                                    length: duration,
+                                                },
+                                            },
+                                            'itunes:author': he.encode(article.byline),
+                                            'itunes:duration': duration,
+                                            'itunes:subtitle': 'foo',
+                                            guid: Date.now().toString(),
+                                            pubDate: article.pubDate,
+                                        }];
+                                }
+                            });
+                        }); }))];
+                case 1:
+                    newItems = _a.sent();
+                    console.log('feed', feed);
+                    allItems = __spreadArray(__spreadArray([], oldItems, true), newItems, true);
+                    console.log('items', allItems);
+                    itunesFeedItems = {
+                        'itunes:image': {
+                            $: {
+                                href: 'https://johnfewell.github.io/scrape/pirate-radio-hi.jpg',
+                            },
+                        },
+                        'itunes:subtitle': 'For fun',
+                        'itunes:author': 'Smol bean',
+                        'itunes:summary': 'This 4 friends',
+                        'itunes:owner': {
+                            'itunes:name': 'smallest',
+                            'itunes:email': 'facts@f4te.com',
+                        },
+                        'itunes:category': {
+                            $: {
+                                text: 'Kids &amp; Family',
+                            },
+                        },
+                        'itunes:explicit': 'false',
+                    };
+                    delete feed.items;
+                    newFeed = {
+                        rss: {
+                            $: {
+                                version: '2.0',
+                                'xmlns:itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+                                'xmlns:content': 'http://purl.org/rss/1.0/modules/content/',
+                            },
+                            channel: __assign(__assign(__assign({}, feed), itunesFeedItems), { item: __spreadArray([], allItems, true) }),
+                        },
+                    };
+                    builder = new xml2js.Builder({
+                        headless: false,
+                        renderOpts: {
+                            pretty: true,
+                            indent: ' ',
+                            newline: '\n',
+                        },
+                    });
+                    xml = builder.buildObject(newFeed);
+                    console.log('new feed', xml);
+                    // Write the updated XML back to the file
+                    fs.writeFile('feed.xml', xml, function (err) {
+                        if (err) {
+                            console.error('Error writing to file:', err);
+                        }
+                        else {
+                            console.log('Successfully wrote to file');
+                        }
+                    });
+                    return [2 /*return*/];
+            }
         });
     });
 }

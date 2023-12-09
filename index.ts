@@ -4,10 +4,10 @@ import { forkJoin, from } from 'rxjs';
 import { filter, map, switchMap, toArray } from 'rxjs/operators';
 const dateArg = process.argv[2];
 import * as fs from 'fs';
-import * as RSSParser from 'rss-parser';
 import * as xml2js from 'xml2js';
-import * as convert from 'xml-js';
 const reallysimple = require('reallysimple');
+import * as mm from 'music-metadata-browser';
+const he = require('he');
 
 type Article = {
   title: string;
@@ -16,6 +16,20 @@ type Article = {
   audioUrl: string;
   pubDate: string;
   audioWorking?: boolean;
+};
+
+type OldArticle = {
+  title: string;
+  description: string;
+  author: string;
+  pubDate: string;
+  guid: string;
+  length: string;
+  enclosure: {
+    url: string;
+    type: string;
+    length: string;
+  };
 };
 
 // Define the URL you want to scrape
@@ -136,31 +150,66 @@ async function readFeed() {
 }
 
 async function updateFeed(feed, articles: Article[]) {
-  // Create new items
-  const newItems = articles.map((article) => ({
-    title: article.title.replace(/'/g, '&apos;'),
-    'itunes:summary': article.description,
-    enclosure: {
-      $: {
-        url: article.audioUrl,
-        type: 'audio/mpeg',
+  const oldItems = feed?.items.map((article: OldArticle) => {
+    return {
+      title: he.encode(article.title),
+      'itunes:summary': he.encode(article.description),
+      enclosure: {
+        $: {
+          url: article.enclosure.url,
+          type: 'audio/mpeg',
+          length: article.enclosure.length,
+        },
       },
-    },
-    'itunes:author': article.byline,
-    pubDate: article.pubDate,
-  }));
+      'itunes:author': article.author,
+      'itunes:duration': article.length,
+      'itunes:subtitle': 'foo',
+      guid: article.guid,
+      pubDate: article.pubDate,
+    };
+  });
+  // Create new items
+  const newItems = await Promise.all(
+    articles.map(async (article) => {
+      let duration = 0;
+      try {
+        const metadata = await mm.fetchFromUrl(article.audioUrl);
+        duration = metadata.format.duration || 123454;
+        console.warn({ duration });
+      } catch (err) {
+        console.error(err);
+      }
+
+      return {
+        title: he.encode(article.title),
+        'itunes:summary': he.encode(article.description),
+        enclosure: {
+          $: {
+            url: article.audioUrl,
+            type: 'audio/mpeg',
+            length: duration,
+          },
+        },
+        'itunes:author': he.encode(article.byline),
+        'itunes:duration': duration,
+        'itunes:subtitle': 'foo',
+        guid: Date.now().toString(),
+        pubDate: article.pubDate,
+      };
+    })
+  );
 
   console.log('feed', feed);
 
   // Merge old and new items
-  const allItems = [...feed?.items, ...newItems];
+  const allItems = [...oldItems, ...newItems];
 
   console.log('items', allItems);
 
   const itunesFeedItems = {
     'itunes:image': {
       $: {
-        href: 'https://johnfewell.github.io/scrape/pirate-radio.png',
+        href: 'https://johnfewell.github.io/scrape/pirate-radio-hi.jpg',
       },
     },
     'itunes:subtitle': 'For fun',
@@ -169,6 +218,11 @@ async function updateFeed(feed, articles: Article[]) {
     'itunes:owner': {
       'itunes:name': 'smallest',
       'itunes:email': 'facts@f4te.com',
+    },
+    'itunes:category': {
+      $: {
+        text: 'Kids &amp; Family',
+      },
     },
     'itunes:explicit': 'false',
   };
