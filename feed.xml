@@ -8,7 +8,7 @@
     <link>https://www.apple.com/itunes/podcasts/</link>
     <language>en-us</language>
     <copyright>© 2023 John Appleseed</copyright>
-    <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.png" />
+    <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg" />
     <reader>
       <app>reallysimple v0.4.26 (darwin)</app>
       <ctSecsToRead>0.196</ctSecsToRead>
@@ -20,15 +20,15 @@
       <itunes:name>smallest</itunes:name>
       <itunes:email>facts@f4te.com</itunes:email>
     </itunes:owner>
-    <itunes:category>Software How-To</itunes:category>
+    <itunes:category text="Kids &amp; Family" />
     <itunes:explicit>false</itunes:explicit>
     <item>
       <title>The Violence of the Rams</title>
       <itunes:summary>I know you cant hold animals to human standards. That said, rams are assholes.</itunes:summary>
       <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3" type="audio/mpeg" length="123454" />
       <itunes:subtitle>Dept. of Science</itunes:subtitle>
-      <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.png" />
-      <guid></guid>
+      <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg" />
+      <guid>9082734982734982375</guid>
       <itunes:duration>39:19</itunes:duration>
       <itunes:author>By David Sedaris</itunes:author>
       <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
@@ -39,8 +39,8 @@
       <itunes:subtitle>Dept. of Science</itunes:subtitle>
       <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3" type="audio/mpeg" length="123454" />
       <itunes:author>By Eren Orbey</itunes:author>
-      <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.png" />
-      <guid></guid>
+      <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg" />
+      <guid>9082734982734982374</guid>
 
       <itunes:duration>39:19</itunes:duration>
       <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
