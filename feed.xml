@@ -8,12 +8,9 @@
         <link>https://www.apple.com/itunes/podcasts/</link>
         <language>en-us</language>
         <copyright>© 2023 John Appleseed</copyright>
-        <image>
-            <url>https://johnfewell.github.io/scrape/pirate-radio-hi.jpg</url>
-        </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.14</ctSecsToRead>
+            <ctSecsToRead>0.101</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -25,6 +22,25 @@
         </itunes:owner>
         <itunes:category text="Kids &amp;amp; Family"/>
         <itunes:explicit>false</itunes:explicit>
-
+        <item>
+            <title>The Inside Story of Microsoft&amp;#x2019;s Partnership with OpenAI</title>
+            <itunes:summary>The companies had honed a protocol for releasing artificial intelligence ambitiously but safely. Then OpenAI&amp;#x2019;s board exploded all their carefully laid plans.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/656775193fd375a2f4a12429.m4a" type="audio/mp4" length="3529.1071666666667"/>
+            <itunes:author>By Charles Duhigg</itunes:author>
+            <itunes:duration>3529.1071666666667</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702165966132</guid>
+            <pubDate>Mon, Dec 11, 2023, 06:52:32 PM EST</pubDate>
+        </item>
+        <item>
+            <title>How to Build a Better Motivational Speaker</title>
+            <itunes:summary>The upstart motivator Jesse Itzler wants to reform his profession&amp;#x2014;while also rising to the top.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231211fa_fact_friend_apple.mp3" type="audio/mpeg" length="3368.328"/>
+            <itunes:author>By Tad Friend</itunes:author>
+            <itunes:duration>3368.328</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702165968248</guid>
+            <pubDate>Mon, Dec 11, 2023, 06:52:32 PM EST</pubDate>
+        </item>
     </channel>
 </rss>
