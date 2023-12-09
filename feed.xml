@@ -11,7 +11,7 @@
     </image>
     <reader>
       <app>reallysimple v0.4.26 (darwin)</app>
-      <ctSecsToRead>0.165</ctSecsToRead>
+      <ctSecsToRead>0.196</ctSecsToRead>
     </reader>
     <itunes:subtitle>For fun</itunes:subtitle>
     <itunes:author>Smol bean</itunes:author>
@@ -22,75 +22,28 @@
     </itunes:owner>
     <itunes:image>http://4.bp.blogspot.com/-7GQg04_a12w/UN6LQyu6lKI/AAAAAAAABXI/gCfp1_79Ujs/s1600/hipstertillyNYC.jpg</itunes:image>
     <itunes:category>Software How-To</itunes:category>
-    <item>
-      <title>The Makeup Artist Behind Bradley Coopers Prosthetic Nose</title>
-      <pubDate/>
-      <author>Smol bean</author>
-      <enclosure/>
-      <permalink/>
-    </item>
-    <item>
-      <title>How Jensen Huangs Nvidia Is Powering the A.I. Revolution</title>
-      <pubDate/>
-      <author>Smol bean</author>
-      <enclosure/>
-      <permalink/>
-    </item>
-    <item>
-      <title>What Happens to a School Shooters Sister?</title>
-      <pubDate/>
-      <author>Smol bean</author>
-      <enclosure/>
-      <permalink/>
-    </item>
-    <item>
-      <title>The Violence of the Rams</title>
-      <pubDate/>
-      <author>Smol bean</author>
-      <enclosure/>
-      <permalink/>
-    </item>
-    <item>
-      <title>Piecing Together My Fathers Murder</title>
-      <pubDate/>
-      <author>Smol bean</author>
-      <enclosure/>
-      <permalink/>
-    </item>
-    <item>
-      <title>The Violence of the Rams</title>
-      <description>I know you cant hold animals to human standards. That said, rams are assholes.</description>
-      <pubDate/>
-      <author>By David Sedaris</author>
-      <enclosure>
-        <url>https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3</url>
-        <type>audio/mpeg</type>
-      </enclosure>
-      <permalink/>
-    </item>
-    <item>
-      <title>Piecing Together My Fathers Murder</title>
-      <description>I was too young to remember what happened to my dad, and no one explained it to me. So I tried to assemble the story myself.</description>
-      <pubDate/>
-      <author>By Eren Orbey</author>
-      <enclosure>
-        <url>https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3</url>
-        <type>audio/mpeg</type>
-      </enclosure>
-      <permalink/>
-    </item>
+
     <item>
       <title>The Violence of the Rams</title>
       <itunes:summary>I know you cant hold animals to human standards. That said, rams are assholes.</itunes:summary>
       <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3" type="audio/mpeg"/>
+      <itunes:subtitle>Dept. of Science</itunes:subtitle>
+      <itunes:image href="" />
+      <guid></guid>
+      <itunes:duration>39:19</itunes:duration>
       <itunes:author>By David Sedaris</itunes:author>
       <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
     </item>
     <item>
       <title>Piecing Together My Fathers Murder</title>
       <itunes:summary>I was too young to remember what happened to my dad, and no one explained it to me. So I tried to assemble the story myself.</itunes:summary>
+      <itunes:subtitle>Dept. of Science</itunes:subtitle>
       <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3" type="audio/mpeg"/>
       <itunes:author>By Eren Orbey</itunes:author>
+      <itunes:image href="" />
+      <guid></guid>
+
+      <itunes:duration>39:19</itunes:duration>
       <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
     </item>
   </channel>
