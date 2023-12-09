@@ -8,9 +8,7 @@
     <link>https://www.apple.com/itunes/podcasts/</link>
     <language>en-us</language>
     <copyright>© 2023 John Appleseed</copyright>
-    <image>
-      <url>http://4.bp.blogspot.com/-7GQg04_a12w/UN6LQyu6lKI/AAAAAAAABXI/gCfp1_79Ujs/s1600/hipstertillyNYC.jpg</url>
-    </image>
+    <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio.png" />
     <reader>
       <app>reallysimple v0.4.26 (darwin)</app>
       <ctSecsToRead>0.196</ctSecsToRead>
@@ -24,7 +22,7 @@
     </itunes:owner>
     <itunes:image>http://4.bp.blogspot.com/-7GQg04_a12w/UN6LQyu6lKI/AAAAAAAABXI/gCfp1_79Ujs/s1600/hipstertillyNYC.jpg</itunes:image>
     <itunes:category>Software How-To</itunes:category>
-
+    <itunes:explicit>false</itunes:explicit>
     <item>
       <title>The Violence of the Rams</title>
       <itunes:summary>I know you cant hold animals to human standards. That said, rams are assholes.</itunes:summary>
