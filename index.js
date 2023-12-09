@@ -72,20 +72,17 @@ var url = dateArg
     : 'https://www.newyorker.com/magazine/';
 // Create an Observable from the axios promise
 var http$ = (0, rxjs_1.from)(axios_1.default.get(url));
-function getNextMonday(parsed) {
-    if (parsed === void 0) { parsed = true; }
+function getNextMonday() {
     var now = new Date();
     var nextMonday = new Date(now);
     nextMonday.setDate(now.getDate() + ((1 + 7 - now.getDay()) % 7));
-    if (parsed) {
-        var year = nextMonday.getFullYear().toString().slice(-2); // get last two digits of year
-        var month = (nextMonday.getMonth() + 1).toString().padStart(2, '0'); // get month and pad with 0 if needed
-        var date = nextMonday.getDate().toString().padStart(2, '0'); // get date and pad with 0 if needed
-        return year + month + date;
-    }
-    else {
-        return nextMonday;
-    }
+    return nextMonday;
+}
+function formatDate(date) {
+    var year = date.getFullYear().toString().slice(-2); // get last two digits of year
+    var month = (date.getMonth() + 1).toString().padStart(2, '0'); // get month and pad with 0 if needed
+    var day = date.getDate().toString().padStart(2, '0'); // get date and pad with 0 if needed
+    return year + month + day;
 }
 http$
     .pipe(
@@ -97,15 +94,19 @@ http$
 // Extract the data you're interested in
 (0, operators_1.map)(function ($) {
     var articles = [];
+    var articleId = $('meta[name="id"]').attr('content');
+    // const articleId = $('meta[name="parsely-post-id"]').attr('content');
+    // console.warn('id', articleId);
     // For each article
     $('ul[class^="River__list"] > li').each(function (index, element) {
         // Scrape the title, description, and byline
         var title = $(element).find('h4').text();
+        var articleUrl = $(element).find('a:has(h4)').attr('href');
         var description = $(element).find('h5').text();
         var byline = $(element).find('p[class^="Byline__by"]').text();
         var date = '';
         if (!dateArg) {
-            date = getNextMonday();
+            date = formatDate(getNextMonday());
         }
         else {
             // Extract the date from the dateArg and rearrange parts
@@ -114,13 +115,10 @@ http$
         }
         // Extract the last name from the byline
         var lastName = byline.split(' ').pop().toLowerCase();
-        console.log('date', date);
         // Construct the audioUrl
         var audioUrl = "https://downloads.newyorker.com/mp3/".concat(date, "fa_fact_").concat(lastName, "_apple.mp3");
         // Format the date
-        var pubDate = dateArg
-            ? new Date(dateArg)
-            : getNextMonday(false);
+        var pubDate = dateArg ? new Date(dateArg) : getNextMonday();
         var options = {
             weekday: 'short',
             year: 'numeric',
@@ -134,15 +132,34 @@ http$
         var formattedDate = pubDate.toLocaleDateString('en-US', options);
         // Add the article to the list
         articles.push({
+            articleId: '0',
             title: title,
             description: description,
             byline: byline,
+            articleUrl: 'https://www.newyorker.com' + articleUrl,
             audioUrl: audioUrl,
+            audmUrl: '',
             pubDate: formattedDate,
+            audioWorking: 'none',
         });
     });
     return articles;
 }), (0, operators_1.switchMap)(function (articles) {
+    // Create an array of Observables, one for each article
+    var requests = articles.map(function (article) {
+        return (0, rxjs_1.from)(axios_1.default.get(article.articleUrl)).pipe((0, operators_1.map)(function (response) { return cheerio.load(response.data); }), (0, operators_1.map)(function ($) {
+            var articleId = $('meta[name="id"]').attr('content');
+            // Add the articleId to the article object
+            article.articleId = articleId;
+            var audmUrl = "https://static.nytimes.com/narrated-articles/audm-embed/newyorker/".concat(articleId, ".m4a");
+            article.audmUrl = audmUrl;
+            return article;
+        }));
+    });
+    // Return a new Observable that emits the articles once all requests have completed
+    return (0, rxjs_1.forkJoin)(requests);
+}), (0, operators_1.switchMap)(function (articles) {
+    console.warn('articles', articles);
     // Create an array of Observables, one for each article
     var requests = articles.map(function (article) {
         return new Promise(function (resolve) {
@@ -152,16 +169,32 @@ http$
                 .then(function (response) {
                 // If the response contains the error message, the link is not working
                 if (response.data.includes('This XML file does not appear to have any style information associated with it.')) {
-                    article.audioWorking = false;
+                    // If audioUrl is not working, check audmUrl
+                    axios_1.default
+                        .get(article.audmUrl)
+                        .then(function (response) {
+                        if (response.data.includes('This XML file does not appear to have any style information associated with it.')) {
+                            article.audioWorking = 'none';
+                        }
+                        else {
+                            article.audioWorking = 'audmUrl';
+                        }
+                        resolve(article);
+                    })
+                        .catch(function (error) {
+                        // If there's an error, the link is not working
+                        article.audioWorking = 'none';
+                        resolve(article);
+                    });
                 }
                 else {
-                    article.audioWorking = true;
+                    article.audioWorking = 'audioUrl';
+                    resolve(article);
                 }
-                resolve(article);
             })
                 .catch(function (error) {
                 // If there's an error, the link is not working
-                article.audioWorking = false;
+                article.audioWorking = 'none';
                 resolve(article);
             });
         });
@@ -170,7 +203,7 @@ http$
     return (0, rxjs_1.forkJoin)(requests);
 }), 
 // Flatten the Observable
-(0, operators_1.switchMap)(function (articles) { return articles; }), (0, operators_1.filter)(function (article) { var _a; return (_a = article.audioWorking) !== null && _a !== void 0 ? _a : false; }), (0, operators_1.toArray)())
+(0, operators_1.switchMap)(function (articles) { return articles; }), (0, operators_1.filter)(function (article) { return article.audioWorking !== 'none'; }), (0, operators_1.toArray)())
     .subscribe(function (articles) { return __awaiter(void 0, void 0, void 0, function () {
     var currentFeed;
     return __generator(this, function (_a) {
@@ -209,6 +242,7 @@ function updateFeed(feed, articles) {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
+                    console.log('articles', articles);
                     oldItems = feed === null || feed === void 0 ? void 0 : feed.items.map(function (article) {
                         return {
                             title: article.title,
@@ -228,15 +262,22 @@ function updateFeed(feed, articles) {
                         };
                     });
                     return [4 /*yield*/, Promise.all(articles.map(function (article) { return __awaiter(_this, void 0, void 0, function () {
-                            var duration, metadata, err_1;
+                            var duration, workingAudioUrl, audioType, metadata, err_1;
                             return __generator(this, function (_a) {
                                 switch (_a.label) {
                                     case 0:
                                         duration = 0;
+                                        audioType = article.audioWorking === 'audioUrl' ? 'audio/mpeg' : 'audio/mp4';
+                                        if (article.audioWorking) {
+                                            workingAudioUrl = article[article.audioWorking];
+                                        }
+                                        else {
+                                            throw new Error('No audio URL');
+                                        }
                                         _a.label = 1;
                                     case 1:
                                         _a.trys.push([1, 3, , 4]);
-                                        return [4 /*yield*/, mm.fetchFromUrl(article.audioUrl)];
+                                        return [4 /*yield*/, mm.fetchFromUrl(workingAudioUrl)];
                                     case 2:
                                         metadata = _a.sent();
                                         duration = metadata.format.duration || 123454;
@@ -251,8 +292,8 @@ function updateFeed(feed, articles) {
                                             'itunes:summary': he.encode(article.description),
                                             enclosure: {
                                                 $: {
-                                                    url: article.audioUrl,
-                                                    type: 'audio/mpeg',
+                                                    url: workingAudioUrl,
+                                                    type: audioType,
                                                     length: duration,
                                                 },
                                             },
