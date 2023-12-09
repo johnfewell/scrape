@@ -141,7 +141,7 @@ http$
       return forkJoin(requests);
     }),
     switchMap((articles: Article[]) => {
-      console.warn('articles', articles);
+      // console.warn('articles', articles);
       // Create an array of Observables, one for each article
       const requests: Promise<Article>[] = articles.map((article) => {
         return new Promise((resolve) => {
@@ -149,41 +149,25 @@ http$
           axios
             .get(article.audioUrl)
             .then((response) => {
-              // If the response contains the error message, the link is not working
-              if (
-                response.data.includes(
-                  'This XML file does not appear to have any style information associated with it.'
-                )
-              ) {
-                // If audioUrl is not working, check audmUrl
-                axios
-                  .get(article.audmUrl)
-                  .then((response) => {
-                    if (
-                      response.data.includes(
-                        'This XML file does not appear to have any style information associated with it.'
-                      )
-                    ) {
-                      article.audioWorking = 'none';
-                    } else {
-                      article.audioWorking = 'audmUrl';
-                    }
-                    resolve(article);
-                  })
-                  .catch((error) => {
-                    // If there's an error, the link is not working
-                    article.audioWorking = 'none';
-                    resolve(article);
-                  });
-              } else {
-                article.audioWorking = 'audioUrl';
-                resolve(article);
-              }
+              // If the request is successful, the audioUrl is working
+              article.audioWorking = 'audioUrl';
+              resolve(article);
             })
             .catch((error) => {
-              // If there's an error, the link is not working
-              article.audioWorking = 'none';
-              resolve(article);
+              // If there's an error, the audioUrl is not working
+              // Now check audmUrl
+              axios
+                .get(article.audmUrl)
+                .then((response) => {
+                  // If the request is successful, the audmUrl is working
+                  article.audioWorking = 'audmUrl';
+                  resolve(article);
+                })
+                .catch((error) => {
+                  // If there's an error, neither audioUrl nor audmUrl is working
+                  article.audioWorking = 'none';
+                  resolve(article);
+                });
             });
         });
       });
@@ -222,6 +206,7 @@ async function readFeed() {
 async function updateFeed(feed, articles: Article[]) {
   console.log('articles', articles);
   const oldItems = feed?.items.map((article: OldArticle) => {
+    console.log('OLD article', article);
     return {
       title: article.title,
       'itunes:summary': article.description,
@@ -233,7 +218,7 @@ async function updateFeed(feed, articles: Article[]) {
         },
       },
       'itunes:author': article.author,
-      'itunes:duration': article.length,
+      'itunes:duration': article.enclosure.length,
       'itunes:subtitle': 'foo',
       guid: article.guid,
       pubDate: article.pubDate,
@@ -255,7 +240,6 @@ async function updateFeed(feed, articles: Article[]) {
       try {
         const metadata = await mm.fetchFromUrl(workingAudioUrl);
         duration = metadata.format.duration || 123454;
-        console.warn({ duration });
       } catch (err) {
         console.error(err);
       }

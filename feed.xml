@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.077</ctSecsToRead>
+            <ctSecsToRead>0.14</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -25,75 +25,6 @@
         </itunes:owner>
         <itunes:category text="Kids &amp;amp; Family"/>
         <itunes:explicit>false</itunes:explicit>
-        <item>
-            <title>The Violence of the Rams</title>
-            <itunes:summary>I know you cant hold animals to human standards. That said, rams are assholes.</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3" type="audio/mpeg" length="123454"/>
-            <itunes:author>By David Sedaris</itunes:author>
-            <itunes:duration/>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>9082734982734982375</guid>
-            <pubDate/>
-        </item>
-        <item>
-            <title>Piecing Together My Fathers Murder</title>
-            <itunes:summary>I was too young to remember what happened to my dad, and no one explained it to me. So I tried to assemble the story myself.</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3" type="audio/mpeg" length="123454"/>
-            <itunes:author>By Eren Orbey</itunes:author>
-            <itunes:duration/>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>9082734982734982374</guid>
-            <pubDate/>
-        </item>
-        <item>
-            <title>The Makeup Artist Behind Bradley Cooper&amp;#x2019;s Prosthetic Nose</title>
-            <itunes:summary>In the age of C.G.I., the work of effects artists like Kazu Hiro remains meticulously tactile. &amp;#x201C;I was sort of his canvas&amp;#x201D; for &amp;#x201C;Maestro,&amp;#x201D; Cooper said.</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_hsu_apple.mp3" type="audio/mpeg" length="2342.28"/>
-            <itunes:author>By Hua Hsu</itunes:author>
-            <itunes:duration/>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>1702146502160</guid>
-            <pubDate/>
-        </item>
-        <item>
-            <title>How Jensen Huang&amp;#x2019;s Nvidia Is Powering the A.I. Revolution</title>
-            <itunes:summary>The company&amp;#x2019;s C.E.O. bet it all on a new kind of chip. Now that Nvidia is one of the biggest companies in the world, what will he do next?</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_witt_apple.mp3" type="audio/mpeg" length="2605.632"/>
-            <itunes:author>By Stephen Witt</itunes:author>
-            <itunes:duration/>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>1702146502334</guid>
-            <pubDate/>
-        </item>
-        <item>
-            <title>What Happens to a School Shooter&amp;#x2019;s Sister?</title>
-            <itunes:summary>Twenty-five years ago, Kristin Kinkel&amp;#x2019;s brother, Kip, killed their parents and opened fire at their high school. Today, she is close with Kip&amp;#x2014;and still reckoning with his crimes.</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_gonnerman_apple.mp3" type="audio/mpeg" length="112.56"/>
-            <itunes:author>By Jennifer Gonnerman</itunes:author>
-            <itunes:duration/>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>1702146496709</guid>
-            <pubDate/>
-        </item>
-        <item>
-            <title>How to Build a Better Motivational Speaker</title>
-            <itunes:summary>The upstart motivator Jesse Itzler wants to reform his profession&amp;#x2014;while also rising to the top.</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231211fa_fact_friend_apple.mp3" type="audio/mpeg" length="3368.328"/>
-            <itunes:author>By Tad Friend</itunes:author>
-            <itunes:duration/>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>1702155200935</guid>
-            <pubDate/>
-        </item>
-        <item>
-            <title>The Great Cash-for-Carbon Hustle</title>
-            <itunes:summary>Offsetting has been hailed as a fix for runaway emissions and climate change&amp;#x2014;but the market&amp;#x2019;s largest firm sold millions of credits for carbon reductions that weren&amp;#x2019;t real.</itunes:summary>
-            <enclosure url="https://downloads.newyorker.com/mp3/231023fa_fact_blake_apple.mp3" type="audio/mpeg" length="4309.704"/>
-            <itunes:author>By Heidi Blake</itunes:author>
-            <itunes:duration/>
-            <itunes:subtitle>foo</itunes:subtitle>
-            <guid>1702155601343</guid>
-            <pubDate/>
-        </item>
+
     </channel>
 </rss>

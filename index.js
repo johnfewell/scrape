@@ -159,7 +159,7 @@ http$
     // Return a new Observable that emits the articles once all requests have completed
     return (0, rxjs_1.forkJoin)(requests);
 }), (0, operators_1.switchMap)(function (articles) {
-    console.warn('articles', articles);
+    // console.warn('articles', articles);
     // Create an array of Observables, one for each article
     var requests = articles.map(function (article) {
         return new Promise(function (resolve) {
@@ -167,35 +167,25 @@ http$
             axios_1.default
                 .get(article.audioUrl)
                 .then(function (response) {
-                // If the response contains the error message, the link is not working
-                if (response.data.includes('This XML file does not appear to have any style information associated with it.')) {
-                    // If audioUrl is not working, check audmUrl
-                    axios_1.default
-                        .get(article.audmUrl)
-                        .then(function (response) {
-                        if (response.data.includes('This XML file does not appear to have any style information associated with it.')) {
-                            article.audioWorking = 'none';
-                        }
-                        else {
-                            article.audioWorking = 'audmUrl';
-                        }
-                        resolve(article);
-                    })
-                        .catch(function (error) {
-                        // If there's an error, the link is not working
-                        article.audioWorking = 'none';
-                        resolve(article);
-                    });
-                }
-                else {
-                    article.audioWorking = 'audioUrl';
-                    resolve(article);
-                }
+                // If the request is successful, the audioUrl is working
+                article.audioWorking = 'audioUrl';
+                resolve(article);
             })
                 .catch(function (error) {
-                // If there's an error, the link is not working
-                article.audioWorking = 'none';
-                resolve(article);
+                // If there's an error, the audioUrl is not working
+                // Now check audmUrl
+                axios_1.default
+                    .get(article.audmUrl)
+                    .then(function (response) {
+                    // If the request is successful, the audmUrl is working
+                    article.audioWorking = 'audmUrl';
+                    resolve(article);
+                })
+                    .catch(function (error) {
+                    // If there's an error, neither audioUrl nor audmUrl is working
+                    article.audioWorking = 'none';
+                    resolve(article);
+                });
             });
         });
     });
@@ -244,6 +234,7 @@ function updateFeed(feed, articles) {
                 case 0:
                     console.log('articles', articles);
                     oldItems = feed === null || feed === void 0 ? void 0 : feed.items.map(function (article) {
+                        console.log('OLD article', article);
                         return {
                             title: article.title,
                             'itunes:summary': article.description,
@@ -255,7 +246,7 @@ function updateFeed(feed, articles) {
                                 },
                             },
                             'itunes:author': article.author,
-                            'itunes:duration': article.length,
+                            'itunes:duration': article.enclosure.length,
                             'itunes:subtitle': 'foo',
                             guid: article.guid,
                             pubDate: article.pubDate,
@@ -281,7 +272,6 @@ function updateFeed(feed, articles) {
                                     case 2:
                                         metadata = _a.sent();
                                         duration = metadata.format.duration || 123454;
-                                        console.warn({ duration: duration });
                                         return [3 /*break*/, 4];
                                     case 3:
                                         err_1 = _a.sent();
