@@ -8,7 +8,7 @@
     <link>https://www.apple.com/itunes/podcasts/</link>
     <language>en-us</language>
     <copyright>© 2023 John Appleseed</copyright>
-    <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio.png" />
+    <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.png" />
     <reader>
       <app>reallysimple v0.4.26 (darwin)</app>
       <ctSecsToRead>0.196</ctSecsToRead>
@@ -20,7 +20,6 @@
       <itunes:name>smallest</itunes:name>
       <itunes:email>facts@f4te.com</itunes:email>
     </itunes:owner>
-    <itunes:image>http://4.bp.blogspot.com/-7GQg04_a12w/UN6LQyu6lKI/AAAAAAAABXI/gCfp1_79Ujs/s1600/hipstertillyNYC.jpg</itunes:image>
     <itunes:category>Software How-To</itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <item>
