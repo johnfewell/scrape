@@ -33,7 +33,9 @@ type OldArticle = {
 };
 
 // Define the URL you want to scrape
-const url = `https://www.newyorker.com/magazine/${dateArg}`;
+const url = dateArg
+  ? `https://www.newyorker.com/magazine/${dateArg}`
+  : 'https://www.newyorker.com/magazine/';
 
 // Create an Observable from the axios promise
 const http$ = from(axios.get(url));

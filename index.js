@@ -67,7 +67,9 @@ var reallysimple = require('reallysimple');
 var mm = require("music-metadata-browser");
 var he = require('he');
 // Define the URL you want to scrape
-var url = "https://www.newyorker.com/magazine/".concat(dateArg);
+var url = dateArg
+    ? "https://www.newyorker.com/magazine/".concat(dateArg)
+    : 'https://www.newyorker.com/magazine/';
 // Create an Observable from the axios promise
 var http$ = (0, rxjs_1.from)(axios_1.default.get(url));
 http$
