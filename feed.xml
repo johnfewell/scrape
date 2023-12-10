@@ -11,7 +11,7 @@
   </image>
   <reader>
    <app>reallysimple v0.4.26 (darwin)</app>
-   <ctSecsToRead>0.123</ctSecsToRead>
+   <ctSecsToRead>0.121</ctSecsToRead>
   </reader>
   <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
   <itunes:subtitle>For fun</itunes:subtitle>
@@ -346,12 +346,32 @@
   <item>
    <title>How Emily Wilson Made Homer Modern</title>
    <itunes:summary>Her vitally urgent translations of the Iliad and the Odyssey strip away the &amp;#x201C;tarnish of centuries.&amp;#x201D;</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/64f8954abeacd4c1a93b9246.m4a" type="audio/mp4" length="2559.20675"/>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/64f8954abeacd4c1a93b9246.m4a" type="audio/mpeg" length="2559.20675"/>
    <itunes:author>By Judith Thurman</itunes:author>
    <itunes:duration>2559.20675</itunes:duration>
    <itunes:subtitle>foo</itunes:subtitle>
    <guid>1702169578538</guid>
    <pubDate>Mon, Sep 18, 2023, 12:00:00 AM EDT</pubDate>
+  </item>
+  <item>
+   <title>The Lies in Your Grocery Store</title>
+   <itunes:summary>Most people accept the gimmicks of food labelling. One lawyer can&amp;#x2019;t stomach them.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/230911fa_fact_larson_apple.mp3" type="audio/mpeg" length="2348.256"/>
+   <itunes:author>By Sarah Larson</itunes:author>
+   <itunes:duration>2348.256</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702169656738</guid>
+   <pubDate>Mon, Sep 11, 2023, 12:00:00 AM EDT</pubDate>
+  </item>
+  <item>
+   <title>Can We Talk to Whales?</title>
+   <itunes:summary>Researchers believe that artificial intelligence may allow us to speak to other species.</itunes:summary>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/64ef5a9d99bec463acb0a0d8.m4a" type="audio/mp4" length="3266.576541666667"/>
+   <itunes:author>By Elizabeth Kolbert</itunes:author>
+   <itunes:duration>3266.576541666667</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702169656559</guid>
+   <pubDate>Mon, Sep 11, 2023, 12:00:00 AM EDT</pubDate>
   </item>
  </channel>
 </rss>
