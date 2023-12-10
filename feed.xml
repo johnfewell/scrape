@@ -11,7 +11,7 @@
   </image>
   <reader>
    <app>reallysimple v0.4.26 (darwin)</app>
-   <ctSecsToRead>1.585</ctSecsToRead>
+   <ctSecsToRead>0.188</ctSecsToRead>
   </reader>
   <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
   <itunes:subtitle>For fun</itunes:subtitle>
@@ -212,6 +212,26 @@
    <itunes:subtitle>foo</itunes:subtitle>
    <guid>1702167224619</guid>
    <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
+  </item>
+  <item>
+   <title>Jim Jordan&amp;#x2019;s Conspiratorial Quest for Power</title>
+   <itunes:summary>How the Ohio Republican built an insurgent bid for Speaker on the lies of Donald Trump.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231030fa_fact_blitzer_apple.mp3" type="audio/mpeg" length="3390.624"/>
+   <itunes:author>By Jonathan Blitzer</itunes:author>
+   <itunes:duration>3390.624</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702167511060</guid>
+   <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
+  </item>
+  <item>
+   <title>China&amp;#x2019;s Age of Malaise</title>
+   <itunes:summary>Party officials are vanishing, young workers are &amp;#x201C;lying flat,&amp;#x201D; and entrepreneurs are fleeing the country. What does China&amp;#x2019;s inner turmoil mean for the world?</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231030fa_fact_osnos_apple.mp3" type="audio/mpeg" length="3996.24"/>
+   <itunes:author>By Evan Osnos</itunes:author>
+   <itunes:duration>3996.24</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702167510676</guid>
+   <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
   </item>
  </channel>
 </rss>
