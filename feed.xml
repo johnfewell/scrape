@@ -11,7 +11,7 @@
   </image>
   <reader>
    <app>reallysimple v0.4.26 (darwin)</app>
-   <ctSecsToRead>0.101</ctSecsToRead>
+   <ctSecsToRead>0.127</ctSecsToRead>
   </reader>
   <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
   <itunes:subtitle>For fun</itunes:subtitle>
@@ -126,7 +126,7 @@
   <item>
    <title>Why the Godfather of A.I. Fears What He&amp;#x2019;s Built</title>
    <itunes:summary>Geoffrey Hinton has spent a lifetime teaching computers to learn. Now he worries that artificial brains are better than ours.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/654bb15e97553942031836e3.m4a" type="audio/mp4" length="4366.0704166666665"/>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/654bb15e97553942031836e3.m4a" type="audio/mpeg" length="4366.0704166666665"/>
    <itunes:author>By Joshua Rothman</itunes:author>
    <itunes:duration>4366.0704166666665</itunes:duration>
    <itunes:subtitle>foo</itunes:subtitle>
@@ -142,6 +142,46 @@
    <itunes:subtitle>foo</itunes:subtitle>
    <guid>1702166968074</guid>
    <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
+  </item>
+  <item>
+   <title>Eclipsed in his Era, Bayard Rustin Gets to Shine in Ours</title>
+   <itunes:summary>The civil-rights mastermind was sidelined by his own movement. Now he&amp;#x2019;s back in the spotlight. What can we learn from his strategies of resistance?</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_gopnik_apple.mp3" type="audio/mpeg" length="1872.648"/>
+   <itunes:author>By Adam Gopnik</itunes:author>
+   <itunes:duration>1872.648</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702167078561</guid>
+   <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+  </item>
+  <item>
+   <title>Reinventing the Dinosaur</title>
+   <itunes:summary>&amp;#x201C;Life on Our Planet,&amp;#x201D; a new Netflix nature documentary, renews our fascination with our most feared and loved precursors.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_galchen_apple.mp3" type="audio/mpeg" length="2057.088"/>
+   <itunes:author>By Rivka Galchen</itunes:author>
+   <itunes:duration>2057.088</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702167080645</guid>
+   <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+  </item>
+  <item>
+   <title>Ridley Scott&amp;#x2019;s &amp;#x201C;Napoleon&amp;#x201D; Complex</title>
+   <itunes:summary>Does the director of &amp;#x201C;Alien,&amp;#x201D; &amp;#x201C;Blade Runner,&amp;#x201D; and &amp;#x201C;Gladiator&amp;#x201D; see himself in the hero of his epic new film?</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_schulman_apple.mp3" type="audio/mpeg" length="3060.144"/>
+   <itunes:author>By Michael Schulman</itunes:author>
+   <itunes:duration>3060.144</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702167082575</guid>
+   <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+  </item>
+  <item>
+   <title>The Kingpin Who Kidnapped Migrants for Ransom</title>
+   <itunes:summary>An Eritrean trafficker promised to help Africans desperate to reach Europe&amp;#x2014;then brutalized them inside a Libyan compound while extorting their families back home. With his fortune, he partied in Dubai.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_caesar_apple.mp3" type="audio/mpeg" length="2677.656"/>
+   <itunes:author>By Ed Caesar</itunes:author>
+   <itunes:duration>2677.656</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702167081686</guid>
+   <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
   </item>
  </channel>
 </rss>
