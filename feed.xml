@@ -11,7 +11,7 @@
   </image>
   <reader>
    <app>reallysimple v0.4.26 (darwin)</app>
-   <ctSecsToRead>0.188</ctSecsToRead>
+   <ctSecsToRead>0.123</ctSecsToRead>
   </reader>
   <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
   <itunes:subtitle>For fun</itunes:subtitle>
@@ -326,12 +326,32 @@
   <item>
    <title>Jeremy O. Harris, Before and After &amp;#x201C;Slave Play&amp;#x201D;</title>
    <itunes:summary>Harris has forged an unlikely career with sharp institutional critiques. Now he&amp;#x2019;s almost an institution unto himself.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65007f1014bd81892f499335.m4a" type="audio/mp4" length="3221.8549166666667"/>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65007f1014bd81892f499335.m4a" type="audio/mpeg" length="3221.8549166666667"/>
    <itunes:author>By Vinson Cunningham</itunes:author>
    <itunes:duration>3221.8549166666667</itunes:duration>
    <itunes:subtitle>foo</itunes:subtitle>
    <guid>1702169518092</guid>
    <pubDate>Mon, Sep 25, 2023, 12:00:00 AM EDT</pubDate>
+  </item>
+  <item>
+   <title>Ross Douthat&amp;#x2019;s Theories of Persuasion</title>
+   <itunes:summary>At a time of distrust and polarization, the conservative Times columnist seeks to bridge the worlds of the Christian right and the secular left.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/230918fa_fact_chotiner_apple.mp3" type="audio/mpeg" length="2150.088"/>
+   <itunes:author>By Isaac Chotiner</itunes:author>
+   <itunes:duration>2150.088</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702169578795</guid>
+   <pubDate>Mon, Sep 18, 2023, 12:00:00 AM EDT</pubDate>
+  </item>
+  <item>
+   <title>How Emily Wilson Made Homer Modern</title>
+   <itunes:summary>Her vitally urgent translations of the Iliad and the Odyssey strip away the &amp;#x201C;tarnish of centuries.&amp;#x201D;</itunes:summary>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/64f8954abeacd4c1a93b9246.m4a" type="audio/mp4" length="2559.20675"/>
+   <itunes:author>By Judith Thurman</itunes:author>
+   <itunes:duration>2559.20675</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702169578538</guid>
+   <pubDate>Mon, Sep 18, 2023, 12:00:00 AM EDT</pubDate>
   </item>
  </channel>
 </rss>
