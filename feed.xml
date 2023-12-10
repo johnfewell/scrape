@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.198</ctSecsToRead>
+            <ctSecsToRead>0.117</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -78,12 +78,42 @@
         <item>
             <title>The Dawn of the Celebrity Power Couple</title>
             <itunes:summary>From Richard Burton and Elizabeth Taylor to Taylor Swift and Travis Kelce, the first rule of the A-list relationship is clear: It always involves more than two people.</itunes:summary>
-            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/655b8a673e2ca76e48bc103b.m4a" type="audio/mp4" length="1413.659"/>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/655b8a673e2ca76e48bc103b.m4a" type="audio/mpeg" length="1413.659"/>
             <itunes:author>By Andrew O&amp;#x2019;Hagan</itunes:author>
             <itunes:duration>1413.659</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702166416498</guid>
             <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>The Violence of the Rams</title>
+            <itunes:summary>I know you can&amp;#x2019;t hold animals to human standards. That said, rams are assholes.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3" type="audio/mpeg" length="502.68"/>
+            <itunes:author>By David Sedaris</itunes:author>
+            <itunes:duration>502.68</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166743980</guid>
+            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Piecing Together My Father&amp;#x2019;s Murder</title>
+            <itunes:summary>I was too young to remember what happened to my dad, and no one explained it to me. So I tried to assemble the story myself.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3" type="audio/mpeg" length="2139.744"/>
+            <itunes:author>By Eren Orbey</itunes:author>
+            <itunes:duration>2139.744</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166747598</guid>
+            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Joyce Carol Oates&amp;#x2019;s Relentless, Prolific Search for a Self</title>
+            <itunes:summary>In more than a hundred works of fiction, Oates has investigated the question of personality&amp;#x2014;while doubting that she actually has one.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65539fa625e54787df41ab31.m4a" type="audio/mp4" length="3663.3765625"/>
+            <itunes:author>By Rachel Aviv</itunes:author>
+            <itunes:duration>3663.3765625</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166746540</guid>
+            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
         </item>
     </channel>
 </rss>
