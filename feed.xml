@@ -8,9 +8,12 @@
         <link>https://www.apple.com/itunes/podcasts/</link>
         <language>en-us</language>
         <copyright>© 2023 John Appleseed</copyright>
+        <image>
+            <url>https://johnfewell.github.io/scrape/pirate-radio-hi.jpg</url>
+        </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.101</ctSecsToRead>
+            <ctSecsToRead>0.198</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -25,7 +28,7 @@
         <item>
             <title>The Inside Story of Microsoft&amp;#x2019;s Partnership with OpenAI</title>
             <itunes:summary>The companies had honed a protocol for releasing artificial intelligence ambitiously but safely. Then OpenAI&amp;#x2019;s board exploded all their carefully laid plans.</itunes:summary>
-            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/656775193fd375a2f4a12429.m4a" type="audio/mp4" length="3529.1071666666667"/>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/656775193fd375a2f4a12429.m4a" type="audio/mpeg" length="3529.1071666666667"/>
             <itunes:author>By Charles Duhigg</itunes:author>
             <itunes:duration>3529.1071666666667</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
@@ -41,6 +44,46 @@
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702165968248</guid>
             <pubDate>Mon, Dec 11, 2023, 06:52:32 PM EST</pubDate>
+        </item>
+        <item>
+            <title>The Makeup Artist Behind Bradley Cooper&amp;#x2019;s Prosthetic Nose</title>
+            <itunes:summary>In the age of C.G.I., the work of effects artists like Kazu Hiro remains meticulously tactile. &amp;#x201C;I was sort of his canvas&amp;#x201D; for &amp;#x201C;Maestro,&amp;#x201D; Cooper said.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_hsu_apple.mp3" type="audio/mpeg" length="2342.28"/>
+            <itunes:author>By Hua Hsu</itunes:author>
+            <itunes:duration>2342.28</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166420256</guid>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>How Jensen Huang&amp;#x2019;s Nvidia Is Powering the A.I. Revolution</title>
+            <itunes:summary>The company&amp;#x2019;s C.E.O. bet it all on a new kind of chip. Now that Nvidia is one of the biggest companies in the world, what will he do next?</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_witt_apple.mp3" type="audio/mpeg" length="2605.632"/>
+            <itunes:author>By Stephen Witt</itunes:author>
+            <itunes:duration>2605.632</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166420404</guid>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>What Happens to a School Shooter&amp;#x2019;s Sister?</title>
+            <itunes:summary>Twenty-five years ago, Kristin Kinkel&amp;#x2019;s brother, Kip, killed their parents and opened fire at their high school. Today, she is close with Kip&amp;#x2014;and still reckoning with his crimes.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_gonnerman_apple.mp3" type="audio/mpeg" length="112.56"/>
+            <itunes:author>By Jennifer Gonnerman</itunes:author>
+            <itunes:duration>112.56</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166415051</guid>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>The Dawn of the Celebrity Power Couple</title>
+            <itunes:summary>From Richard Burton and Elizabeth Taylor to Taylor Swift and Travis Kelce, the first rule of the A-list relationship is clear: It always involves more than two people.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/655b8a673e2ca76e48bc103b.m4a" type="audio/mp4" length="1413.659"/>
+            <itunes:author>By Andrew O&amp;#x2019;Hagan</itunes:author>
+            <itunes:duration>1413.659</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166416498</guid>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
         </item>
     </channel>
 </rss>

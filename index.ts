@@ -25,7 +25,7 @@ type OldArticle = {
   title: string;
   description: string;
   author: string;
-  pubDate: string;
+  pubDate: Date;
   guid: string;
   length: string;
   enclosure: {
@@ -33,6 +33,17 @@ type OldArticle = {
     type: string;
     length: string;
   };
+};
+
+const dateOptions: Intl.DateTimeFormatOptions = {
+  weekday: 'short',
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+  hour: '2-digit',
+  minute: '2-digit',
+  second: '2-digit',
+  timeZoneName: 'short',
 };
 
 // Define the URL you want to scrape
@@ -94,18 +105,8 @@ http$
 
         // Format the date
         const pubDate = dateArg ? new Date(dateArg) : getNextMonday();
-        const options: Intl.DateTimeFormatOptions = {
-          weekday: 'short',
-          year: 'numeric',
-          month: 'short',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit',
-          second: '2-digit',
-          timeZoneName: 'short',
-        };
 
-        const formattedDate = pubDate.toLocaleDateString('en-US', options);
+        const formattedDate = pubDate.toLocaleDateString('en-US', dateOptions);
         // Add the article to the list
         articles.push({
           articleId: '0',
@@ -221,7 +222,7 @@ async function updateFeed(feed, articles: Article[]) {
       'itunes:duration': article.enclosure.length,
       'itunes:subtitle': 'foo',
       guid: article.guid,
-      pubDate: article.pubDate,
+      pubDate: article.pubDate.toLocaleDateString('en-US', dateOptions),
     };
   });
   // Create new items

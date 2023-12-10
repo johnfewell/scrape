@@ -66,6 +66,16 @@ var xml2js = require("xml2js");
 var reallysimple = require('reallysimple');
 var mm = require("music-metadata-browser");
 var he = require('he');
+var dateOptions = {
+    weekday: 'short',
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    timeZoneName: 'short',
+};
 // Define the URL you want to scrape
 var url = dateArg
     ? "https://www.newyorker.com/magazine/".concat(dateArg)
@@ -119,17 +129,7 @@ http$
         var audioUrl = "https://downloads.newyorker.com/mp3/".concat(date, "fa_fact_").concat(lastName, "_apple.mp3");
         // Format the date
         var pubDate = dateArg ? new Date(dateArg) : getNextMonday();
-        var options = {
-            weekday: 'short',
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit',
-            second: '2-digit',
-            timeZoneName: 'short',
-        };
-        var formattedDate = pubDate.toLocaleDateString('en-US', options);
+        var formattedDate = pubDate.toLocaleDateString('en-US', dateOptions);
         // Add the article to the list
         articles.push({
             articleId: '0',
@@ -249,7 +249,7 @@ function updateFeed(feed, articles) {
                             'itunes:duration': article.enclosure.length,
                             'itunes:subtitle': 'foo',
                             guid: article.guid,
-                            pubDate: article.pubDate,
+                            pubDate: article.pubDate.toLocaleDateString('en-US', dateOptions),
                         };
                     });
                     return [4 /*yield*/, Promise.all(articles.map(function (article) { return __awaiter(_this, void 0, void 0, function () {
