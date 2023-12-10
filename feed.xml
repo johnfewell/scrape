@@ -11,7 +11,7 @@
   </image>
   <reader>
    <app>reallysimple v0.4.26 (darwin)</app>
-   <ctSecsToRead>0.11</ctSecsToRead>
+   <ctSecsToRead>0.17</ctSecsToRead>
   </reader>
   <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
   <itunes:subtitle>For fun</itunes:subtitle>
@@ -246,12 +246,32 @@
   <item>
    <title>Can Happiness Be Taught?</title>
    <itunes:summary>Bolstered by Oprah, a Harvard Business School professor thinks you should run your inner self like a company.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/652568ddb4c72cac9903c932.m4a" type="audio/mp4" length="1262.8541041666667"/>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/652568ddb4c72cac9903c932.m4a" type="audio/mpeg" length="1262.8541041666667"/>
    <itunes:author>By Anthony Lane</itunes:author>
    <itunes:duration>1262.8541041666667</itunes:duration>
    <itunes:subtitle>foo</itunes:subtitle>
    <guid>1702167940683</guid>
    <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
+  </item>
+  <item>
+   <title>A Trans Teen in an Anti-Trans State</title>
+   <itunes:summary>One family&amp;#x2019;s move to find gender-affirming care.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231016fa_fact_witt_apple.mp3" type="audio/mpeg" length="2438.376"/>
+   <itunes:author>By Emily Witt</itunes:author>
+   <itunes:duration>2438.376</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702168557740</guid>
+   <pubDate>Mon, Oct 16, 2023, 12:00:00 AM EDT</pubDate>
+  </item>
+  <item>
+   <title>Jake Sullivan&amp;#x2019;s Trial by Combat</title>
+   <itunes:summary>Inside the White House&amp;#x2019;s battle to keep Ukraine in the fight.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231016fa_fact_glasser_apple.mp3" type="audio/mpeg" length="3147.264"/>
+   <itunes:author>By Susan B. Glasser</itunes:author>
+   <itunes:duration>3147.264</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702168558484</guid>
+   <pubDate>Mon, Oct 16, 2023, 12:00:00 AM EDT</pubDate>
   </item>
  </channel>
 </rss>
