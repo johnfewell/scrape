@@ -11,7 +11,7 @@
   </image>
   <reader>
    <app>reallysimple v0.4.26 (darwin)</app>
-   <ctSecsToRead>0.1</ctSecsToRead>
+   <ctSecsToRead>0.145</ctSecsToRead>
   </reader>
   <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
   <itunes:subtitle>For fun</itunes:subtitle>
@@ -286,7 +286,7 @@
   <item>
    <title>The Next Targets for the Group That Overturned Roe</title>
    <itunes:summary>Alliance Defending Freedom has won fifteen Supreme Court cases. Now it wants religious exemptions to anti-discrimination laws&amp;#x2014;and is going after trans rights.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/651447970b11c2dec5908d46.m4a" type="audio/mp4" length="3763.451666666667"/>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/651447970b11c2dec5908d46.m4a" type="audio/mpeg" length="3763.451666666667"/>
    <itunes:author>By David D. Kirkpatrick</itunes:author>
    <itunes:duration>3763.451666666667</itunes:duration>
    <itunes:subtitle>foo</itunes:subtitle>
@@ -302,6 +302,16 @@
    <itunes:subtitle>foo</itunes:subtitle>
    <guid>1702168672311</guid>
    <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
+  </item>
+  <item>
+   <title>Inside Sam Bankman-Fried&amp;#x2019;s Family Bubble</title>
+   <itunes:summary>At Stanford Law School, Joseph Bankman and Barbara Fried specialized in ethics and social fairness. Now that their son stands accused of one of the largest financial frauds in U.S. history, they&amp;#x2019;re scrambling for legal escape routes.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231002fa_fact_kolhatkar_apple.mp3" type="audio/mpeg" length="3143.568"/>
+   <itunes:author>By Sheelah Kolhatkar</itunes:author>
+   <itunes:duration>3143.568</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702169329592</guid>
+   <pubDate>Mon, Oct 2, 2023, 12:00:00 AM EDT</pubDate>
   </item>
  </channel>
 </rss>
