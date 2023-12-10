@@ -11,7 +11,7 @@
   </image>
   <reader>
    <app>reallysimple v0.4.26 (darwin)</app>
-   <ctSecsToRead>0.188</ctSecsToRead>
+   <ctSecsToRead>0.11</ctSecsToRead>
   </reader>
   <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
   <itunes:subtitle>For fun</itunes:subtitle>
@@ -232,6 +232,26 @@
    <itunes:subtitle>foo</itunes:subtitle>
    <guid>1702167510676</guid>
    <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
+  </item>
+  <item>
+   <title>The Great Cash-for-Carbon Hustle</title>
+   <itunes:summary>Offsetting has been hailed as a fix for runaway emissions and climate change&amp;#x2014;but the market&amp;#x2019;s largest firm sold millions of credits for carbon reductions that weren&amp;#x2019;t real.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231023fa_fact_blake_apple.mp3" type="audio/mpeg" length="4309.704"/>
+   <itunes:author>By Heidi Blake</itunes:author>
+   <itunes:duration>4309.704</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702167945410</guid>
+   <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
+  </item>
+  <item>
+   <title>Can Happiness Be Taught?</title>
+   <itunes:summary>Bolstered by Oprah, a Harvard Business School professor thinks you should run your inner self like a company.</itunes:summary>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/652568ddb4c72cac9903c932.m4a" type="audio/mp4" length="1262.8541041666667"/>
+   <itunes:author>By Anthony Lane</itunes:author>
+   <itunes:duration>1262.8541041666667</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702167940683</guid>
+   <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
   </item>
  </channel>
 </rss>
