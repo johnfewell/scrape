@@ -11,7 +11,7 @@
   </image>
   <reader>
    <app>reallysimple v0.4.26 (darwin)</app>
-   <ctSecsToRead>0.127</ctSecsToRead>
+   <ctSecsToRead>1.585</ctSecsToRead>
   </reader>
   <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
   <itunes:subtitle>For fun</itunes:subtitle>
@@ -182,6 +182,36 @@
    <itunes:subtitle>foo</itunes:subtitle>
    <guid>1702167081686</guid>
    <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+  </item>
+  <item>
+   <title>Why Maui Burned</title>
+   <itunes:summary>Lahaina&amp;#x2019;s wildfire was the deadliest in the U.S. in more than a century. Now the community is grappling with the botched response as it tries to rebuild.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231106fa_fact_kormann_apple.mp3" type="audio/mpeg" length="2615.184"/>
+   <itunes:author>By Carolyn Kormann</itunes:author>
+   <itunes:duration>2615.184</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702167223233</guid>
+   <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
+  </item>
+  <item>
+   <title>In the Cities of Killing</title>
+   <itunes:summary>The Hamas massacre, the assaults on Gaza, and what comes after.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231106fa_fact_remnick_apple.mp3" type="audio/mpeg" length="4398.648"/>
+   <itunes:author>By David Remnick</itunes:author>
+   <itunes:duration>4398.648</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702167226711</guid>
+   <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
+  </item>
+  <item>
+   <title>Will the U.A.W. Strike Turn the Rust Belt Green?</title>
+   <itunes:summary>A historic walkout against the Big Three automakers could shape the trajectory of one of America&amp;#x2019;s most politically salient regions.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231106fa_fact_kaufman_apple.mp3" type="audio/mpeg" length="2773.488"/>
+   <itunes:author>By Dan Kaufman</itunes:author>
+   <itunes:duration>2773.488</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702167224619</guid>
+   <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
   </item>
  </channel>
 </rss>
