@@ -11,7 +11,7 @@
   </image>
   <reader>
    <app>reallysimple v0.4.26 (darwin)</app>
-   <ctSecsToRead>0.135</ctSecsToRead>
+   <ctSecsToRead>0.388</ctSecsToRead>
   </reader>
   <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
   <itunes:subtitle>For fun</itunes:subtitle>
@@ -376,12 +376,42 @@
   <item>
    <title>The Hunt for the Most Elusive Creature in the Sea</title>
    <itunes:summary>The giant squid has taken on a near-mythical status for generations of sailors, explorers, and writers. How could something so big remain unseen&amp;#x2014;or be less understood than dinosaurs?</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/5911465b76b9ca4b4bbd1afb.m4a" type="audio/mp4" length="4427.040229166667"/>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/5911465b76b9ca4b4bbd1afb.m4a" type="audio/mpeg" length="4427.040229166667"/>
    <itunes:author>By David Grann</itunes:author>
    <itunes:duration>4427.040229166667</itunes:duration>
    <itunes:subtitle>foo</itunes:subtitle>
    <guid>1702169725456</guid>
    <pubDate>Mon, Sep 4, 2023, 12:00:00 AM EDT</pubDate>
+  </item>
+  <item>
+   <title>All the Carcinogens We Cannot See</title>
+   <itunes:summary>We routinely test for chemicals that cause mutations. What about the dark matter of carcinogens&amp;#x2014;substances that don&amp;#x2019;t create cancer cells but rouse them from their slumber?</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231218fa_fact_mukherjee_apple.mp3" type="audio/mpeg" length="2577.072"/>
+   <itunes:author>By Siddhartha Mukherjee</itunes:author>
+   <itunes:duration>2577.072</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702734370703</guid>
+   <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
+  </item>
+  <item>
+   <title>Sentenced to Life for an Accident Miles Away</title>
+   <itunes:summary>A draconian legal doctrine called felony murder has put thousands of Americans&amp;#x2014;disproportionately young and Black&amp;#x2014;in prison.</itunes:summary>
+   <enclosure url="https://downloads.newyorker.com/mp3/231218fa_fact_stillman_apple.mp3" type="audio/mpeg" length="3697.752"/>
+   <itunes:author>By Sarah Stillman</itunes:author>
+   <itunes:duration>3697.752</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702734372892</guid>
+   <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
+  </item>
+  <item>
+   <title>The Global Ambitions of Invader&amp;#x2019;s Street Art</title>
+   <itunes:summary>At any given moment, millions of people are attending his expositions, knowingly or not.</itunes:summary>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6570bc295a1407461ae12e17.m4a" type="audio/mp4" length="3227.445125"/>
+   <itunes:author>By Lauren Collins</itunes:author>
+   <itunes:duration>3227.445125</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1702734368908</guid>
+   <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
   </item>
  </channel>
 </rss>
