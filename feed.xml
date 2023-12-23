@@ -11,7 +11,7 @@
   </image>
   <reader>
    <app>reallysimple v0.4.26 (darwin)</app>
-   <ctSecsToRead>0.388</ctSecsToRead>
+   <ctSecsToRead>0.186</ctSecsToRead>
   </reader>
   <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
   <itunes:subtitle>For fun</itunes:subtitle>
@@ -406,12 +406,22 @@
   <item>
    <title>The Global Ambitions of Invader&amp;#x2019;s Street Art</title>
    <itunes:summary>At any given moment, millions of people are attending his expositions, knowingly or not.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6570bc295a1407461ae12e17.m4a" type="audio/mp4" length="3227.445125"/>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6570bc295a1407461ae12e17.m4a" type="audio/mpeg" length="3227.445125"/>
    <itunes:author>By Lauren Collins</itunes:author>
    <itunes:duration>3227.445125</itunes:duration>
    <itunes:subtitle>foo</itunes:subtitle>
    <guid>1702734368908</guid>
    <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
+  </item>
+  <item>
+   <title>The World&amp;#x2019;s Fastest Road Cars&amp;#x2014;and the People Who Drive Them</title>
+   <itunes:summary>&amp;#x201C;Hypercars&amp;#x201D; can approach or even exceed 300 m.p.h. Often costing millions of dollars, they&amp;#x2019;re ostentatious trophies&amp;#x2014;and sublime engines of innovation.</itunes:summary>
+   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6578867f759cfe80599e351d.m4a" type="audio/mp4" length="3633.570833333333"/>
+   <itunes:author>By Ed Caesar</itunes:author>
+   <itunes:duration>3633.570833333333</itunes:duration>
+   <itunes:subtitle>foo</itunes:subtitle>
+   <guid>1703338897874</guid>
+   <pubDate>Mon, Dec 25, 2023, 08:41:30 AM EST</pubDate>
   </item>
  </channel>
 </rss>
