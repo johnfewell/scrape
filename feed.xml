@@ -1,447 +1,459 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
- <channel>
-  <title>Pirate Radio</title>
-  <description>Love the New Yorker? Try this!</description>
-  <link>https://www.apple.com/itunes/podcasts/</link>
-  <language>en-us</language>
-  <copyright>© 2023 John Appleseed</copyright>
-  <image>
-   <url>https://johnfewell.github.io/scrape/pirate-radio-hi.jpg</url>
-  </image>
-  <reader>
-   <app>reallysimple v0.4.26 (darwin)</app>
-   <ctSecsToRead>0.189</ctSecsToRead>
-  </reader>
-  <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
-  <itunes:subtitle>For fun</itunes:subtitle>
-  <itunes:author>Smol bean</itunes:author>
-  <itunes:summary>This 4 friends</itunes:summary>
-  <itunes:owner>
-   <itunes:name>smallest</itunes:name>
-   <itunes:email>facts@f4te.com</itunes:email>
-  </itunes:owner>
-  <itunes:category text="Kids &amp;amp; Family"/>
-  <itunes:explicit>false</itunes:explicit>
-  <item>
-   <title>The Inside Story of Microsoft&amp;#x2019;s Partnership with OpenAI</title>
-   <itunes:summary>The companies had honed a protocol for releasing artificial intelligence ambitiously but safely. Then OpenAI&amp;#x2019;s board exploded all their carefully laid plans.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/656775193fd375a2f4a12429.m4a" type="audio/mpeg" length="3529.1071666666667"/>
-   <itunes:author>By Charles Duhigg</itunes:author>
-   <itunes:duration>3529.1071666666667</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702165966132</guid>
-   <pubDate>Mon, Dec 11, 2023, 06:52:32 PM EST</pubDate>
-  </item>
-  <item>
-   <title>How to Build a Better Motivational Speaker</title>
-   <itunes:summary>The upstart motivator Jesse Itzler wants to reform his profession&amp;#x2014;while also rising to the top.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231211fa_fact_friend_apple.mp3" type="audio/mpeg" length="3368.328"/>
-   <itunes:author>By Tad Friend</itunes:author>
-   <itunes:duration>3368.328</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702165968248</guid>
-   <pubDate>Mon, Dec 11, 2023, 06:52:32 PM EST</pubDate>
-  </item>
-  <item>
-   <title>The Makeup Artist Behind Bradley Cooper&amp;#x2019;s Prosthetic Nose</title>
-   <itunes:summary>In the age of C.G.I., the work of effects artists like Kazu Hiro remains meticulously tactile. &amp;#x201C;I was sort of his canvas&amp;#x201D; for &amp;#x201C;Maestro,&amp;#x201D; Cooper said.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_hsu_apple.mp3" type="audio/mpeg" length="2342.28"/>
-   <itunes:author>By Hua Hsu</itunes:author>
-   <itunes:duration>2342.28</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702166420256</guid>
-   <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>How Jensen Huang&amp;#x2019;s Nvidia Is Powering the A.I. Revolution</title>
-   <itunes:summary>The company&amp;#x2019;s C.E.O. bet it all on a new kind of chip. Now that Nvidia is one of the biggest companies in the world, what will he do next?</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_witt_apple.mp3" type="audio/mpeg" length="2605.632"/>
-   <itunes:author>By Stephen Witt</itunes:author>
-   <itunes:duration>2605.632</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702166420404</guid>
-   <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>What Happens to a School Shooter&amp;#x2019;s Sister?</title>
-   <itunes:summary>Twenty-five years ago, Kristin Kinkel&amp;#x2019;s brother, Kip, killed their parents and opened fire at their high school. Today, she is close with Kip&amp;#x2014;and still reckoning with his crimes.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_gonnerman_apple.mp3" type="audio/mpeg" length="112.56"/>
-   <itunes:author>By Jennifer Gonnerman</itunes:author>
-   <itunes:duration>112.56</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702166415051</guid>
-   <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>The Dawn of the Celebrity Power Couple</title>
-   <itunes:summary>From Richard Burton and Elizabeth Taylor to Taylor Swift and Travis Kelce, the first rule of the A-list relationship is clear: It always involves more than two people.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/655b8a673e2ca76e48bc103b.m4a" type="audio/mpeg" length="1413.659"/>
-   <itunes:author>By Andrew O&amp;#x2019;Hagan</itunes:author>
-   <itunes:duration>1413.659</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702166416498</guid>
-   <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>The Violence of the Rams</title>
-   <itunes:summary>I know you can&amp;#x2019;t hold animals to human standards. That said, rams are assholes.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3" type="audio/mpeg" length="502.68"/>
-   <itunes:author>By David Sedaris</itunes:author>
-   <itunes:duration>502.68</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702166743980</guid>
-   <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Piecing Together My Father&amp;#x2019;s Murder</title>
-   <itunes:summary>I was too young to remember what happened to my dad, and no one explained it to me. So I tried to assemble the story myself.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3" type="audio/mpeg" length="2139.744"/>
-   <itunes:author>By Eren Orbey</itunes:author>
-   <itunes:duration>2139.744</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702166747598</guid>
-   <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Joyce Carol Oates&amp;#x2019;s Relentless, Prolific Search for a Self</title>
-   <itunes:summary>In more than a hundred works of fiction, Oates has investigated the question of personality&amp;#x2014;while doubting that she actually has one.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65539fa625e54787df41ab31.m4a" type="audio/mpeg" length="3663.3765625"/>
-   <itunes:author>By Rachel Aviv</itunes:author>
-   <itunes:duration>3663.3765625</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702166746540</guid>
-   <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Does A.I. Lead Police to Ignore Contradictory Evidence?</title>
-   <itunes:summary>Too often, a facial-recognition search represents virtually the entirety of a police investigation.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231120fa_fact_press_apple.mp3" type="audio/mpeg" length="2409.984"/>
-   <itunes:author>By Eyal Press</itunes:author>
-   <itunes:duration>2409.984</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702166965743</guid>
-   <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Why the Godfather of A.I. Fears What He&amp;#x2019;s Built</title>
-   <itunes:summary>Geoffrey Hinton has spent a lifetime teaching computers to learn. Now he worries that artificial brains are better than ours.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/654bb15e97553942031836e3.m4a" type="audio/mpeg" length="4366.0704166666665"/>
-   <itunes:author>By Joshua Rothman</itunes:author>
-   <itunes:duration>4366.0704166666665</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702166966668</guid>
-   <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Holly Herndon&amp;#x2019;s Infinite Art</title>
-   <itunes:summary>The artist and musician uses machine learning to make strange, playful work. She also advocates for artists&amp;#x2019; autonomy in a world shaped by A.I.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231120fa_fact_wiener_apple.mp3" type="audio/mpeg" length="2553.696"/>
-   <itunes:author>By Anna Wiener</itunes:author>
-   <itunes:duration>2553.696</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702166968074</guid>
-   <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Eclipsed in his Era, Bayard Rustin Gets to Shine in Ours</title>
-   <itunes:summary>The civil-rights mastermind was sidelined by his own movement. Now he&amp;#x2019;s back in the spotlight. What can we learn from his strategies of resistance?</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_gopnik_apple.mp3" type="audio/mpeg" length="1872.648"/>
-   <itunes:author>By Adam Gopnik</itunes:author>
-   <itunes:duration>1872.648</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702167078561</guid>
-   <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Reinventing the Dinosaur</title>
-   <itunes:summary>&amp;#x201C;Life on Our Planet,&amp;#x201D; a new Netflix nature documentary, renews our fascination with our most feared and loved precursors.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_galchen_apple.mp3" type="audio/mpeg" length="2057.088"/>
-   <itunes:author>By Rivka Galchen</itunes:author>
-   <itunes:duration>2057.088</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702167080645</guid>
-   <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Ridley Scott&amp;#x2019;s &amp;#x201C;Napoleon&amp;#x201D; Complex</title>
-   <itunes:summary>Does the director of &amp;#x201C;Alien,&amp;#x201D; &amp;#x201C;Blade Runner,&amp;#x201D; and &amp;#x201C;Gladiator&amp;#x201D; see himself in the hero of his epic new film?</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_schulman_apple.mp3" type="audio/mpeg" length="3060.144"/>
-   <itunes:author>By Michael Schulman</itunes:author>
-   <itunes:duration>3060.144</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702167082575</guid>
-   <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>The Kingpin Who Kidnapped Migrants for Ransom</title>
-   <itunes:summary>An Eritrean trafficker promised to help Africans desperate to reach Europe&amp;#x2014;then brutalized them inside a Libyan compound while extorting their families back home. With his fortune, he partied in Dubai.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_caesar_apple.mp3" type="audio/mpeg" length="2677.656"/>
-   <itunes:author>By Ed Caesar</itunes:author>
-   <itunes:duration>2677.656</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702167081686</guid>
-   <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Why Maui Burned</title>
-   <itunes:summary>Lahaina&amp;#x2019;s wildfire was the deadliest in the U.S. in more than a century. Now the community is grappling with the botched response as it tries to rebuild.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231106fa_fact_kormann_apple.mp3" type="audio/mpeg" length="2615.184"/>
-   <itunes:author>By Carolyn Kormann</itunes:author>
-   <itunes:duration>2615.184</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702167223233</guid>
-   <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>In the Cities of Killing</title>
-   <itunes:summary>The Hamas massacre, the assaults on Gaza, and what comes after.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231106fa_fact_remnick_apple.mp3" type="audio/mpeg" length="4398.648"/>
-   <itunes:author>By David Remnick</itunes:author>
-   <itunes:duration>4398.648</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702167226711</guid>
-   <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Will the U.A.W. Strike Turn the Rust Belt Green?</title>
-   <itunes:summary>A historic walkout against the Big Three automakers could shape the trajectory of one of America&amp;#x2019;s most politically salient regions.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231106fa_fact_kaufman_apple.mp3" type="audio/mpeg" length="2773.488"/>
-   <itunes:author>By Dan Kaufman</itunes:author>
-   <itunes:duration>2773.488</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702167224619</guid>
-   <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Jim Jordan&amp;#x2019;s Conspiratorial Quest for Power</title>
-   <itunes:summary>How the Ohio Republican built an insurgent bid for Speaker on the lies of Donald Trump.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231030fa_fact_blitzer_apple.mp3" type="audio/mpeg" length="3390.624"/>
-   <itunes:author>By Jonathan Blitzer</itunes:author>
-   <itunes:duration>3390.624</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702167511060</guid>
-   <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>China&amp;#x2019;s Age of Malaise</title>
-   <itunes:summary>Party officials are vanishing, young workers are &amp;#x201C;lying flat,&amp;#x201D; and entrepreneurs are fleeing the country. What does China&amp;#x2019;s inner turmoil mean for the world?</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231030fa_fact_osnos_apple.mp3" type="audio/mpeg" length="3996.24"/>
-   <itunes:author>By Evan Osnos</itunes:author>
-   <itunes:duration>3996.24</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702167510676</guid>
-   <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>The Great Cash-for-Carbon Hustle</title>
-   <itunes:summary>Offsetting has been hailed as a fix for runaway emissions and climate change&amp;#x2014;but the market&amp;#x2019;s largest firm sold millions of credits for carbon reductions that weren&amp;#x2019;t real.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231023fa_fact_blake_apple.mp3" type="audio/mpeg" length="4309.704"/>
-   <itunes:author>By Heidi Blake</itunes:author>
-   <itunes:duration>4309.704</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702167945410</guid>
-   <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>Can Happiness Be Taught?</title>
-   <itunes:summary>Bolstered by Oprah, a Harvard Business School professor thinks you should run your inner self like a company.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/652568ddb4c72cac9903c932.m4a" type="audio/mpeg" length="1262.8541041666667"/>
-   <itunes:author>By Anthony Lane</itunes:author>
-   <itunes:duration>1262.8541041666667</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702167940683</guid>
-   <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>A Trans Teen in an Anti-Trans State</title>
-   <itunes:summary>One family&amp;#x2019;s move to find gender-affirming care.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231016fa_fact_witt_apple.mp3" type="audio/mpeg" length="2438.376"/>
-   <itunes:author>By Emily Witt</itunes:author>
-   <itunes:duration>2438.376</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702168557740</guid>
-   <pubDate>Mon, Oct 16, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>Jake Sullivan&amp;#x2019;s Trial by Combat</title>
-   <itunes:summary>Inside the White House&amp;#x2019;s battle to keep Ukraine in the fight.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231016fa_fact_glasser_apple.mp3" type="audio/mpeg" length="3147.264"/>
-   <itunes:author>By Susan B. Glasser</itunes:author>
-   <itunes:duration>3147.264</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702168558484</guid>
-   <pubDate>Mon, Oct 16, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>Among the Cabin Fanatics of Mississippi&amp;#x2019;s Giant Houseparty</title>
-   <itunes:summary>For more than a hundred years, the Neshoba County Fair has drawn revellers from all over the country. Why do they keep coming back?</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231009fa_fact_williams_apple.mp3" type="audio/mpeg" length="2185.632"/>
-   <itunes:author>By Paige Williams</itunes:author>
-   <itunes:duration>2185.632</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702168805348</guid>
-   <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>The Next Targets for the Group That Overturned Roe</title>
-   <itunes:summary>Alliance Defending Freedom has won fifteen Supreme Court cases. Now it wants religious exemptions to anti-discrimination laws&amp;#x2014;and is going after trans rights.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/651447970b11c2dec5908d46.m4a" type="audio/mpeg" length="3763.451666666667"/>
-   <itunes:author>By David D. Kirkpatrick</itunes:author>
-   <itunes:duration>3763.451666666667</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702168674659</guid>
-   <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>They Studied Dishonesty. Was Their Work a Lie?</title>
-   <itunes:summary>Dan Ariely and Francesca Gino became famous for their research into why we bend the truth. Now they&amp;#x2019;ve both been accused of fabricating data.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231009fa_fact_lewis-kraus_apple.mp3" type="audio/mpeg" length="4528.392"/>
-   <itunes:author>By Gideon Lewis-Kraus</itunes:author>
-   <itunes:duration>4528.392</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702168672311</guid>
-   <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>Inside Sam Bankman-Fried&amp;#x2019;s Family Bubble</title>
-   <itunes:summary>At Stanford Law School, Joseph Bankman and Barbara Fried specialized in ethics and social fairness. Now that their son stands accused of one of the largest financial frauds in U.S. history, they&amp;#x2019;re scrambling for legal escape routes.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231002fa_fact_kolhatkar_apple.mp3" type="audio/mpeg" length="3143.568"/>
-   <itunes:author>By Sheelah Kolhatkar</itunes:author>
-   <itunes:duration>3143.568</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702169329592</guid>
-   <pubDate>Mon, Oct 2, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>A Young Architect&amp;#x2019;s Designs for the Climate Apocalypse</title>
-   <itunes:summary>Pavels Hedstr&amp;#xF6;m believes that most architecture separates us from nature. He wants to make nonhuman life inescapable.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/230925fa_fact_knight_apple.mp3" type="audio/mpeg" length="2299.944"/>
-   <itunes:author>By Sam Knight</itunes:author>
-   <itunes:duration>2299.944</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702169519116</guid>
-   <pubDate>Mon, Sep 25, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>Jeremy O. Harris, Before and After &amp;#x201C;Slave Play&amp;#x201D;</title>
-   <itunes:summary>Harris has forged an unlikely career with sharp institutional critiques. Now he&amp;#x2019;s almost an institution unto himself.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65007f1014bd81892f499335.m4a" type="audio/mpeg" length="3221.8549166666667"/>
-   <itunes:author>By Vinson Cunningham</itunes:author>
-   <itunes:duration>3221.8549166666667</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702169518092</guid>
-   <pubDate>Mon, Sep 25, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>Ross Douthat&amp;#x2019;s Theories of Persuasion</title>
-   <itunes:summary>At a time of distrust and polarization, the conservative Times columnist seeks to bridge the worlds of the Christian right and the secular left.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/230918fa_fact_chotiner_apple.mp3" type="audio/mpeg" length="2150.088"/>
-   <itunes:author>By Isaac Chotiner</itunes:author>
-   <itunes:duration>2150.088</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702169578795</guid>
-   <pubDate>Mon, Sep 18, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>How Emily Wilson Made Homer Modern</title>
-   <itunes:summary>Her vitally urgent translations of the Iliad and the Odyssey strip away the &amp;#x201C;tarnish of centuries.&amp;#x201D;</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/64f8954abeacd4c1a93b9246.m4a" type="audio/mpeg" length="2559.20675"/>
-   <itunes:author>By Judith Thurman</itunes:author>
-   <itunes:duration>2559.20675</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702169578538</guid>
-   <pubDate>Mon, Sep 18, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>The Lies in Your Grocery Store</title>
-   <itunes:summary>Most people accept the gimmicks of food labelling. One lawyer can&amp;#x2019;t stomach them.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/230911fa_fact_larson_apple.mp3" type="audio/mpeg" length="2348.256"/>
-   <itunes:author>By Sarah Larson</itunes:author>
-   <itunes:duration>2348.256</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702169656738</guid>
-   <pubDate>Mon, Sep 11, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>Can We Talk to Whales?</title>
-   <itunes:summary>Researchers believe that artificial intelligence may allow us to speak to other species.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/64ef5a9d99bec463acb0a0d8.m4a" type="audio/mpeg" length="3266.576541666667"/>
-   <itunes:author>By Elizabeth Kolbert</itunes:author>
-   <itunes:duration>3266.576541666667</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702169656559</guid>
-   <pubDate>Mon, Sep 11, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>The Hunt for the Most Elusive Creature in the Sea</title>
-   <itunes:summary>The giant squid has taken on a near-mythical status for generations of sailors, explorers, and writers. How could something so big remain unseen&amp;#x2014;or be less understood than dinosaurs?</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/5911465b76b9ca4b4bbd1afb.m4a" type="audio/mpeg" length="4427.040229166667"/>
-   <itunes:author>By David Grann</itunes:author>
-   <itunes:duration>4427.040229166667</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702169725456</guid>
-   <pubDate>Mon, Sep 4, 2023, 12:00:00 AM EDT</pubDate>
-  </item>
-  <item>
-   <title>All the Carcinogens We Cannot See</title>
-   <itunes:summary>We routinely test for chemicals that cause mutations. What about the dark matter of carcinogens&amp;#x2014;substances that don&amp;#x2019;t create cancer cells but rouse them from their slumber?</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231218fa_fact_mukherjee_apple.mp3" type="audio/mpeg" length="2577.072"/>
-   <itunes:author>By Siddhartha Mukherjee</itunes:author>
-   <itunes:duration>2577.072</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702734370703</guid>
-   <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
-  </item>
-  <item>
-   <title>Sentenced to Life for an Accident Miles Away</title>
-   <itunes:summary>A draconian legal doctrine called felony murder has put thousands of Americans&amp;#x2014;disproportionately young and Black&amp;#x2014;in prison.</itunes:summary>
-   <enclosure url="https://downloads.newyorker.com/mp3/231218fa_fact_stillman_apple.mp3" type="audio/mpeg" length="3697.752"/>
-   <itunes:author>By Sarah Stillman</itunes:author>
-   <itunes:duration>3697.752</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702734372892</guid>
-   <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
-  </item>
-  <item>
-   <title>The Global Ambitions of Invader&amp;#x2019;s Street Art</title>
-   <itunes:summary>At any given moment, millions of people are attending his expositions, knowingly or not.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6570bc295a1407461ae12e17.m4a" type="audio/mpeg" length="3227.445125"/>
-   <itunes:author>By Lauren Collins</itunes:author>
-   <itunes:duration>3227.445125</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1702734368908</guid>
-   <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
-  </item>
-  <item>
-   <title>The World&amp;#x2019;s Fastest Road Cars&amp;#x2014;and the People Who Drive Them</title>
-   <itunes:summary>&amp;#x201C;Hypercars&amp;#x201D; can approach or even exceed 300 m.p.h. Often costing millions of dollars, they&amp;#x2019;re ostentatious trophies&amp;#x2014;and sublime engines of innovation.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6578867f759cfe80599e351d.m4a" type="audio/mpeg" length="3633.570833333333"/>
-   <itunes:author>By Ed Caesar</itunes:author>
-   <itunes:duration>3633.570833333333</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1703338897874</guid>
-   <pubDate>Mon, Dec 25, 2023, 08:41:30 AM EST</pubDate>
-  </item>
-  <item>
-   <title>A Palestinian Poet&amp;#x2019;s Perilous Journey Out of Gaza</title>
-   <itunes:summary>Following Hamas&amp;#x2019;s October 7th attack and Israel&amp;#x2019;s invasion, Mosab Abu Toha fled his home with his wife and three children. Then I.D.F. soldiers took him into custody.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6581dce8d5570b231d38b05a.m4a" type="audio/mp4" length="2696.506354166667"/>
-   <itunes:author>By Mosab Abu Toha</itunes:author>
-   <itunes:duration>2696.506354166667</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1703640961815</guid>
-   <pubDate>Mon, Jan 1, 2024, 08:35:47 PM EST</pubDate>
-  </item>
-  <item>
-   <title>How the &amp;#x201C;No Kill&amp;#x201D; Movement Betrays Its Name</title>
-   <itunes:summary>By keeping cats outdoors, trap-neuter-release policies have troubling consequences for city residents, local wildlife&amp;#x2014;and even the cats themselves.</itunes:summary>
-   <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6581dd445ed8f8486360419a.m4a" type="audio/mp4" length="3575.63125"/>
-   <itunes:author>By Jonathan Franzen</itunes:author>
-   <itunes:duration>3575.63125</itunes:duration>
-   <itunes:subtitle>foo</itunes:subtitle>
-   <guid>1703640962658</guid>
-   <pubDate>Mon, Jan 1, 2024, 08:35:47 PM EST</pubDate>
-  </item>
- </channel>
+<rss version="2.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Pirate Radio</title>
+        <description>Love the New Yorker? Try this!</description>
+        <link>https://www.apple.com/itunes/podcasts/</link>
+        <language>en-us</language>
+        <copyright>© 2023 John Appleseed</copyright>
+        <image>
+            <url>https://johnfewell.github.io/scrape/pirate-radio-hi.jpg</url>
+        </image>
+        <reader>
+            <app>reallysimple v0.4.26 (darwin)</app>
+            <ctSecsToRead>0.191</ctSecsToRead>
+        </reader>
+        <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
+        <itunes:subtitle>For fun</itunes:subtitle>
+        <itunes:author>Smol bean</itunes:author>
+        <itunes:summary>This 4 friends</itunes:summary>
+        <itunes:owner>
+            <itunes:name>smallest</itunes:name>
+            <itunes:email>facts@f4te.com</itunes:email>
+        </itunes:owner>
+        <itunes:category text="Kids &amp;amp; Family"/>
+        <itunes:explicit>false</itunes:explicit>
+        <item>
+            <title>The Inside Story of Microsoft&amp;#x2019;s Partnership with OpenAI</title>
+            <itunes:summary>The companies had honed a protocol for releasing artificial intelligence ambitiously but safely. Then OpenAI&amp;#x2019;s board exploded all their carefully laid plans.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/656775193fd375a2f4a12429.m4a" type="audio/mpeg" length="3529.1071666666667"/>
+            <itunes:author>By Charles Duhigg</itunes:author>
+            <itunes:duration>3529.1071666666667</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702165966132</guid>
+            <pubDate>Mon, Dec 11, 2023, 06:52:32 PM EST</pubDate>
+        </item>
+        <item>
+            <title>How to Build a Better Motivational Speaker</title>
+            <itunes:summary>The upstart motivator Jesse Itzler wants to reform his profession&amp;#x2014;while also rising to the top.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231211fa_fact_friend_apple.mp3" type="audio/mpeg" length="3368.328"/>
+            <itunes:author>By Tad Friend</itunes:author>
+            <itunes:duration>3368.328</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702165968248</guid>
+            <pubDate>Mon, Dec 11, 2023, 06:52:32 PM EST</pubDate>
+        </item>
+        <item>
+            <title>The Makeup Artist Behind Bradley Cooper&amp;#x2019;s Prosthetic Nose</title>
+            <itunes:summary>In the age of C.G.I., the work of effects artists like Kazu Hiro remains meticulously tactile. &amp;#x201C;I was sort of his canvas&amp;#x201D; for &amp;#x201C;Maestro,&amp;#x201D; Cooper said.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_hsu_apple.mp3" type="audio/mpeg" length="2342.28"/>
+            <itunes:author>By Hua Hsu</itunes:author>
+            <itunes:duration>2342.28</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166420256</guid>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>How Jensen Huang&amp;#x2019;s Nvidia Is Powering the A.I. Revolution</title>
+            <itunes:summary>The company&amp;#x2019;s C.E.O. bet it all on a new kind of chip. Now that Nvidia is one of the biggest companies in the world, what will he do next?</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_witt_apple.mp3" type="audio/mpeg" length="2605.632"/>
+            <itunes:author>By Stephen Witt</itunes:author>
+            <itunes:duration>2605.632</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166420404</guid>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>What Happens to a School Shooter&amp;#x2019;s Sister?</title>
+            <itunes:summary>Twenty-five years ago, Kristin Kinkel&amp;#x2019;s brother, Kip, killed their parents and opened fire at their high school. Today, she is close with Kip&amp;#x2014;and still reckoning with his crimes.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231204fa_fact_gonnerman_apple.mp3" type="audio/mpeg" length="112.56"/>
+            <itunes:author>By Jennifer Gonnerman</itunes:author>
+            <itunes:duration>112.56</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166415051</guid>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>The Dawn of the Celebrity Power Couple</title>
+            <itunes:summary>From Richard Burton and Elizabeth Taylor to Taylor Swift and Travis Kelce, the first rule of the A-list relationship is clear: It always involves more than two people.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/655b8a673e2ca76e48bc103b.m4a" type="audio/mpeg" length="1413.659"/>
+            <itunes:author>By Andrew O&amp;#x2019;Hagan</itunes:author>
+            <itunes:duration>1413.659</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166416498</guid>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>The Violence of the Rams</title>
+            <itunes:summary>I know you can&amp;#x2019;t hold animals to human standards. That said, rams are assholes.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_sedaris_apple.mp3" type="audio/mpeg" length="502.68"/>
+            <itunes:author>By David Sedaris</itunes:author>
+            <itunes:duration>502.68</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166743980</guid>
+            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Piecing Together My Father&amp;#x2019;s Murder</title>
+            <itunes:summary>I was too young to remember what happened to my dad, and no one explained it to me. So I tried to assemble the story myself.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231127fa_fact_orbey_apple.mp3" type="audio/mpeg" length="2139.744"/>
+            <itunes:author>By Eren Orbey</itunes:author>
+            <itunes:duration>2139.744</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166747598</guid>
+            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Joyce Carol Oates&amp;#x2019;s Relentless, Prolific Search for a Self</title>
+            <itunes:summary>In more than a hundred works of fiction, Oates has investigated the question of personality&amp;#x2014;while doubting that she actually has one.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65539fa625e54787df41ab31.m4a" type="audio/mpeg" length="3663.3765625"/>
+            <itunes:author>By Rachel Aviv</itunes:author>
+            <itunes:duration>3663.3765625</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166746540</guid>
+            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Does A.I. Lead Police to Ignore Contradictory Evidence?</title>
+            <itunes:summary>Too often, a facial-recognition search represents virtually the entirety of a police investigation.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231120fa_fact_press_apple.mp3" type="audio/mpeg" length="2409.984"/>
+            <itunes:author>By Eyal Press</itunes:author>
+            <itunes:duration>2409.984</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166965743</guid>
+            <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Why the Godfather of A.I. Fears What He&amp;#x2019;s Built</title>
+            <itunes:summary>Geoffrey Hinton has spent a lifetime teaching computers to learn. Now he worries that artificial brains are better than ours.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/654bb15e97553942031836e3.m4a" type="audio/mpeg" length="4366.0704166666665"/>
+            <itunes:author>By Joshua Rothman</itunes:author>
+            <itunes:duration>4366.0704166666665</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166966668</guid>
+            <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Holly Herndon&amp;#x2019;s Infinite Art</title>
+            <itunes:summary>The artist and musician uses machine learning to make strange, playful work. She also advocates for artists&amp;#x2019; autonomy in a world shaped by A.I.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231120fa_fact_wiener_apple.mp3" type="audio/mpeg" length="2553.696"/>
+            <itunes:author>By Anna Wiener</itunes:author>
+            <itunes:duration>2553.696</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702166968074</guid>
+            <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Eclipsed in his Era, Bayard Rustin Gets to Shine in Ours</title>
+            <itunes:summary>The civil-rights mastermind was sidelined by his own movement. Now he&amp;#x2019;s back in the spotlight. What can we learn from his strategies of resistance?</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_gopnik_apple.mp3" type="audio/mpeg" length="1872.648"/>
+            <itunes:author>By Adam Gopnik</itunes:author>
+            <itunes:duration>1872.648</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702167078561</guid>
+            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Reinventing the Dinosaur</title>
+            <itunes:summary>&amp;#x201C;Life on Our Planet,&amp;#x201D; a new Netflix nature documentary, renews our fascination with our most feared and loved precursors.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_galchen_apple.mp3" type="audio/mpeg" length="2057.088"/>
+            <itunes:author>By Rivka Galchen</itunes:author>
+            <itunes:duration>2057.088</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702167080645</guid>
+            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Ridley Scott&amp;#x2019;s &amp;#x201C;Napoleon&amp;#x201D; Complex</title>
+            <itunes:summary>Does the director of &amp;#x201C;Alien,&amp;#x201D; &amp;#x201C;Blade Runner,&amp;#x201D; and &amp;#x201C;Gladiator&amp;#x201D; see himself in the hero of his epic new film?</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_schulman_apple.mp3" type="audio/mpeg" length="3060.144"/>
+            <itunes:author>By Michael Schulman</itunes:author>
+            <itunes:duration>3060.144</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702167082575</guid>
+            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>The Kingpin Who Kidnapped Migrants for Ransom</title>
+            <itunes:summary>An Eritrean trafficker promised to help Africans desperate to reach Europe&amp;#x2014;then brutalized them inside a Libyan compound while extorting their families back home. With his fortune, he partied in Dubai.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231113fa_fact_caesar_apple.mp3" type="audio/mpeg" length="2677.656"/>
+            <itunes:author>By Ed Caesar</itunes:author>
+            <itunes:duration>2677.656</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702167081686</guid>
+            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Why Maui Burned</title>
+            <itunes:summary>Lahaina&amp;#x2019;s wildfire was the deadliest in the U.S. in more than a century. Now the community is grappling with the botched response as it tries to rebuild.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231106fa_fact_kormann_apple.mp3" type="audio/mpeg" length="2615.184"/>
+            <itunes:author>By Carolyn Kormann</itunes:author>
+            <itunes:duration>2615.184</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702167223233</guid>
+            <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>In the Cities of Killing</title>
+            <itunes:summary>The Hamas massacre, the assaults on Gaza, and what comes after.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231106fa_fact_remnick_apple.mp3" type="audio/mpeg" length="4398.648"/>
+            <itunes:author>By David Remnick</itunes:author>
+            <itunes:duration>4398.648</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702167226711</guid>
+            <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Will the U.A.W. Strike Turn the Rust Belt Green?</title>
+            <itunes:summary>A historic walkout against the Big Three automakers could shape the trajectory of one of America&amp;#x2019;s most politically salient regions.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231106fa_fact_kaufman_apple.mp3" type="audio/mpeg" length="2773.488"/>
+            <itunes:author>By Dan Kaufman</itunes:author>
+            <itunes:duration>2773.488</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702167224619</guid>
+            <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Jim Jordan&amp;#x2019;s Conspiratorial Quest for Power</title>
+            <itunes:summary>How the Ohio Republican built an insurgent bid for Speaker on the lies of Donald Trump.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231030fa_fact_blitzer_apple.mp3" type="audio/mpeg" length="3390.624"/>
+            <itunes:author>By Jonathan Blitzer</itunes:author>
+            <itunes:duration>3390.624</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702167511060</guid>
+            <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>China&amp;#x2019;s Age of Malaise</title>
+            <itunes:summary>Party officials are vanishing, young workers are &amp;#x201C;lying flat,&amp;#x201D; and entrepreneurs are fleeing the country. What does China&amp;#x2019;s inner turmoil mean for the world?</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231030fa_fact_osnos_apple.mp3" type="audio/mpeg" length="3996.24"/>
+            <itunes:author>By Evan Osnos</itunes:author>
+            <itunes:duration>3996.24</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702167510676</guid>
+            <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>The Great Cash-for-Carbon Hustle</title>
+            <itunes:summary>Offsetting has been hailed as a fix for runaway emissions and climate change&amp;#x2014;but the market&amp;#x2019;s largest firm sold millions of credits for carbon reductions that weren&amp;#x2019;t real.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231023fa_fact_blake_apple.mp3" type="audio/mpeg" length="4309.704"/>
+            <itunes:author>By Heidi Blake</itunes:author>
+            <itunes:duration>4309.704</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702167945410</guid>
+            <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>Can Happiness Be Taught?</title>
+            <itunes:summary>Bolstered by Oprah, a Harvard Business School professor thinks you should run your inner self like a company.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/652568ddb4c72cac9903c932.m4a" type="audio/mpeg" length="1262.8541041666667"/>
+            <itunes:author>By Anthony Lane</itunes:author>
+            <itunes:duration>1262.8541041666667</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702167940683</guid>
+            <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>A Trans Teen in an Anti-Trans State</title>
+            <itunes:summary>One family&amp;#x2019;s move to find gender-affirming care.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231016fa_fact_witt_apple.mp3" type="audio/mpeg" length="2438.376"/>
+            <itunes:author>By Emily Witt</itunes:author>
+            <itunes:duration>2438.376</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702168557740</guid>
+            <pubDate>Mon, Oct 16, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>Jake Sullivan&amp;#x2019;s Trial by Combat</title>
+            <itunes:summary>Inside the White House&amp;#x2019;s battle to keep Ukraine in the fight.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231016fa_fact_glasser_apple.mp3" type="audio/mpeg" length="3147.264"/>
+            <itunes:author>By Susan B. Glasser</itunes:author>
+            <itunes:duration>3147.264</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702168558484</guid>
+            <pubDate>Mon, Oct 16, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>Among the Cabin Fanatics of Mississippi&amp;#x2019;s Giant Houseparty</title>
+            <itunes:summary>For more than a hundred years, the Neshoba County Fair has drawn revellers from all over the country. Why do they keep coming back?</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231009fa_fact_williams_apple.mp3" type="audio/mpeg" length="2185.632"/>
+            <itunes:author>By Paige Williams</itunes:author>
+            <itunes:duration>2185.632</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702168805348</guid>
+            <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>The Next Targets for the Group That Overturned Roe</title>
+            <itunes:summary>Alliance Defending Freedom has won fifteen Supreme Court cases. Now it wants religious exemptions to anti-discrimination laws&amp;#x2014;and is going after trans rights.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/651447970b11c2dec5908d46.m4a" type="audio/mpeg" length="3763.451666666667"/>
+            <itunes:author>By David D. Kirkpatrick</itunes:author>
+            <itunes:duration>3763.451666666667</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702168674659</guid>
+            <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>They Studied Dishonesty. Was Their Work a Lie?</title>
+            <itunes:summary>Dan Ariely and Francesca Gino became famous for their research into why we bend the truth. Now they&amp;#x2019;ve both been accused of fabricating data.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231009fa_fact_lewis-kraus_apple.mp3" type="audio/mpeg" length="4528.392"/>
+            <itunes:author>By Gideon Lewis-Kraus</itunes:author>
+            <itunes:duration>4528.392</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702168672311</guid>
+            <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>Inside Sam Bankman-Fried&amp;#x2019;s Family Bubble</title>
+            <itunes:summary>At Stanford Law School, Joseph Bankman and Barbara Fried specialized in ethics and social fairness. Now that their son stands accused of one of the largest financial frauds in U.S. history, they&amp;#x2019;re scrambling for legal escape routes.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231002fa_fact_kolhatkar_apple.mp3" type="audio/mpeg" length="3143.568"/>
+            <itunes:author>By Sheelah Kolhatkar</itunes:author>
+            <itunes:duration>3143.568</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702169329592</guid>
+            <pubDate>Mon, Oct 2, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>A Young Architect&amp;#x2019;s Designs for the Climate Apocalypse</title>
+            <itunes:summary>Pavels Hedstr&amp;#xF6;m believes that most architecture separates us from nature. He wants to make nonhuman life inescapable.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/230925fa_fact_knight_apple.mp3" type="audio/mpeg" length="2299.944"/>
+            <itunes:author>By Sam Knight</itunes:author>
+            <itunes:duration>2299.944</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702169519116</guid>
+            <pubDate>Mon, Sep 25, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>Jeremy O. Harris, Before and After &amp;#x201C;Slave Play&amp;#x201D;</title>
+            <itunes:summary>Harris has forged an unlikely career with sharp institutional critiques. Now he&amp;#x2019;s almost an institution unto himself.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65007f1014bd81892f499335.m4a" type="audio/mpeg" length="3221.8549166666667"/>
+            <itunes:author>By Vinson Cunningham</itunes:author>
+            <itunes:duration>3221.8549166666667</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702169518092</guid>
+            <pubDate>Mon, Sep 25, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>Ross Douthat&amp;#x2019;s Theories of Persuasion</title>
+            <itunes:summary>At a time of distrust and polarization, the conservative Times columnist seeks to bridge the worlds of the Christian right and the secular left.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/230918fa_fact_chotiner_apple.mp3" type="audio/mpeg" length="2150.088"/>
+            <itunes:author>By Isaac Chotiner</itunes:author>
+            <itunes:duration>2150.088</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702169578795</guid>
+            <pubDate>Mon, Sep 18, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>How Emily Wilson Made Homer Modern</title>
+            <itunes:summary>Her vitally urgent translations of the Iliad and the Odyssey strip away the &amp;#x201C;tarnish of centuries.&amp;#x201D;</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/64f8954abeacd4c1a93b9246.m4a" type="audio/mpeg" length="2559.20675"/>
+            <itunes:author>By Judith Thurman</itunes:author>
+            <itunes:duration>2559.20675</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702169578538</guid>
+            <pubDate>Mon, Sep 18, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>The Lies in Your Grocery Store</title>
+            <itunes:summary>Most people accept the gimmicks of food labelling. One lawyer can&amp;#x2019;t stomach them.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/230911fa_fact_larson_apple.mp3" type="audio/mpeg" length="2348.256"/>
+            <itunes:author>By Sarah Larson</itunes:author>
+            <itunes:duration>2348.256</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702169656738</guid>
+            <pubDate>Mon, Sep 11, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>Can We Talk to Whales?</title>
+            <itunes:summary>Researchers believe that artificial intelligence may allow us to speak to other species.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/64ef5a9d99bec463acb0a0d8.m4a" type="audio/mpeg" length="3266.576541666667"/>
+            <itunes:author>By Elizabeth Kolbert</itunes:author>
+            <itunes:duration>3266.576541666667</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702169656559</guid>
+            <pubDate>Mon, Sep 11, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>The Hunt for the Most Elusive Creature in the Sea</title>
+            <itunes:summary>The giant squid has taken on a near-mythical status for generations of sailors, explorers, and writers. How could something so big remain unseen&amp;#x2014;or be less understood than dinosaurs?</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/5911465b76b9ca4b4bbd1afb.m4a" type="audio/mpeg" length="4427.040229166667"/>
+            <itunes:author>By David Grann</itunes:author>
+            <itunes:duration>4427.040229166667</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702169725456</guid>
+            <pubDate>Mon, Sep 4, 2023, 12:00:00 AM EDT</pubDate>
+        </item>
+        <item>
+            <title>All the Carcinogens We Cannot See</title>
+            <itunes:summary>We routinely test for chemicals that cause mutations. What about the dark matter of carcinogens&amp;#x2014;substances that don&amp;#x2019;t create cancer cells but rouse them from their slumber?</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231218fa_fact_mukherjee_apple.mp3" type="audio/mpeg" length="2577.072"/>
+            <itunes:author>By Siddhartha Mukherjee</itunes:author>
+            <itunes:duration>2577.072</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702734370703</guid>
+            <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Sentenced to Life for an Accident Miles Away</title>
+            <itunes:summary>A draconian legal doctrine called felony murder has put thousands of Americans&amp;#x2014;disproportionately young and Black&amp;#x2014;in prison.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/231218fa_fact_stillman_apple.mp3" type="audio/mpeg" length="3697.752"/>
+            <itunes:author>By Sarah Stillman</itunes:author>
+            <itunes:duration>3697.752</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702734372892</guid>
+            <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
+        </item>
+        <item>
+            <title>The Global Ambitions of Invader&amp;#x2019;s Street Art</title>
+            <itunes:summary>At any given moment, millions of people are attending his expositions, knowingly or not.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6570bc295a1407461ae12e17.m4a" type="audio/mpeg" length="3227.445125"/>
+            <itunes:author>By Lauren Collins</itunes:author>
+            <itunes:duration>3227.445125</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1702734368908</guid>
+            <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
+        </item>
+        <item>
+            <title>The World&amp;#x2019;s Fastest Road Cars&amp;#x2014;and the People Who Drive Them</title>
+            <itunes:summary>&amp;#x201C;Hypercars&amp;#x201D; can approach or even exceed 300 m.p.h. Often costing millions of dollars, they&amp;#x2019;re ostentatious trophies&amp;#x2014;and sublime engines of innovation.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6578867f759cfe80599e351d.m4a" type="audio/mpeg" length="3633.570833333333"/>
+            <itunes:author>By Ed Caesar</itunes:author>
+            <itunes:duration>3633.570833333333</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1703338897874</guid>
+            <pubDate>Mon, Dec 25, 2023, 08:41:30 AM EST</pubDate>
+        </item>
+        <item>
+            <title>A Palestinian Poet&amp;#x2019;s Perilous Journey Out of Gaza</title>
+            <itunes:summary>Following Hamas&amp;#x2019;s October 7th attack and Israel&amp;#x2019;s invasion, Mosab Abu Toha fled his home with his wife and three children. Then I.D.F. soldiers took him into custody.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6581dce8d5570b231d38b05a.m4a" type="audio/mpeg" length="2696.506354166667"/>
+            <itunes:author>By Mosab Abu Toha</itunes:author>
+            <itunes:duration>2696.506354166667</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1703640961815</guid>
+            <pubDate>Mon, Jan 1, 2024, 08:35:47 PM EST</pubDate>
+        </item>
+        <item>
+            <title>How the &amp;#x201C;No Kill&amp;#x201D; Movement Betrays Its Name</title>
+            <itunes:summary>By keeping cats outdoors, trap-neuter-release policies have troubling consequences for city residents, local wildlife&amp;#x2014;and even the cats themselves.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/6581dd445ed8f8486360419a.m4a" type="audio/mpeg" length="3575.63125"/>
+            <itunes:author>By Jonathan Franzen</itunes:author>
+            <itunes:duration>3575.63125</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1703640962658</guid>
+            <pubDate>Mon, Jan 1, 2024, 08:35:47 PM EST</pubDate>
+        </item>
+        <item>
+            <title>Has Gratuity Culture Reached a Tipping Point?</title>
+            <itunes:summary>Paying extra for service has inspired rebellions, swivelling iPads, and irritation from Trotsky. Post-pandemic, the practice has entered a new stage.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240101fa_fact_helfand_apple.mp3" type="audio/mpeg" length="1885.152"/>
+            <itunes:author>By Zach Helfand</itunes:author>
+            <itunes:duration>1885.152</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1704318881318</guid>
+            <pubDate>Mon, Jan 1, 2024, 12:00:00 AM EST</pubDate>
+        </item>
+    </channel>
 </rss>
