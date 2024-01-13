@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.501</ctSecsToRead>
+            <ctSecsToRead>0.337</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -455,16 +455,36 @@
             <guid>1704318881318</guid>
             <pubDate>Mon, Jan 1, 2024, 12:00:00 AM EST</pubDate>
         </item>
-
         <item>
             <title>How a Script Doctor Found His Own Voice</title>
             <itunes:summary>For decades, Scott Frank earned up to three hundred thousand dollars a week rewriting other people&amp;#x2019;s screenplays&amp;#x2014;from &amp;#x201C;Saving Private Ryan&amp;#x201D; to &amp;#x201C;The Ring.&amp;#x201D; Finally, he decided to stop playing ventriloquist.</itunes:summary>
-            <enclosure url="https://pub-97203071133143c189eaaa64acc9dba2.r2.dev/keefe.mp3" type="audio/mp3" length="3375"/>
+            <enclosure url="https://pub-97203071133143c189eaaa64acc9dba2.r2.dev/keefe.mp3" type="audio/mpeg" length="3375"/>
             <itunes:author>By Patrick Radden Keefe</itunes:author>
-            <itunes:duration>0</itunes:duration>
+            <itunes:duration>3375</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1704919669449</guid>
             <pubDate>Mon, Jan 1, 2024, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Adventures of a Teen-Age Wharf Rat</title>
+            <itunes:summary>After a peripatetic childhood, a young traveller finds his way on an ambitious journey gone badly awry.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240115fa_fact_anderson_apple.mp3" type="audio/mpeg" length="2741.712"/>
+            <itunes:author>By Jon Lee Anderson</itunes:author>
+            <itunes:duration>2741.712</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1705152965123</guid>
+            <pubDate>Mon, Jan 15, 2024, 08:35:48 AM EST</pubDate>
+        </item>
+
+        <item>
+            <title>Did an Abortion Ban Cost a Young Texas Woman Her Life?</title>
+            <itunes:summary>As many conservatives hail the fall of Roe for saving unborn lives, high-risk pregnancy becomes even more perilous.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240115fa_fact_taladrid_apple.mp3" type="audio/mpeg" length="2198.616"/>
+            <itunes:author>By Stephania Taladrid</itunes:author>
+            <itunes:duration>2198.616</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1705152964074</guid>
+            <pubDate>Mon, Jan 15, 2024, 08:35:48 AM EST</pubDate>
         </item>
 
     </channel>
