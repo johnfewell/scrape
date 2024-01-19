@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.337</ctSecsToRead>
+            <ctSecsToRead>0.135</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -475,7 +475,6 @@
             <guid>1705152965123</guid>
             <pubDate>Mon, Jan 15, 2024, 08:35:48 AM EST</pubDate>
         </item>
-
         <item>
             <title>Did an Abortion Ban Cost a Young Texas Woman Her Life?</title>
             <itunes:summary>As many conservatives hail the fall of Roe for saving unborn lives, high-risk pregnancy becomes even more perilous.</itunes:summary>
@@ -486,6 +485,25 @@
             <guid>1705152964074</guid>
             <pubDate>Mon, Jan 15, 2024, 08:35:48 AM EST</pubDate>
         </item>
-
+        <item>
+            <title>A Drug-Decriminalization Fight Erupts in Oregon</title>
+            <itunes:summary>An ambitious law set forth a more humane way to address addiction. Then came the backlash.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240122fa_fact_kim_apple.mp3" type="audio/mpeg" length="2209.344"/>
+            <itunes:author>By E. Tammy Kim</itunes:author>
+            <itunes:duration>2209.344</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1705678318943</guid>
+            <pubDate>Mon, Jan 22, 2024, 10:29:33 AM EST</pubDate>
+        </item>
+        <item>
+            <title>The Price of Netanyahu&amp;#x2019;s Ambition</title>
+            <itunes:summary>Amid war with Hamas, a hostage crisis, the devastation of Gaza, and Israel&amp;#x2019;s splintering identity, the Prime Minister seems unable to distinguish between his own interests and his country&amp;#x2019;s.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240122fa_fact_remnick_apple.mp3" type="audio/mpeg" length="5119.848"/>
+            <itunes:author>By David Remnick</itunes:author>
+            <itunes:duration>5119.848</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1705678190401</guid>
+            <pubDate>Mon, Jan 22, 2024, 10:29:33 AM EST</pubDate>
+        </item>
     </channel>
 </rss>
