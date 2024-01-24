@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.135</ctSecsToRead>
+            <ctSecsToRead>0.189</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -504,6 +504,26 @@
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1705678190401</guid>
             <pubDate>Mon, Jan 22, 2024, 10:29:33 AM EST</pubDate>
+        </item>
+        <item>
+            <title>How to Eat a Tire in a Year</title>
+            <itunes:summary>Walking and talking with my friend Dawn.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65a7f13736a8af66016eb55c.m4a" type="audio/mp4" length="856.3365625"/>
+            <itunes:author>By David Sedaris</itunes:author>
+            <itunes:duration>856.3365625</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1706118026085</guid>
+            <pubDate>Mon, Jan 29, 2024, 12:40:17 PM EST</pubDate>
+        </item>
+        <item>
+            <title>The Woman Who Spent Five Hundred Days in a Cave</title>
+            <itunes:summary>Beatriz Flamini liked to be alone so much that she decided to live underground&amp;#x2014;and pursue a world record. The experience was gruelling and surreal.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240129fa_fact_max_apple.mp3" type="audio/mpeg" length="3121.344"/>
+            <itunes:author>By D. T. Max</itunes:author>
+            <itunes:duration>3121.344</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1706118029100</guid>
+            <pubDate>Mon, Jan 29, 2024, 12:40:17 PM EST</pubDate>
         </item>
     </channel>
 </rss>
