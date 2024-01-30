@@ -535,5 +535,15 @@
             <guid>1706629616787</guid>
             <pubDate>Mon, Jan 29, 2024, 12:00:00 AM EST</pubDate>
         </item>
+        <item>
+            <title>Is A.I. the Death of I.P.?</title>
+            <itunes:summary>Generative A.I. is the latest in a long line of innovations to put pressure on our already dysfunctional copyright system.</itunes:summary>
+            <enclosure url="https://pub-97203071133143c189eaaa64acc9dba2.r2.dev/menand.mp3" type="audio/mpeg" length="1915"/>
+            <itunes:author>By Louis Menand</itunes:author>
+            <itunes:duration>0</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1706631069178</guid>
+            <pubDate>Mon, Jan 22, 2024, 12:00:00 AM EST</pubDate>
+        </item>
     </channel>
 </rss>

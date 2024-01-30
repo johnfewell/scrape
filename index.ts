@@ -46,6 +46,20 @@ const dateOptions: Intl.DateTimeFormatOptions = {
   timeZoneName: 'short',
 };
 
+const noFilterArg = process.argv.includes('no-filter');
+
+if (process.argv.includes('-help')) {
+  console.log(`
+    Usage: node index.js [options]
+
+    Options:
+      no-filter    Disables the filter that removes articles with no audio.
+      -help         Show this help message and exit.
+      -date         The date of the issue to scrape. Format: YYYY/MM/DD
+  `);
+  process.exit(0);
+}
+
 // Define the URL you want to scrape
 const url = dateArg
   ? `https://www.newyorker.com/magazine/${dateArg}`
@@ -178,7 +192,9 @@ http$
     }),
     // Flatten the Observable
     switchMap((articles: Article[]) => articles),
-    filter((article: Article) => article.audioWorking !== 'none'),
+    filter(
+      (article: Article) => noFilterArg || article.audioWorking !== 'none'
+    ),
     toArray()
   )
   .subscribe(

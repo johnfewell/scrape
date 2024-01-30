@@ -76,6 +76,11 @@ var dateOptions = {
     second: '2-digit',
     timeZoneName: 'short',
 };
+var noFilterArg = process.argv.includes('no-filter');
+if (process.argv.includes('-help')) {
+    console.log("\n    Usage: node index.js [options]\n\n    Options:\n      no-filter    Disables the filter that removes articles with no audio.\n      -help         Show this help message and exit.\n      -date         The date of the issue to scrape. Format: YYYY/MM/DD\n  ");
+    process.exit(0);
+}
 // Define the URL you want to scrape
 var url = dateArg
     ? "https://www.newyorker.com/magazine/".concat(dateArg)
@@ -193,7 +198,7 @@ http$
     return (0, rxjs_1.forkJoin)(requests);
 }), 
 // Flatten the Observable
-(0, operators_1.switchMap)(function (articles) { return articles; }), (0, operators_1.filter)(function (article) { return article.audioWorking !== 'none'; }), (0, operators_1.toArray)())
+(0, operators_1.switchMap)(function (articles) { return articles; }), (0, operators_1.filter)(function (article) { return noFilterArg || article.audioWorking !== 'none'; }), (0, operators_1.toArray)())
     .subscribe(function (articles) { return __awaiter(void 0, void 0, void 0, function () {
     var currentFeed;
     return __generator(this, function (_a) {
