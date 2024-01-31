@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.189</ctSecsToRead>
+            <ctSecsToRead>0.251</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -33,7 +33,7 @@
             <itunes:duration>3529.1071666666667</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702165966132</guid>
-            <pubDate>Mon, Dec 11, 2023, 06:52:32 PM EST</pubDate>
+            <pubDate>Mon, Dec 11, 2023, 06:52:32 PM EST</pubDate>
         </item>
         <item>
             <title>How to Build a Better Motivational Speaker</title>
@@ -43,7 +43,7 @@
             <itunes:duration>3368.328</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702165968248</guid>
-            <pubDate>Mon, Dec 11, 2023, 06:52:32 PM EST</pubDate>
+            <pubDate>Mon, Dec 11, 2023, 06:52:32 PM EST</pubDate>
         </item>
         <item>
             <title>The Makeup Artist Behind Bradley Cooper&amp;#x2019;s Prosthetic Nose</title>
@@ -53,7 +53,7 @@
             <itunes:duration>2342.28</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702166420256</guid>
-            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>How Jensen Huang&amp;#x2019;s Nvidia Is Powering the A.I. Revolution</title>
@@ -63,7 +63,7 @@
             <itunes:duration>2605.632</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702166420404</guid>
-            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>What Happens to a School Shooter&amp;#x2019;s Sister?</title>
@@ -73,7 +73,7 @@
             <itunes:duration>112.56</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702166415051</guid>
-            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>The Dawn of the Celebrity Power Couple</title>
@@ -83,7 +83,7 @@
             <itunes:duration>1413.659</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702166416498</guid>
-            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Dec 4, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>The Violence of the Rams</title>
@@ -93,7 +93,7 @@
             <itunes:duration>502.68</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702166743980</guid>
-            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Piecing Together My Father&amp;#x2019;s Murder</title>
@@ -103,7 +103,7 @@
             <itunes:duration>2139.744</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702166747598</guid>
-            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Joyce Carol Oates&amp;#x2019;s Relentless, Prolific Search for a Self</title>
@@ -113,7 +113,7 @@
             <itunes:duration>3663.3765625</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702166746540</guid>
-            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 27, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Does A.I. Lead Police to Ignore Contradictory Evidence?</title>
@@ -123,7 +123,7 @@
             <itunes:duration>2409.984</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702166965743</guid>
-            <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Why the Godfather of A.I. Fears What He&amp;#x2019;s Built</title>
@@ -133,7 +133,7 @@
             <itunes:duration>4366.0704166666665</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702166966668</guid>
-            <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Holly Herndon&amp;#x2019;s Infinite Art</title>
@@ -143,7 +143,7 @@
             <itunes:duration>2553.696</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702166968074</guid>
-            <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 20, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Eclipsed in his Era, Bayard Rustin Gets to Shine in Ours</title>
@@ -153,7 +153,7 @@
             <itunes:duration>1872.648</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702167078561</guid>
-            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Reinventing the Dinosaur</title>
@@ -163,7 +163,7 @@
             <itunes:duration>2057.088</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702167080645</guid>
-            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Ridley Scott&amp;#x2019;s &amp;#x201C;Napoleon&amp;#x201D; Complex</title>
@@ -173,7 +173,7 @@
             <itunes:duration>3060.144</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702167082575</guid>
-            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>The Kingpin Who Kidnapped Migrants for Ransom</title>
@@ -183,7 +183,7 @@
             <itunes:duration>2677.656</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702167081686</guid>
-            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 13, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Why Maui Burned</title>
@@ -193,7 +193,7 @@
             <itunes:duration>2615.184</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702167223233</guid>
-            <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>In the Cities of Killing</title>
@@ -203,7 +203,7 @@
             <itunes:duration>4398.648</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702167226711</guid>
-            <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Will the U.A.W. Strike Turn the Rust Belt Green?</title>
@@ -213,7 +213,7 @@
             <itunes:duration>2773.488</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702167224619</guid>
-            <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Nov 6, 2023, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Jim Jordan&amp;#x2019;s Conspiratorial Quest for Power</title>
@@ -223,7 +223,7 @@
             <itunes:duration>3390.624</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702167511060</guid>
-            <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>China&amp;#x2019;s Age of Malaise</title>
@@ -233,7 +233,7 @@
             <itunes:duration>3996.24</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702167510676</guid>
-            <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Oct 30, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>The Great Cash-for-Carbon Hustle</title>
@@ -243,7 +243,7 @@
             <itunes:duration>4309.704</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702167945410</guid>
-            <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>Can Happiness Be Taught?</title>
@@ -253,7 +253,7 @@
             <itunes:duration>1262.8541041666667</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702167940683</guid>
-            <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Oct 23, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>A Trans Teen in an Anti-Trans State</title>
@@ -263,7 +263,7 @@
             <itunes:duration>2438.376</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702168557740</guid>
-            <pubDate>Mon, Oct 16, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Oct 16, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>Jake Sullivan&amp;#x2019;s Trial by Combat</title>
@@ -273,7 +273,7 @@
             <itunes:duration>3147.264</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702168558484</guid>
-            <pubDate>Mon, Oct 16, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Oct 16, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>Among the Cabin Fanatics of Mississippi&amp;#x2019;s Giant Houseparty</title>
@@ -283,7 +283,7 @@
             <itunes:duration>2185.632</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702168805348</guid>
-            <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>The Next Targets for the Group That Overturned Roe</title>
@@ -293,7 +293,7 @@
             <itunes:duration>3763.451666666667</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702168674659</guid>
-            <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>They Studied Dishonesty. Was Their Work a Lie?</title>
@@ -303,7 +303,7 @@
             <itunes:duration>4528.392</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702168672311</guid>
-            <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Oct 9, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>Inside Sam Bankman-Fried&amp;#x2019;s Family Bubble</title>
@@ -313,7 +313,7 @@
             <itunes:duration>3143.568</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702169329592</guid>
-            <pubDate>Mon, Oct 2, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Oct 2, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>A Young Architect&amp;#x2019;s Designs for the Climate Apocalypse</title>
@@ -323,7 +323,7 @@
             <itunes:duration>2299.944</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702169519116</guid>
-            <pubDate>Mon, Sep 25, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Sep 25, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>Jeremy O. Harris, Before and After &amp;#x201C;Slave Play&amp;#x201D;</title>
@@ -333,7 +333,7 @@
             <itunes:duration>3221.8549166666667</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702169518092</guid>
-            <pubDate>Mon, Sep 25, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Sep 25, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>Ross Douthat&amp;#x2019;s Theories of Persuasion</title>
@@ -343,7 +343,7 @@
             <itunes:duration>2150.088</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702169578795</guid>
-            <pubDate>Mon, Sep 18, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Sep 18, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>How Emily Wilson Made Homer Modern</title>
@@ -353,7 +353,7 @@
             <itunes:duration>2559.20675</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702169578538</guid>
-            <pubDate>Mon, Sep 18, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Sep 18, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>The Lies in Your Grocery Store</title>
@@ -363,7 +363,7 @@
             <itunes:duration>2348.256</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702169656738</guid>
-            <pubDate>Mon, Sep 11, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Sep 11, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>Can We Talk to Whales?</title>
@@ -373,7 +373,7 @@
             <itunes:duration>3266.576541666667</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702169656559</guid>
-            <pubDate>Mon, Sep 11, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Sep 11, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>The Hunt for the Most Elusive Creature in the Sea</title>
@@ -383,7 +383,7 @@
             <itunes:duration>4427.040229166667</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702169725456</guid>
-            <pubDate>Mon, Sep 4, 2023, 12:00:00 AM EDT</pubDate>
+            <pubDate>Mon, Sep 4, 2023, 12:00:00 AM EDT</pubDate>
         </item>
         <item>
             <title>All the Carcinogens We Cannot See</title>
@@ -393,7 +393,7 @@
             <itunes:duration>2577.072</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702734370703</guid>
-            <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
+            <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
         </item>
         <item>
             <title>Sentenced to Life for an Accident Miles Away</title>
@@ -403,7 +403,7 @@
             <itunes:duration>3697.752</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702734372892</guid>
-            <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
+            <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
         </item>
         <item>
             <title>The Global Ambitions of Invader&amp;#x2019;s Street Art</title>
@@ -413,7 +413,7 @@
             <itunes:duration>3227.445125</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1702734368908</guid>
-            <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
+            <pubDate>Mon, Dec 18, 2023, 08:45:48 AM EST</pubDate>
         </item>
         <item>
             <title>The World&amp;#x2019;s Fastest Road Cars&amp;#x2014;and the People Who Drive Them</title>
@@ -423,7 +423,7 @@
             <itunes:duration>3633.570833333333</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1703338897874</guid>
-            <pubDate>Mon, Dec 25, 2023, 08:41:30 AM EST</pubDate>
+            <pubDate>Mon, Dec 25, 2023, 08:41:30 AM EST</pubDate>
         </item>
         <item>
             <title>A Palestinian Poet&amp;#x2019;s Perilous Journey Out of Gaza</title>
@@ -433,7 +433,7 @@
             <itunes:duration>2696.506354166667</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1703640961815</guid>
-            <pubDate>Mon, Jan 1, 2024, 08:35:47 PM EST</pubDate>
+            <pubDate>Mon, Jan 1, 2024, 08:35:47 PM EST</pubDate>
         </item>
         <item>
             <title>How the &amp;#x201C;No Kill&amp;#x201D; Movement Betrays Its Name</title>
@@ -443,7 +443,7 @@
             <itunes:duration>3575.63125</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1703640962658</guid>
-            <pubDate>Mon, Jan 1, 2024, 08:35:47 PM EST</pubDate>
+            <pubDate>Mon, Jan 1, 2024, 08:35:47 PM EST</pubDate>
         </item>
         <item>
             <title>Has Gratuity Culture Reached a Tipping Point?</title>
@@ -453,7 +453,7 @@
             <itunes:duration>1885.152</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1704318881318</guid>
-            <pubDate>Mon, Jan 1, 2024, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Jan 1, 2024, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>How a Script Doctor Found His Own Voice</title>
@@ -463,7 +463,7 @@
             <itunes:duration>3375</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1704919669449</guid>
-            <pubDate>Mon, Jan 1, 2024, 12:00:00 AM EST</pubDate>
+            <pubDate>Mon, Jan 1, 2024, 12:00:00 AM EST</pubDate>
         </item>
         <item>
             <title>Adventures of a Teen-Age Wharf Rat</title>
@@ -473,7 +473,7 @@
             <itunes:duration>2741.712</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1705152965123</guid>
-            <pubDate>Mon, Jan 15, 2024, 08:35:48 AM EST</pubDate>
+            <pubDate>Mon, Jan 15, 2024, 08:35:48 AM EST</pubDate>
         </item>
         <item>
             <title>Did an Abortion Ban Cost a Young Texas Woman Her Life?</title>
@@ -483,7 +483,7 @@
             <itunes:duration>2198.616</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1705152964074</guid>
-            <pubDate>Mon, Jan 15, 2024, 08:35:48 AM EST</pubDate>
+            <pubDate>Mon, Jan 15, 2024, 08:35:48 AM EST</pubDate>
         </item>
         <item>
             <title>A Drug-Decriminalization Fight Erupts in Oregon</title>
@@ -493,7 +493,7 @@
             <itunes:duration>2209.344</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1705678318943</guid>
-            <pubDate>Mon, Jan 22, 2024, 10:29:33 AM EST</pubDate>
+            <pubDate>Mon, Jan 22, 2024, 10:29:33 AM EST</pubDate>
         </item>
         <item>
             <title>The Price of Netanyahu&amp;#x2019;s Ambition</title>
@@ -503,17 +503,17 @@
             <itunes:duration>5119.848</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1705678190401</guid>
-            <pubDate>Mon, Jan 22, 2024, 10:29:33 AM EST</pubDate>
+            <pubDate>Mon, Jan 22, 2024, 10:29:33 AM EST</pubDate>
         </item>
         <item>
             <title>How to Eat a Tire in a Year</title>
             <itunes:summary>Walking and talking with my friend Dawn.</itunes:summary>
-            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65a7f13736a8af66016eb55c.m4a" type="audio/mp4" length="856.3365625"/>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65a7f13736a8af66016eb55c.m4a" type="audio/mpeg" length="856.3365625"/>
             <itunes:author>By David Sedaris</itunes:author>
             <itunes:duration>856.3365625</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1706118026085</guid>
-            <pubDate>Mon, Jan 29, 2024, 12:40:17 PM EST</pubDate>
+            <pubDate>Mon, Jan 29, 2024, 12:40:17 PM EST</pubDate>
         </item>
         <item>
             <title>The Woman Who Spent Five Hundred Days in a Cave</title>
@@ -523,14 +523,14 @@
             <itunes:duration>3121.344</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1706118029100</guid>
-            <pubDate>Mon, Jan 29, 2024, 12:40:17 PM EST</pubDate>
+            <pubDate>Mon, Jan 29, 2024, 12:40:17 PM EST</pubDate>
         </item>
         <item>
             <title>Rules for the Ruling Class</title>
             <itunes:summary>How to thrive in the power &amp;#xE9;lite&amp;#x2014;while declaring it your enemy.</itunes:summary>
             <enclosure url="https://pub-97203071133143c189eaaa64acc9dba2.r2.dev/tucker.mp3" type="audio/mpeg" length="1846"/>
             <itunes:author>By Evan Osnos</itunes:author>
-            <itunes:duration>0</itunes:duration>
+            <itunes:duration>1846</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1706629616787</guid>
             <pubDate>Mon, Jan 29, 2024, 12:00:00 AM EST</pubDate>
@@ -540,10 +540,50 @@
             <itunes:summary>Generative A.I. is the latest in a long line of innovations to put pressure on our already dysfunctional copyright system.</itunes:summary>
             <enclosure url="https://pub-97203071133143c189eaaa64acc9dba2.r2.dev/menand.mp3" type="audio/mpeg" length="1915"/>
             <itunes:author>By Louis Menand</itunes:author>
-            <itunes:duration>0</itunes:duration>
+            <itunes:duration>1915</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1706631069178</guid>
             <pubDate>Mon, Jan 22, 2024, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>The Rural Ski Slope Caught Up in an International Scam</title>
+            <itunes:summary>A federal program promised to bring foreign investment to remote parts of the country. It soon became rife with fraud.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240205fa_fact_kolhatkar_apple.mp3" type="audio/mpeg" length="2694.552"/>
+            <itunes:author>By Sheelah Kolhatkar</itunes:author>
+            <itunes:duration>2694.552</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1706708422454</guid>
+            <pubDate>Mon, Feb 5, 2024, 08:40:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>The Perverse Policies That Fuel Wildfires</title>
+            <itunes:summary>We thought we could master nature, but we were playing with fire.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240205fa_fact_kolbert_apple.mp3" type="audio/mpeg" length="1244.832"/>
+            <itunes:author>By Elizabeth Kolbert</itunes:author>
+            <itunes:duration>1244.832</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1706708419539</guid>
+            <pubDate>Mon, Feb 5, 2024, 08:40:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Inside the Music Industry&amp;#x2019;s High-Stakes A.I. Experiments</title>
+            <itunes:summary>Lucian Grainge, the chairman of UMG, has helped record labels rake in billions of dollars from streaming. Can he do the same with generative artificial intelligence?</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240205fa_fact_seabrook_apple.mp3" type="audio/mpeg" length="3153.96"/>
+            <itunes:author>By John Seabrook</itunes:author>
+            <itunes:duration>3153.96</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1706708421781</guid>
+            <pubDate>Mon, Feb 5, 2024, 08:40:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Ukraine&amp;#x2019;s Democracy in Darkness</title>
+            <itunes:summary>With elections postponed and no end to the war with Russia in sight, Volodymyr Zelensky and his political allies are becoming like the officials they once promised to root out: entrenched.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65b130c71917e9d6444614e9.m4a" type="audio/mp4" length="2838.116145833333"/>
+            <itunes:author>By Masha Gessen</itunes:author>
+            <itunes:duration>2838.116145833333</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1706708420798</guid>
+            <pubDate>Mon, Feb 5, 2024, 08:40:00 AM EST</pubDate>
         </item>
     </channel>
 </rss>
