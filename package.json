@@ -14,6 +14,7 @@
     "cheerio": "^1.0.0-rc.12",
     "fs": "^0.0.1-security",
     "he": "^1.2.0",
+    "minimist": "^1.2.8",
     "music-metadata": "^7.14.0",
     "music-metadata-browser": "^2.5.10",
     "reallysimple": "^0.4.26",

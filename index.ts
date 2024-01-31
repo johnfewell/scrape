@@ -2,7 +2,8 @@ import axios from 'axios';
 const cheerio = require('cheerio');
 import { forkJoin, from } from 'rxjs';
 import { filter, map, switchMap, toArray } from 'rxjs/operators';
-const dateArg = process.argv[2];
+var args = require('minimist')(process.argv.slice(2));
+const dateArg = args.date;
 import * as fs from 'fs';
 import * as xml2js from 'xml2js';
 const reallysimple = require('reallysimple');
@@ -46,16 +47,19 @@ const dateOptions: Intl.DateTimeFormatOptions = {
   timeZoneName: 'short',
 };
 
-const noFilterArg = process.argv.includes('no-filter');
+// Get the no-filter and help arguments
+const noFilterArg = args['no-filter'];
+const helpArg = args.help;
+console.log('args', args);
 
-if (process.argv.includes('-help')) {
+if (helpArg) {
   console.log(`
     Usage: node index.js [options]
 
     Options:
-      no-filter    Disables the filter that removes articles with no audio.
-      -help         Show this help message and exit.
-      -date         The date of the issue to scrape. Format: YYYY/MM/DD
+      --no-filter    Disables the filter that removes articles with no audio.
+      --help         Show this help message and exit.
+      --date=        The date of the issue to scrape. Format: YYYY/MM/DD
   `);
   process.exit(0);
 }
@@ -256,7 +260,7 @@ async function updateFeed(feed, articles: Article[]) {
       }
       try {
         const metadata = await mm.fetchFromUrl(workingAudioUrl);
-        duration = metadata.format.duration || 123454;
+        duration = Math.round(metadata.format.duration || 0);
       } catch (err) {
         console.error(err);
       }

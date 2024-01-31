@@ -60,7 +60,8 @@ var axios_1 = require("axios");
 var cheerio = require('cheerio');
 var rxjs_1 = require("rxjs");
 var operators_1 = require("rxjs/operators");
-var dateArg = process.argv[2];
+var args = require('minimist')(process.argv.slice(2));
+var dateArg = args.date;
 var fs = require("fs");
 var xml2js = require("xml2js");
 var reallysimple = require('reallysimple');
@@ -76,9 +77,12 @@ var dateOptions = {
     second: '2-digit',
     timeZoneName: 'short',
 };
-var noFilterArg = process.argv.includes('no-filter');
-if (process.argv.includes('-help')) {
-    console.log("\n    Usage: node index.js [options]\n\n    Options:\n      no-filter    Disables the filter that removes articles with no audio.\n      -help         Show this help message and exit.\n      -date         The date of the issue to scrape. Format: YYYY/MM/DD\n  ");
+// Get the no-filter and help arguments
+var noFilterArg = args['no-filter'];
+var helpArg = args.help;
+console.log('args', args);
+if (helpArg) {
+    console.log("\n    Usage: node index.js [options]\n\n    Options:\n      --no-filter    Disables the filter that removes articles with no audio.\n      --help         Show this help message and exit.\n      --date=        The date of the issue to scrape. Format: YYYY/MM/DD\n  ");
     process.exit(0);
 }
 // Define the URL you want to scrape
@@ -276,7 +280,7 @@ function updateFeed(feed, articles) {
                                         return [4 /*yield*/, mm.fetchFromUrl(workingAudioUrl)];
                                     case 2:
                                         metadata = _a.sent();
-                                        duration = metadata.format.duration || 123454;
+                                        duration = Math.round(metadata.format.duration || 0);
                                         return [3 /*break*/, 4];
                                     case 3:
                                         err_1 = _a.sent();
