@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.251</ctSecsToRead>
+            <ctSecsToRead>0.254</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -578,12 +578,22 @@
         <item>
             <title>Ukraine&amp;#x2019;s Democracy in Darkness</title>
             <itunes:summary>With elections postponed and no end to the war with Russia in sight, Volodymyr Zelensky and his political allies are becoming like the officials they once promised to root out: entrenched.</itunes:summary>
-            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65b130c71917e9d6444614e9.m4a" type="audio/mp4" length="2838.116145833333"/>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65b130c71917e9d6444614e9.m4a" type="audio/mpeg" length="2838.116145833333"/>
             <itunes:author>By Masha Gessen</itunes:author>
             <itunes:duration>2838.116145833333</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1706708420798</guid>
             <pubDate>Mon, Feb 5, 2024, 08:40:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>A Teen&amp;#x2019;s Fatal Plunge Into the London Underworld</title>
+            <itunes:summary>After Zac Brettler mysteriously plummeted into the Thames, his grieving parents were shocked to learn that he&amp;#x2019;d been posing as an oligarch&amp;#x2019;s son. Would the police help them solve the puzzle of his death?</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65b921e4336462f3538e6151.m4a" type="audio/mp4" length="5401"/>
+            <itunes:author>By Patrick Radden Keefe</itunes:author>
+            <itunes:duration>5401</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1707495427310</guid>
+            <pubDate>Mon, Feb 12, 2024, 11:15:46 AM EST</pubDate>
         </item>
     </channel>
 </rss>
