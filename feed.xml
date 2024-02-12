@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.254</ctSecsToRead>
+            <ctSecsToRead>0.185</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -588,12 +588,22 @@
         <item>
             <title>A Teen&amp;#x2019;s Fatal Plunge Into the London Underworld</title>
             <itunes:summary>After Zac Brettler mysteriously plummeted into the Thames, his grieving parents were shocked to learn that he&amp;#x2019;d been posing as an oligarch&amp;#x2019;s son. Would the police help them solve the puzzle of his death?</itunes:summary>
-            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65b921e4336462f3538e6151.m4a" type="audio/mp4" length="5401"/>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65b921e4336462f3538e6151.m4a" type="audio/mpeg" length="5401"/>
             <itunes:author>By Patrick Radden Keefe</itunes:author>
             <itunes:duration>5401</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1707495427310</guid>
             <pubDate>Mon, Feb 12, 2024, 11:15:46 AM EST</pubDate>
+        </item>
+        <item>
+            <title>How Nikola Joki&amp;#x107; Became the World&amp;#x2019;s Best Basketball Player</title>
+            <itunes:summary>He doesn&amp;#x2019;t run very fast or jump very high, and seems to prefer the company of horses. But he has mastered the game&amp;#x2019;s new geometry like nobody else.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65b921aab1cbbffc27bcf068.m4a" type="audio/mp4" length="2263"/>
+            <itunes:author>By Louisa Thomas</itunes:author>
+            <itunes:duration>2263</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1707745874086</guid>
+            <pubDate>Mon, Feb 12, 2024, 08:51:05 AM EST</pubDate>
         </item>
     </channel>
 </rss>
