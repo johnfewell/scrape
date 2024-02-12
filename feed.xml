@@ -605,5 +605,17 @@
             <guid>1707745874086</guid>
             <pubDate>Mon, Feb 12, 2024, 08:51:05 AM EST</pubDate>
         </item>
+        <item>
+            <title>Raging Bill</title>
+            <itunes:summary>Bill Ackman&amp;#x2019;s fight against Harvard has made him the public face of a billionaire class anxious it no longer rules the world.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/nymag/empire-strikes-back-wiedeman.m4a" type="audio/mp4" length="2263"/>
+            <itunes:author>By Reeves Wiedeman</itunes:author>
+            <itunes:duration>2277</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1707745874087</guid>
+            <pubDate>Mon, Feb 12, 2024, 08:51:05 AM EST</pubDate>
+        </item>
     </channel>
 </rss>
+
+
