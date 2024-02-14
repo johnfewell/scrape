@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.185</ctSecsToRead>
+            <ctSecsToRead>0.128</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -598,7 +598,7 @@
         <item>
             <title>How Nikola Joki&amp;#x107; Became the World&amp;#x2019;s Best Basketball Player</title>
             <itunes:summary>He doesn&amp;#x2019;t run very fast or jump very high, and seems to prefer the company of horses. But he has mastered the game&amp;#x2019;s new geometry like nobody else.</itunes:summary>
-            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65b921aab1cbbffc27bcf068.m4a" type="audio/mp4" length="2263"/>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65b921aab1cbbffc27bcf068.m4a" type="audio/mpeg" length="2263"/>
             <itunes:author>By Louisa Thomas</itunes:author>
             <itunes:duration>2263</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
@@ -608,14 +608,22 @@
         <item>
             <title>Raging Bill</title>
             <itunes:summary>Bill Ackman&amp;#x2019;s fight against Harvard has made him the public face of a billionaire class anxious it no longer rules the world.</itunes:summary>
-            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/nymag/empire-strikes-back-wiedeman.m4a" type="audio/mp4" length="2263"/>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/nymag/empire-strikes-back-wiedeman.m4a" type="audio/mpeg" length="2263"/>
             <itunes:author>By Reeves Wiedeman</itunes:author>
-            <itunes:duration>2277</itunes:duration>
+            <itunes:duration>2263</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1707745874087</guid>
             <pubDate>Mon, Feb 12, 2024, 08:51:05 AM EST</pubDate>
         </item>
+        <item>
+            <title>The Friendship Challenge</title>
+            <itunes:summary>How envy destroyed the perfect connection between two teen-age girls.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240212fa_fact_gaitskill_apple.mp3" type="audio/mpeg" length="2794"/>
+            <itunes:author>By Mary Gaitskill</itunes:author>
+            <itunes:duration>2794</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1707928622767</guid>
+            <pubDate>Mon, Feb 12, 2024, 12:00:00 AM EST</pubDate>
+        </item>
     </channel>
 </rss>
-
-
