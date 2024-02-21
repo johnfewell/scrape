@@ -625,5 +625,15 @@
             <guid>1707928622767</guid>
             <pubDate>Mon, Feb 12, 2024, 12:00:00 AM EST</pubDate>
         </item>
+        <item>
+            <title>An American Education</title>
+            <itunes:summary>Inside the Forbidden Courses at the billionaire-backed University of Austin, the campus of the anti woke commentariat.</itunes:summary>
+            <enclosure url="https://pub-97203071133143c189eaaa64acc9dba2.r2.dev/autx.mp3" type="audio/mpeg" length="2794"/>
+            <itunes:author>By NOAH RAWLINGS</itunes:author>
+            <itunes:duration>2830</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1707928622768</guid>
+            <pubDate>Mon, Feb 19, 2024, 12:00:00 AM EST</pubDate>
+        </item>
     </channel>
 </rss>
