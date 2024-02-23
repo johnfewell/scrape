@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.128</ctSecsToRead>
+            <ctSecsToRead>0.274</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -630,10 +630,50 @@
             <itunes:summary>Inside the Forbidden Courses at the billionaire-backed University of Austin, the campus of the anti woke commentariat.</itunes:summary>
             <enclosure url="https://pub-97203071133143c189eaaa64acc9dba2.r2.dev/autx.mp3" type="audio/mpeg" length="2794"/>
             <itunes:author>By NOAH RAWLINGS</itunes:author>
-            <itunes:duration>2830</itunes:duration>
+            <itunes:duration>2794</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1707928622768</guid>
             <pubDate>Mon, Feb 19, 2024, 12:00:00 AM EST</pubDate>
+        </item>
+        <item>
+            <title>Legal Weed in New York Was Going to Be a Revolution. What Happened?</title>
+            <itunes:summary>Lawsuits. Unlicensed dispensaries. Corporations pushing to get in. The messy rollout of a law that has tried to deliver social justice with marijuana.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240226fa_fact_tolentino_apple.mp3" type="audio/mpeg" length="2344"/>
+            <itunes:author>By Jia Tolentino</itunes:author>
+            <itunes:duration>2344</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1708647106260</guid>
+            <pubDate>Mon, Feb 26, 2024, 07:11:00 PM EST</pubDate>
+        </item>
+        <item>
+            <title>The Snake with the Emoji-Patterned Skin</title>
+            <itunes:summary>In the wild, ball pythons are usually brown and tan. In America, breeding them to produce eye-catching offspring has become a lucrative, frenetic, and&amp;#x2014;for some&amp;#x2014;troubling enterprise.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240226fa_fact_giggs_apple.mp3" type="audio/mpeg" length="2534"/>
+            <itunes:author>By Rebecca Giggs</itunes:author>
+            <itunes:duration>2534</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1708647103147</guid>
+            <pubDate>Mon, Feb 26, 2024, 07:11:00 PM EST</pubDate>
+        </item>
+        <item>
+            <title>Matt Gaetz&amp;#x2019;s Chaos Agenda</title>
+            <itunes:summary>The Florida Republican is among the most brazen and controversial figures in Donald Trump&amp;#x2019;s G.O.P. He&amp;#x2019;s also among the most influential.</itunes:summary>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65cceaa1ccd555cd1cd904ca.m4a" type="audio/mp4" length="3317"/>
+            <itunes:author>By Dexter Filkins</itunes:author>
+            <itunes:duration>3317</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1708647103812</guid>
+            <pubDate>Mon, Feb 26, 2024, 07:11:00 PM EST</pubDate>
+        </item>
+        <item>
+            <title>The Trials of Alejandro Mayorkas</title>
+            <itunes:summary>The Secretary of Homeland Security has been forced to respond to an unprecedented flow of migrants to the U.S.-Mexico border. Why are Republicans in Congress impeaching him for it?</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240226fa_fact_blitzer_apple.mp3" type="audio/mpeg" length="3788"/>
+            <itunes:author>By Jonathan Blitzer</itunes:author>
+            <itunes:duration>3788</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1708647108303</guid>
+            <pubDate>Mon, Feb 26, 2024, 07:11:00 PM EST</pubDate>
         </item>
     </channel>
 </rss>
