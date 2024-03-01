@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.274</ctSecsToRead>
+            <ctSecsToRead>0.213</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -658,7 +658,7 @@
         <item>
             <title>Matt Gaetz&amp;#x2019;s Chaos Agenda</title>
             <itunes:summary>The Florida Republican is among the most brazen and controversial figures in Donald Trump&amp;#x2019;s G.O.P. He&amp;#x2019;s also among the most influential.</itunes:summary>
-            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65cceaa1ccd555cd1cd904ca.m4a" type="audio/mp4" length="3317"/>
+            <enclosure url="https://static.nytimes.com/narrated-articles/audm-embed/newyorker/65cceaa1ccd555cd1cd904ca.m4a" type="audio/mpeg" length="3317"/>
             <itunes:author>By Dexter Filkins</itunes:author>
             <itunes:duration>3317</itunes:duration>
             <itunes:subtitle>foo</itunes:subtitle>
@@ -674,6 +674,36 @@
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1708647108303</guid>
             <pubDate>Mon, Feb 26, 2024, 07:11:00 PM EST</pubDate>
+        </item>
+        <item>
+            <title>A Professor Claimed to Be Native American. Did She Know She Wasn&amp;#x2019;t?</title>
+            <itunes:summary>Elizabeth Hoover, who has taught at Brown and Berkeley, insists that she made an honest mistake. Her critics say she has been lying for more than a decade.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240304fa_fact_kang_apple.mp3" type="audio/mpeg" length="2670"/>
+            <itunes:author>By Jay Caspian Kang</itunes:author>
+            <itunes:duration>2670</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1709254377149</guid>
+            <pubDate>Mon, Mar 4, 2024, 07:52:36 PM EST</pubDate>
+        </item>
+        <item>
+            <title>The Israeli Settlers Attacking Their Palestinian Neighbors</title>
+            <itunes:summary>With the world&amp;#x2019;s focus on Gaza, settlers have used wartime chaos as cover for violence and dispossession.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240304fa_fact_bauer_apple.mp3" type="audio/mpeg" length="3255"/>
+            <itunes:author>By Shane Bauer</itunes:author>
+            <itunes:duration>3255</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1709254376450</guid>
+            <pubDate>Mon, Mar 4, 2024, 07:52:36 PM EST</pubDate>
+        </item>
+        <item>
+            <title>In &amp;#x201C;Sh&amp;#x14D;gun,&amp;#x201D; an Update Is a Double-Edged Sword</title>
+            <itunes:summary>The FX series attempts to tailor its source material&amp;#x2014;a 1975 novel about an English sailor turned samurai&amp;#x2014;for modern audiences, but gives them little to seize on emotionally.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240304fa_fact_kang_apple.mp3" type="audio/mpeg" length="2670"/>
+            <itunes:author>By Inkoo Kang</itunes:author>
+            <itunes:duration>2670</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1709254496875</guid>
+            <pubDate>Mon, Mar 4, 2024, 07:52:36 PM EST</pubDate>
         </item>
     </channel>
 </rss>
