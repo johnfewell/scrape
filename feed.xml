@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.213</ctSecsToRead>
+            <ctSecsToRead>0.376</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -704,6 +704,36 @@
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1709254496875</guid>
             <pubDate>Mon, Mar 4, 2024, 07:52:36 PM EST</pubDate>
+        </item>
+        <item>
+            <title>RuPaul Doesn&amp;#x2019;t See How That&amp;#x2019;s Any of Your Business</title>
+            <itunes:summary>The drag star brought the form mainstream, and made an empire out of queer expression. Now he fears &amp;#x201C;the absolute worst.&amp;#x201D;</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240311fa_fact_farrow_apple.mp3" type="audio/mpeg" length="2126"/>
+            <itunes:author>By Ronan Farrow</itunes:author>
+            <itunes:duration>2126</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1709843737248</guid>
+            <pubDate>Mon, Mar 11, 2024, 03:35:14 PM EDT</pubDate>
+        </item>
+        <item>
+            <title>Joe Biden&amp;#x2019;s Last Campaign</title>
+            <itunes:summary>Trailing Trump in polls and facing doubts about his age, the President voices defiant confidence in his prospects for re&amp;#xEB;lection.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240311fa_fact_osnos_apple.mp3" type="audio/mpeg" length="5541"/>
+            <itunes:author>By Evan Osnos</itunes:author>
+            <itunes:duration>5541</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1709843744439</guid>
+            <pubDate>Mon, Mar 11, 2024, 03:35:14 PM EDT</pubDate>
+        </item>
+        <item>
+            <title>Forty-three Mexican Students Went Missing. What Really Happened to Them?</title>
+            <itunes:summary>One night in 2014, a group of young men from a rural teachers&amp;#x2019; college vanished. Since then, their families have fought for answers.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240311fa_fact_guillermoprieto_apple.mp3" type="audio/mpeg" length="3836"/>
+            <itunes:author>By Alma Guillermoprieto</itunes:author>
+            <itunes:duration>3836</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1709843742022</guid>
+            <pubDate>Mon, Mar 11, 2024, 03:35:14 PM EDT</pubDate>
         </item>
     </channel>
 </rss>
