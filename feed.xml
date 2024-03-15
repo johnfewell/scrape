@@ -13,7 +13,7 @@
         </image>
         <reader>
             <app>reallysimple v0.4.26 (darwin)</app>
-            <ctSecsToRead>0.376</ctSecsToRead>
+            <ctSecsToRead>0.232</ctSecsToRead>
         </reader>
         <itunes:image href="https://johnfewell.github.io/scrape/pirate-radio-hi.jpg"/>
         <itunes:subtitle>For fun</itunes:subtitle>
@@ -734,6 +734,26 @@
             <itunes:subtitle>foo</itunes:subtitle>
             <guid>1709843742022</guid>
             <pubDate>Mon, Mar 11, 2024, 03:35:14 PM EDT</pubDate>
+        </item>
+        <item>
+            <title>Have the Liberal Arts Gone Conservative?</title>
+            <itunes:summary>The classical-education movement seeks to fundamentally reorient schooling in America. Its emphasis on morality and civics has also primed it for partisan takeover.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240318fa_fact_green_apple.mp3" type="audio/mpeg" length="2629"/>
+            <itunes:author>By Emma Green</itunes:author>
+            <itunes:duration>2629</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1710536966023</guid>
+            <pubDate>Mon, Mar 18, 2024, 05:09:08 PM EDT</pubDate>
+        </item>
+        <item>
+            <title>The Open-Air Prison for ISIS Supporters&amp;#x2014;and Victims</title>
+            <itunes:summary>Since the Islamic State fell, tens of thousands of people&amp;#x2014;many of them children&amp;#x2014;have been herded into Al-Hol, a giant fenced-in camp in Syria, and effectively given life sentences.</itunes:summary>
+            <enclosure url="https://downloads.newyorker.com/mp3/240318fa_fact_gopal_apple.mp3" type="audio/mpeg" length="4409"/>
+            <itunes:author>By Anand Gopal</itunes:author>
+            <itunes:duration>4409</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1710536967566</guid>
+            <pubDate>Mon, Mar 18, 2024, 05:09:08 PM EDT</pubDate>
         </item>
     </channel>
 </rss>
