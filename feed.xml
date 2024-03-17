@@ -755,5 +755,15 @@
             <guid>1710536967566</guid>
             <pubDate>Mon, Mar 18, 2024, 05:09:08 PM EDT</pubDate>
         </item>
+        <item>
+            <title>Among the A.I. Doomsayers</title>
+            <itunes:summary>Some people think machine intelligence will transform humanity for the better. Others fear it may destroy us. Who will decide our fate?</itunes:summary>
+            <enclosure url="https://pub-97203071133143c189eaaa64acc9dba2.r2.dev/doomer.mp3" type="audio/mp4" length="3066"/>
+            <itunes:author>By Andrew Marantz</itunes:author>
+            <itunes:duration>0</itunes:duration>
+            <itunes:subtitle>foo</itunes:subtitle>
+            <guid>1710707461369</guid>
+            <pubDate>Mon, Mar 18, 2024, 04:30:49 PM EDT</pubDate>
+        </item>
     </channel>
 </rss>
